@@ -1,0 +1,9 @@
+name = "Syndikat Expansion";
+author = "ScottyThePilot";
+logoSmall = "\syndikat_expansion\main\data\logo_small.paa";
+logo = "\syndikat_expansion\main\data\logo.paa";
+logoOver = "\syndikat_expansion\main\data\logo.paa";
+dlcColor[] = { 0.88, 0.88, 0.88, 1 };
+overview = "Gives Syndikat some extra equipment for use in mission-making.";
+hideName = 0;
+hidePicture = 0;

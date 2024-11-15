@@ -1,0 +1,11 @@
+name = "Syndikat Expansion"
+author = "ScottyThePilot"
+prefix = "syndikat_expansion"
+
+[version]
+git_hash = 0
+
+[files]
+exclude = [
+  "**/*.hpp"
+]

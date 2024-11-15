@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="units">
+    <Key ID="STR_sct_group_I_CX_ParaAssaultGroup">
+      <Original>Paramilitary Assault Group</Original>
+      <English>Paramilitary Assault Group</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_ParaMarksmanTeam">
+      <Original>Paramilitary Marksman Group</Original>
+      <English>Paramilitary Marksman Group</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_ParaTeamAA">
+      <Original>Paramilitary Air-defense Team</Original>
+      <English>Paramilitary Air-defense Team</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_ParaTeamAT">
+      <Original>Paramilitary Anti-armor Team</Original>
+      <English>Paramilitary Anti-armor Team</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_MotParaAssaultGroup">
+      <Original>Motorized Paramilitary Assault Group</Original>
+      <English>Motorized Paramilitary Assault Group</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_MotParaCombatGroup">
+      <Original>Motorized Paramilitary Combat Group</Original>
+      <English>Motorized Paramilitary Combat Group</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_MotParaFireTeam">
+      <Original>Motorized Paramilitary Fire Team</Original>
+      <English>Motorized Paramilitary Fire Team</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_MotParaShockTeam">
+      <Original>Motorized Paramilitary Shock Team</Original>
+      <English>Motorized Paramilitary Shock Team</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_MotParaReinforcements">
+      <Original>Motorized Paramilitary Reinforcements</Original>
+      <English>Motorized Paramilitary Reinforcements</English>
+    </Key>
+    <Key ID="STR_sct_unit_I_CX_Soldier_Para_Commander_F">
+      <Original>Commander</Original>
+      <Chinese>指揮官</Chinese>
+      <French>Commandant</French>
+      <Spanish>Comandante</Spanish>
+      <Italian>Comandante</Italian>
+      <Polish>Dowódca</Polish>
+      <Russian>Командир</Russian>
+      <German>Kommandant</German>
+      <Czech>Velitel</Czech>
+      <English>Commander</English>
+      <Portuguese>Comandante</Portuguese>
+      <Korean>사령관</Korean>
+      <Chinesesimp>指挥官</Chinesesimp>
+      <Japanese>司令官</Japanese>
+      <Turkish>Komutan</Turkish>
+    </Key>
+    <Key ID="STR_sct_unit_I_CX_Soldier_Para_Marksman_F">
+      <Original>Watcher (Marksman rifle)</Original>
+      <Chinese>看守人（特等射手步槍）</Chinese>
+      <French>Sentinelle (Fusil de précision)</French>
+      <Spanish>Oteador (Fusil de francotirador)</Spanish>
+      <Italian>Osservatore militare (Fucile da tiratore scelto)</Italian>
+      <Polish>Obserwator (Karabin strzelca wyborowego)</Polish>
+      <Russian>Наблюдатель (Снайперская винтовка)</Russian>
+      <German>Späher (Scharfschützengewehr)</German>
+      <Czech>Hlídač (Ostrostřelecká puška)</Czech>
+      <English>Watcher (Marksman rifle)</English>
+      <Portuguese>Vigia (Fuzil de atirador de elite)</Portuguese>
+      <Korean>감시병(저격소총)</Korean>
+      <Chinesesimp>哨兵（精确射击步枪）</Chinesesimp>
+      <Japanese>監視兵（マークスマンライフル）</Japanese>
+      <Turkish>Gözcü (Keskin nişancı tüfeği)</Turkish>
+    </Key>
+    <Key ID="STR_sct_unit_I_CX_Soldier_Para_Autorifleman_F">
+      <Original>Enforcer (Light Machine Gun)</Original>
+      <Chinese>執行人（輕機槍）</Chinese>
+      <French>Homme de main (Mitrailleuse légère)</French>
+      <Spanish>Sicario (Ametralladora ligera)</Spanish>
+      <Italian>Sicario (Mitragliatrice leggera)</Italian>
+      <Polish>Egzekutor (Lekki karabin maszynowy)</Polish>
+      <Russian>Боец (Легкий пулемет)</Russian>
+      <German>Vollstrecker (Leichtes Maschinengewehr)</German>
+      <Czech>Vymahač (Lehký kulomet)</Czech>
+      <English>Enforcer (Light Machine Gun)</English>
+      <Portuguese>Executor (Metralhadora leve)</Portuguese>
+      <Korean>집행자(경기관총)</Korean>
+      <Chinesesimp>强制执行者（轻机枪）</Chinesesimp>
+      <Japanese>用心棒（軽機関銃）</Japanese>
+      <Turkish>İnfazcı (Hafif Makineli Tüfek)</Turkish>
+    </Key>
+    <Key ID="STR_sct_unit_I_CX_Soldier_Para_AT_F">
+      <Original>Specialist (AT)</Original>
+      <Chinese>技師（AT）</Chinese>
+      <French>Spécialiste (AC)</French>
+      <Spanish>Especialista (AT)</Spanish>
+      <Italian>Specialista (AC)</Italian>
+      <Polish>Specjalista (ppk)</Polish>
+      <Russian>Специалист (ПТ)</Russian>
+      <German>Spezialist (Panzerabwehr)</German>
+      <Czech>Specialista (AT)</Czech>
+      <English>Specialist (AT)</English>
+      <Portuguese>Especialista (AT)</Portuguese>
+      <Korean>전문가(대전차)</Korean>
+      <Chinesesimp>专家(AT)</Chinesesimp>
+      <Japanese>専門兵（AT）</Japanese>
+      <Turkish>Uzman (AT)</Turkish>
+    </Key>
+    <Key ID="STR_sct_unit_I_CX_Soldier_Para_AA_F">
+      <Original>Specialist (AA)</Original>
+      <Chinese>技師（AA）</Chinese>
+      <French>Spécialiste (AA)</French>
+      <Spanish>Especialista (AA)</Spanish>
+      <Italian>Specialista (AA)</Italian>
+      <Polish>Specjalista (plot)</Polish>
+      <Russian>Специалист (ПВО)</Russian>
+      <German>Spezialist (Flugabwehr)</German>
+      <Czech>Specialista (AA)</Czech>
+      <English>Specialist (AA)</English>
+      <Portuguese>Especialista (AA)</Portuguese>
+      <Korean>전문가(대공)</Korean>
+      <Chinesesimp>专家(AA)</Chinesesimp>
+      <Japanese>専門兵（AA）</Japanese>
+      <Turkish>Uzman (AA)</Turkish>
+    </Key>
+  </Package>
+</Project>

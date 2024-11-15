@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="vehicles_static">
+    <Key ID="STR_sct_backpack_I_CX_Mortar_01_support_F">
+      <Original>Folded Mk6 Mortar Bipod [Syndikat]</Original>
+      <Chinese>折起的 Mk6 迫擊砲二腳架（Syndikat）</Chinese>
+      <French>Bipied repliable pour mortier Mk6 [Syndikat]</French>
+      <Spanish>Mortero bípode plegado Mk6 [Syndikat]</Spanish>
+      <Italian>Cavalletto per mortaio Mk6 ripiegato [Syndikat]</Italian>
+      <Polish>Składany dwójnóg moździerza Mk6 [Syndikat]</Polish>
+      <Russian>Миномет Mk6 - сложенная сошка [Syndikat]</Russian>
+      <German>Klappbares Zweibein für Mörser Mk6 [Syndikat]</German>
+      <Czech>Složená dvojnožka minometu Mk6 [Syndikat]</Czech>
+      <English>Folded Mk6 Mortar Bipod [Syndikat]</English>
+      <Portuguese>Morteiro Mk6 bípede dobrável [Syndikat]</Portuguese>
+      <Korean>접힌 Mk6 박격포 포다리[Syndikat]</Korean>
+      <Chinesesimp>折叠的 Mk6 迫击炮两脚架 [Syndikat]</Chinesesimp>
+      <Japanese>折り畳み式Mk6迫撃砲二脚架[Syndikat]</Japanese>
+      <Turkish>Katlı Mk6 Havan Topu İkili Ayağı [Syndikat]</Turkish>
+    </Key>
+    <Key ID="STR_sct_backpack_I_CX_Mortar_01_weapon_F">
+      <Original>Folded Mk6 Mortar Tube [Syndikat]</Original>
+      <Chinese>折起的 Mk6 迫擊砲砲管（Syndikat）</Chinese>
+      <French>Tube pour mortier Mk6 [Syndikat]</French>
+      <Spanish>Tubo de mortero plegado Mk6 [Syndikat]</Spanish>
+      <Italian>Tubo per mortaio Mk6 ripiegato [Syndikat]</Italian>
+      <Polish>Składana lufa moździerza Mk6 [Syndikat]</Polish>
+      <Russian>Миномет Mk6 - сложенный ствол [Syndikat]</Russian>
+      <German>Klappbares Mörserrohr für Mörser Mk6 [Syndikat]</German>
+      <Czech>Složená hlaveň minometu Mk6 [Syndikat]</Czech>
+      <English>Folded Mk6 Mortar Tube [Syndikat]</English>
+      <Portuguese>Tubo do morteiro Mk6 dobrado [Syndikat]</Portuguese>
+      <Korean>접힌 Mk6 박격포 포열[Syndikat]</Korean>
+      <Chinesesimp>折叠的 Mk6 迫击炮管 [Syndikat]</Chinesesimp>
+      <Japanese>折り畳み式Mk6迫撃砲発射薬筒[Syndikat]</Japanese>
+      <Turkish>Katlı Mk6 Havan Topu Tüpü [Syndikat]</Turkish>
+    </Key>
+  </Package>
+</Project>
