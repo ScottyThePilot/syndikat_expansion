@@ -10,13 +10,9 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(units)),
-      "A3_Air_F_Heli_Light_01"
+      "A3_Supplies_F_Exp_Ammoboxes"
     };
-    units[] = {
-      "I_CX_Heli_Light_01_F",
-      "I_CX_Heli_Light_01_dynamicLoadout_F"
-    };
+    units[] = {};
     weapons[] = {};
   };
 };

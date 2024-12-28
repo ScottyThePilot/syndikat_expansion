@@ -10,6 +10,7 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QUOTE(ADDON_MAIN),
+      QUOTE(ADDONOF(units)),
       "A3_Static_F_Mortar_01"
     };
     units[] = {

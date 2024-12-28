@@ -50,12 +50,13 @@ class jj_uh1h_doorgunner_ov: jj_uh1h_doorgunner_base {};
 class I_CX_uh1x_unarmed_ov_jj: jj_uh1h_ov {
   author = "ScottyThePilot";
   displayName = "UH-1X Unarmed";
-	crew = "I_C_Helipilot_F";
-	side = 2;
-	faction = "IND_C_F";
-	textureList[] = { "Jungle_CX_01", 1.0 };
-	hiddenSelectionsTextures[] = {
-		QPATHTO(data\vehicles\uh1x_ext_01_jungle_co.paa),
+  crew = "I_C_Helipilot_F";
+  side = 2;
+  faction = "IND_C_F";
+  forceInGarage = 1;
+  textureList[] = { "Jungle_CX_01", 1.0 };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\vehicles\uh1x_ext_01_jungle_co.paa),
     "JH_UH1X\data\uh1_int_01_co.paa",
     "JH_UH1X\data\uh1_int_02_co.paa",
     "JH_UH1X\data\uh1_ext_02_co.paa",
@@ -63,10 +64,10 @@ class I_CX_uh1x_unarmed_ov_jj: jj_uh1h_ov {
     "JH_UH1X\data\uh1_int_04_co.paa",
     QPATHTO(data\vehicles\uh1x_nose_jungle_co.paa),
     "JH_UH1X\data\uh1_ext_03_ca.paa"
-	};
-	typicalCargo[] = {
-		"I_C_Helipilot_F"
-	};
+  };
+  typicalCargo[] = {
+    "I_C_Helipilot_F"
+  };
 
   class TransportMagazines {
     class _xx_SmokeShell {
@@ -80,19 +81,21 @@ class I_CX_uh1x_unarmed_ov_jj: jj_uh1h_ov {
   };
   class TransportWeapons {};
 
-	scope = 2;
-	scopeCurator = 2;
+  scope = 2;
+  scopeCurator = 2;
+  scopeArsenal = 2;
 };
 
 class I_CX_uh1x_gunship_ov_jj: jj_uh1h_doorgunner_ov {
   author = "ScottyThePilot";
   displayName = "UH-1X Gunship";
-	crew = "I_C_Helipilot_F";
-	side = 2;
-	faction = "IND_C_F";
-	textureList[] = { "Jungle_CX_01", 1.0 };
-	hiddenSelectionsTextures[] = {
-		QPATHTO(data\vehicles\uh1x_ext_01_jungle_co.paa),
+  crew = "I_C_Helipilot_F";
+  side = 2;
+  faction = "IND_C_F";
+  forceInGarage = 1;
+  textureList[] = { "Jungle_CX_01", 1.0 };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\vehicles\uh1x_ext_01_jungle_co.paa),
     "JH_UH1X\data\uh1_int_01_co.paa",
     "JH_UH1X\data\uh1_int_02_co.paa",
     "JH_UH1X\data\uh1_ext_02_co.paa",
@@ -100,10 +103,10 @@ class I_CX_uh1x_gunship_ov_jj: jj_uh1h_doorgunner_ov {
     "JH_UH1X\data\uh1_int_04_co.paa",
     QPATHTO(data\vehicles\uh1x_nose_jungle_co.paa),
     "JH_UH1X\data\uh1_ext_03_ca.paa"
-	};
-	typicalCargo[] = {
-		"I_C_Helipilot_F"
-	};
+  };
+  typicalCargo[] = {
+    "I_C_Helipilot_F"
+  };
 
   class Turrets: Turrets {
     class uh1_CopilotTurret: uh1_CopilotTurret {};
@@ -131,6 +134,7 @@ class I_CX_uh1x_gunship_ov_jj: jj_uh1h_doorgunner_ov {
   };
   class TransportWeapons {};
 
-	scope = 2;
-	scopeCurator = 2;
+  scope = 2;
+  scopeCurator = 2;
+  scopeArsenal = 2;
 };

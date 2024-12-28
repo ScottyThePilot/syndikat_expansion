@@ -10,13 +10,15 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(units)),
-      "A3_Air_F_Heli_Light_01"
+      QUOTE(ADDONOF(supplies)),
+      "A3_Supplies_F_Exp_Ammoboxes",
+      "A3_Aegis_Supplies_F_Aegis_Ammoboxes",
+      "A3_Aegis_Characters_F_Aegis",
+      "A3_Aegis_Weapons_F_Aegis",
+      "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
     };
-    units[] = {
-      "I_CX_Heli_Light_01_F",
-      "I_CX_Heli_Light_01_dynamicLoadout_F"
-    };
+    skipWhenMissingDependencies = 1;
+    units[] = {};
     weapons[] = {};
   };
 };

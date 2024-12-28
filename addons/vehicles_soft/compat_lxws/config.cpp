@@ -10,6 +10,8 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QUOTE(ADDON_MAIN),
+      QUOTE(ADDONOF(units)),
+      QUOTE(ADDONOF(units_compat_lxws)),
       QUOTE(ADDONOF(vehicles_soft)),
       "Vehicles_F_lxWS_Truck_02"
     };

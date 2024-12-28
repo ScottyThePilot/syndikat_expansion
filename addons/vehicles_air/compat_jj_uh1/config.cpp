@@ -10,6 +10,7 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QUOTE(ADDON_MAIN),
+      QUOTE(ADDONOF(units)),
       QUOTE(ADDONOF(vehicles_air)),
       "jj_uh1"
     };

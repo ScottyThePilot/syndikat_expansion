@@ -10,6 +10,7 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QUOTE(ADDON_MAIN),
+      QUOTE(ADDONOF(units)),
       "A3_Soft_F_Beta_Truck_02",
       "A3_Soft_F_Gamma_Truck_02"
     };

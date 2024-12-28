@@ -46,6 +46,10 @@ class I_CX_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
       magazine = "HandGrenade";
       count = 6;
     };
+    class _xx_MiniGrenade {
+      magazine = "MiniGrenade";
+      count = 6;
+    };
     class _xx_1Rnd_HE_Grenade_shell {
       magazine = "1Rnd_HE_Grenade_shell";
       count = 6;
@@ -160,6 +164,10 @@ class I_CX_APC_Wheeled_03_F: I_APC_Wheeled_03_cannon_F {
     };
     class _xx_HandGrenade {
       magazine = "HandGrenade";
+      count = 6;
+    };
+    class _xx_MiniGrenade {
+      magazine = "MiniGrenade";
       count = 6;
     };
     class _xx_1Rnd_HE_Grenade_shell {
