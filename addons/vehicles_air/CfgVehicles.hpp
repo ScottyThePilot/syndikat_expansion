@@ -86,15 +86,14 @@ class I_CX_Heli_Light_01_F: B_Heli_Light_01_F {
       magazine = "SmokeShellGreen";
       count = 2;
     };
-    class _xx_30Rnd_556x45_Stanag {
-      magazine = "30Rnd_556x45_Stanag";
+    class _xx_30Rnd_762x39_AK12_Mag_F {
+      magazine = "30Rnd_762x39_AK12_Mag_F";
       count = 4;
     };
   };
-
   class TransportWeapons {
-    class _xx_arifle_Mk20C_F {
-      weapon = "arifle_Mk20C_F";
+    class _xx_arifle_AK12_F {
+      weapon = "arifle_AK12_F";
       count = 2;
     };
   };
@@ -131,15 +130,14 @@ class I_CX_Heli_Light_01_dynamicLoadout_F: B_Heli_Light_01_dynamicLoadout_F {
       magazine = "SmokeShellGreen";
       count = 2;
     };
-    class _xx_30Rnd_556x45_Stanag {
-      magazine = "30Rnd_556x45_Stanag";
+    class _xx_30Rnd_762x39_AK12_Mag_F {
+      magazine = "30Rnd_762x39_AK12_Mag_F";
       count = 4;
     };
   };
-
   class TransportWeapons {
-    class _xx_arifle_Mk20C_F {
-      weapon = "arifle_Mk20C_F";
+    class _xx_arifle_AK12_F {
+      weapon = "arifle_AK12_F";
       count = 2;
     };
   };

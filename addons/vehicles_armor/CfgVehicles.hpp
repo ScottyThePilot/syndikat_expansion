@@ -33,9 +33,64 @@ class I_CX_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
     "a3\armor_f\data\cage_csat_green_co.paa"
   };
 
-  class TransportBackpacks {};
-  class TransportMagazines {};
-  class TransportWeapons {};
+  class TransportMagazines {
+    class _xx_30Rnd_762x39_AK12_Mag_F {
+      magazine = "30Rnd_762x39_AK12_Mag_F";
+      count = 12;
+    };
+    class _xx_200Rnd_556x45_Box_F {
+      magazine = "200Rnd_556x45_Box_F";
+      count = 6;
+    };
+    class _xx_HandGrenade {
+      magazine = "HandGrenade";
+      count = 6;
+    };
+    class _xx_1Rnd_HE_Grenade_shell {
+      magazine = "1Rnd_HE_Grenade_shell";
+      count = 6;
+    };
+    class _xx_1Rnd_Smoke_Grenade_shell {
+      magazine = "1Rnd_Smoke_Grenade_shell";
+      count = 3;
+    };
+    class _xx_1Rnd_SmokeGreen_Grenade_shell {
+      magazine = "1Rnd_SmokeGreen_Grenade_shell";
+      count = 3;
+    };
+    class _xx_SmokeShell {
+      magazine = "SmokeShell";
+      count = 8;
+    };
+    class _xx_SmokeShellGreen {
+      magazine = "SmokeShellGreen";
+      count = 8;
+    };
+    class _xx_RPG7_F {
+      magazine = "RPG7_F";
+      count = 5;
+    };
+  };
+  class TransportWeapons {
+    class _xx_arifle_AK12_F {
+      weapon = "arifle_AK12_F";
+      count = 2;
+    };
+    class _xx_LMG_03_F {
+      weapon = "LMG_03_F";
+      count = 1;
+    };
+    class _xx_launch_RPG7_F {
+      weapon = "launch_RPG7_F";
+      count = 1;
+    };
+  };
+  class TransportBackpacks {
+    class _xx_B_Kitbag_rgr {
+      backpack = "B_Kitbag_rgr";
+      count = 2;
+    };
+  };
 
   scope = 2;
   scopeCurator = 2;
@@ -94,9 +149,56 @@ class I_CX_APC_Wheeled_03_F: I_APC_Wheeled_03_cannon_F {
     "a3\armor_f\data\cage_csat_green_co.paa"
   };
 
-  class TransportBackpacks {};
-  class TransportMagazines {};
-  class TransportWeapons {};
+  class TransportMagazines {
+    class _xx_30Rnd_762x39_AK12_Mag_F {
+      magazine = "30Rnd_762x39_AK12_Mag_F";
+      count = 12;
+    };
+    class _xx_200Rnd_556x45_Box_F {
+      magazine = "200Rnd_556x45_Box_F";
+      count = 3;
+    };
+    class _xx_HandGrenade {
+      magazine = "HandGrenade";
+      count = 6;
+    };
+    class _xx_1Rnd_HE_Grenade_shell {
+      magazine = "1Rnd_HE_Grenade_shell";
+      count = 6;
+    };
+    class _xx_1Rnd_Smoke_Grenade_shell {
+      magazine = "1Rnd_Smoke_Grenade_shell";
+      count = 3;
+    };
+    class _xx_1Rnd_SmokeGreen_Grenade_shell {
+      magazine = "1Rnd_SmokeGreen_Grenade_shell";
+      count = 3;
+    };
+    class _xx_SmokeShell {
+      magazine = "SmokeShell";
+      count = 8;
+    };
+    class _xx_SmokeShellGreen {
+      magazine = "SmokeShellGreen";
+      count = 8;
+    };
+    class _xx_RPG7_F {
+      magazine = "RPG7_F";
+      count = 5;
+    };
+  };
+  class TransportWeapons {
+    class _xx_arifle_AK12_F {
+      weapon = "arifle_AK12_F";
+      count = 2;
+    };
+  };
+  class TransportBackpacks {
+    class _xx_B_Kitbag_rgr {
+      backpack = "B_Kitbag_rgr";
+      count = 2;
+    };
+  };
 
   scope = 2;
   scopeCurator = 2;

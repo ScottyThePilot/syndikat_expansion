@@ -13,6 +13,7 @@ class CfgPatches {
       QUOTE(ADDONOF(units)),
       QUOTE(ADDONOF(units_compat_lxws)),
       "A3_Aegis_Characters_F_Aegis",
+      "A3_Aegis_Weapons_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
     };
     skipWhenMissingDependencies = 1;
