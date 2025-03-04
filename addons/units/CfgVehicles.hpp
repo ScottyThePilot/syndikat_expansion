@@ -53,6 +53,21 @@ class I_C_Soldier_base_F: I_G_Soldier_base_F {
   };
 };
 
+class I_CX_Soldier_Para_Sweater_F: I_C_Soldier_base_F {
+  author = "ScottyThePilot";
+
+  model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
+  hiddenSelections[] = { "camo", "insignia" };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\uniforms\Soldier_Para_Sweater_co.paa)
+  };
+
+  uniformClass = "U_I_CX_Soldier_Para_Sweater_F";
+
+  scope = 1;
+  scopeCurator = 1;
+};
+
 class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
   displayName = "$STR_sct_unit_I_CX_Soldier_Para_Commander_F";
@@ -94,14 +109,20 @@ class I_CX_Soldier_Para_Marksman_F: I_C_Soldier_base_F {
   faction = "IND_C_F";
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_Marksman_F.jpeg);
-  model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_5_F.p3d";
-  hiddenSelections[] = { "camo1", "camo2", "insignia" };
+  //model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_5_F.p3d";
+  //hiddenSelections[] = { "camo1", "camo2", "insignia" };
+  //hiddenSelectionsTextures[] = {
+  //  "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_5_F_1_co.paa",
+  //  "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_5_F_2_co.paa"
+  //};
+  model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
+  hiddenSelections[] = { "camo", "insignia" };
   hiddenSelectionsTextures[] = {
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_5_F_1_co.paa",
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_5_F_2_co.paa"
+    QPATHTO(data\uniforms\Soldier_Para_Sweater_co.paa)
   };
 
-  uniformClass = "U_I_C_Soldier_Para_5_F";
+  //uniformClass = "U_I_C_Soldier_Para_5_F";
+  uniformClass = "U_I_CX_Soldier_Para_Sweater_F";
   role = "Marksman";
 
   weapons[] = { "srifle_DMR_06_olive_F", "Throw", "Put" };

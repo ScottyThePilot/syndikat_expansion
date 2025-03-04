@@ -12,6 +12,7 @@ class CfgPatches {
       QUOTE(ADDON_MAIN),
       QUOTE(ADDONOF(units)),
       QUOTE(ADDONOF(vehicles_air)),
+      // JH UH1X
       "jj_uh1"
     };
     skipWhenMissingDependencies = 1;

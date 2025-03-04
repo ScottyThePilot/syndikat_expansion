@@ -122,5 +122,22 @@
       <Japanese>専門兵（AA）</Japanese>
       <Turkish>Uzman (AA)</Turkish>
     </Key>
+    <Key ID="STR_sct_uniform_I_U_CX_Soldier_Para_Sweater">
+      <Original>Paramilitary Garb (Sweater)</Original>
+      <Chinese>準軍事服裝（毛衣）</Chinese>
+      <French>Vêtements paramilitaires (pullover)</French>
+      <Spanish>Traje paramilitar (jersey)</Spanish>
+      <Italian>Abbigliamento Paramilitari (maglione)</Italian>
+      <Polish>Ubiór paramilitarny (sweter)</Polish>
+      <Russian>Военная одежда (свитер)</Russian>
+      <German>Paramilitär-Kleidung (Pullover)</German>
+      <Czech>Polovojenské oblečení (svetr)</Czech>
+      <English>Paramilitary Garb (Sweater)</English>
+      <Portuguese>Traje paramilitar (suéter)</Portuguese>
+      <Korean>민병대 복장(스웨터)</Korean>
+      <Chinesesimp>准军事部队装束（毛衣）</Chinesesimp>
+      <Japanese>準軍事組織の服（セーター）</Japanese>
+      <Turkish>Paramiliter Kostüm (Kazak)</Turkish>
+    </Key>
   </Package>
 </Project>

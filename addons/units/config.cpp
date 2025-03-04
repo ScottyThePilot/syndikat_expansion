@@ -10,6 +10,7 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QUOTE(ADDON_MAIN),
+      "A3_Characters_F",
       "A3_Characters_F_Exp",
       "A3_Characters_F_Orange_Headgear",
       "A3_Characters_F_Tank_Headgear",
@@ -43,6 +44,10 @@ class CfgSettings {
 
 class CfgVehicles {
   #include "CfgVehicles.hpp"
+};
+
+class CfgWeapons {
+  #include "CfgWeapons.hpp"
 };
 
 class CfgGroups {
