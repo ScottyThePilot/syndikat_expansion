@@ -29,10 +29,10 @@
   #define COMPONENT_PATH COMPONENT
 #endif
 
-#define PATHTO(var1) \PREFIX\COMPONENT_PATH\var1
+#define PATHTO(var1) \MAINPREFIX\PREFIX\addons\COMPONENT_PATH\var1
 #define QPATHTO(var1) QUOTE(PATHTO(var1))
 
-#define PATHTOE(var1,var2) \PREFIX\var1\var2
+#define PATHTOE(var1,var2) \MAINPREFIX\PREFIX\addons\var1\var2
 #define QPATHTOE(var1,var2) QUOTE(PATHTOE(var1,var2))
 
 #ifdef SUPCOMPONENT
