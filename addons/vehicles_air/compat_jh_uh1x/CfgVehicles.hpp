@@ -47,13 +47,14 @@ class jj_uh1h_doorgunner_base: jj_uh1h_base {
 class jj_uh1h_ov: jj_uh1h_unarmed_base {};
 class jj_uh1h_doorgunner_ov: jj_uh1h_doorgunner_base {};
 
-class I_CX_uh1x_unarmed_ov_jj: jj_uh1h_ov {
+class I_CX_uh1x_unarmed_jh: jj_uh1h_ov {
   author = "ScottyThePilot";
-  displayName = "UH-1X Unarmed";
+  displayName = "$STR_sct_vehicle_I_CX_uh1x_unarmed_jh";
   crew = "I_C_Helipilot_F";
   side = 2;
   faction = "IND_C_F";
   forceInGarage = 1;
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_uh1x_unarmed_jh.jpeg);
   textureList[] = { "Jungle_CX_01", 1.0 };
   hiddenSelectionsTextures[] = {
     QPATHTO(data\vehicles\uh1x_ext_01_jungle_co.paa),
@@ -86,13 +87,14 @@ class I_CX_uh1x_unarmed_ov_jj: jj_uh1h_ov {
   scopeArsenal = 2;
 };
 
-class I_CX_uh1x_gunship_ov_jj: jj_uh1h_doorgunner_ov {
+class I_CX_uh1x_gunship_jh: jj_uh1h_doorgunner_ov {
   author = "ScottyThePilot";
-  displayName = "UH-1X Gunship";
+  displayName = "$STR_sct_vehicle_I_CX_uh1x_gunship_jh";
   crew = "I_C_Helipilot_F";
   side = 2;
   faction = "IND_C_F";
   forceInGarage = 1;
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_uh1x_gunship_jh.jpeg);
   textureList[] = { "Jungle_CX_01", 1.0 };
   hiddenSelectionsTextures[] = {
     QPATHTO(data\vehicles\uh1x_ext_01_jungle_co.paa),

@@ -17,8 +17,8 @@ class CfgPatches {
     };
     skipWhenMissingDependencies = 1;
     units[] = {
-      "I_CX_uh1x_unarmed_ov_jj",
-      "I_CX_uh1x_gunship_ov_jj"
+      "I_CX_uh1x_unarmed_jh",
+      "I_CX_uh1x_gunship_jh"
     };
     weapons[] = {};
   };

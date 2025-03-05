@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="vehicles_air_compat_jh_uh1x">
+    <Key ID="STR_sct_vehicle_I_CX_uh1x_unarmed_jh">
+      <Original>UH-1X (unarmed)</Original>
+      <English>UH-1X (unarmed)</English>
+    </Key>
+    <Key ID="STR_sct_vehicle_I_CX_uh1x_gunship_jh">
+      <Original>UH-1X Gunship</Original>
+      <English>UH-1X Gunship</English>
+    </Key>
+  </Package>
+</Project>

@@ -12,11 +12,13 @@ class CfgPatches {
       QUOTE(ADDON_MAIN),
       QUOTE(ADDONOF(units)),
       QUOTE(ADDONOF(vehicles_air)),
-      // JH UH1H
+      // JH UH-1H Huey
       "jh_uh1"
     };
     skipWhenMissingDependencies = 1;
-    units[] = {};
+    units[] = {
+      "I_CX_uh1h_unarmed_jh"
+    };
     weapons[] = {};
   };
 };
