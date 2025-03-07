@@ -1,5 +1,7 @@
 [default]
 workshop = [
+  # CBA_A3
+  "450814997",
   # Arma 3 Aegis
   "949252631",
   # Western Sahara
