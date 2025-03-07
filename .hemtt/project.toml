@@ -4,6 +4,7 @@ prefix = "syndikat_expansion"
 mainprefix = "sct"
 
 [version]
+path = "addons/main/script_version.hpp"
 git_hash = 0
 
 [files]
