@@ -9,11 +9,11 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(red_tiger_units)),
-      QUOTE(ADDONOF(red_tiger_units_compat_aegis)),
-      QUOTE(ADDONOF(red_tiger_vehicles_static)),
-      QUOTE(ADDONOF(red_tiger_vehicles_static_compat_lxws)),
+      QADDON_MAIN,
+      QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_units_compat_aegis),
+      QADDONOF(red_tiger_vehicles_static),
+      QADDONOF(red_tiger_vehicles_static_compat_lxws),
       "A3_Aegis_Static_F_Aegis_ZU23"
     };
     skipWhenMissingDependencies = 1;
@@ -22,16 +22,6 @@ class CfgPatches {
       "I_CX_Static_AT_Aegis"
     };
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 

@@ -9,21 +9,11 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
+      QADDON_MAIN,
       "A3_Supplies_F_Exp_Ammoboxes"
     };
     units[] = {};
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 

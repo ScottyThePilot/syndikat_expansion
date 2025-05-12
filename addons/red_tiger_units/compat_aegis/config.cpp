@@ -9,9 +9,9 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(red_tiger_units)),
-      QUOTE(ADDONOF(red_tiger_units_compat_lxws)),
+      QADDON_MAIN,
+      QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_units_compat_lxws),
       "A3_Aegis_Characters_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
@@ -19,16 +19,6 @@ class CfgPatches {
     skipWhenMissingDependencies = 1;
     units[] = {};
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 

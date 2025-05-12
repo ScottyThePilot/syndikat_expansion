@@ -9,9 +9,9 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(red_tiger_units)),
-      QUOTE(ADDONOF(red_tiger_vehicles_air)),
+      QADDON_MAIN,
+      QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_vehicles_air),
       // JH UH1X
       "jj_uh1"
     };
@@ -21,16 +21,6 @@ class CfgPatches {
       "I_CX_uh1x_gunship_jh"
     };
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 

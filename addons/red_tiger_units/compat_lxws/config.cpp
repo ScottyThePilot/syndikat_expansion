@@ -9,23 +9,13 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(red_tiger_units)),
+      QADDON_MAIN,
+      QADDONOF(red_tiger_units),
       "Characters_f_lxWS_headgear"
     };
     skipWhenMissingDependencies = 1;
     units[] = {};
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 

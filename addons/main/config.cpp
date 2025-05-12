@@ -20,7 +20,7 @@ class CfgSettings {
   class CBA {
     class Versioning {
       class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
+        main_addon = QADDON_MAIN;
       };
     };
   };

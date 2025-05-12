@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="syndikat_expansion">
-  <Package name="units">
+  <Package name="red_tiger_units">
     <Key ID="STR_sct_group_I_CX_ParaAssaultGroup">
       <Original>Paramilitary Assault Group</Original>
       <English>Paramilitary Assault Group</English>

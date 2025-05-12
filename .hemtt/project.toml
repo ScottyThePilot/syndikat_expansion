@@ -8,6 +8,18 @@ path = "addons/main/script_version.hpp"
 git_hash = 0
 
 [files]
-exclude = [
-  "**/*.hpp"
+include = [
+  "mod.cpp",
+  "README",
+  "README.md",
+  "LICENSE"
 ]
+exclude = [
+  "**/*.hpp",
+  "**/*.psd",
+  "**/*.xz"
+]
+
+[hemtt.release]
+sign = true
+archive = false

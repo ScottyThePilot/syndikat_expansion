@@ -9,8 +9,8 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(red_tiger_units)),
+      QADDON_MAIN,
+      QADDONOF(red_tiger_units),
       "A3_Soft_F_Beta_Truck_02",
       "A3_Soft_F_Gamma_Truck_02"
     };
@@ -24,16 +24,6 @@ class CfgPatches {
       "I_CX_Truck_02_mrl_F"
     };
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 

@@ -10,18 +10,9 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
-      QADDONOF(red_tiger_units),
-      "A3_Armor_F_Gamma_APC_Wheeled_03",
-      "A3_Armor_F_EPB_APC_Tracked_03"
+      QADDONOF(red_tiger_units)
     };
-    units[] = {
-      "I_CX_APC_Tracked_03_F",
-      "I_CX_APC_Wheeled_03_F"
-    };
+    units[] = {};
     weapons[] = {};
   };
-};
-
-class CfgVehicles {
-  #include "CfgVehicles.hpp"
 };

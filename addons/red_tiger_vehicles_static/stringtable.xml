@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="syndikat_expansion">
-  <Package name="vehicles_static">
+  <Package name="red_tiger_vehicles_static">
     <Key ID="STR_sct_backpack_I_CX_Mortar_01_support_F">
       <Original>Folded Mk6 Mortar Bipod [Syndikat]</Original>
       <Chinese>折起的 Mk6 迫擊砲二腳架（Syndikat）</Chinese>

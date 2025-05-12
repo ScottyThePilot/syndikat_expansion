@@ -9,7 +9,7 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
+      QADDON_MAIN,
       "A3_Characters_F",
       "A3_Characters_F_Exp",
       "A3_Characters_F_Orange_Headgear",
@@ -29,16 +29,6 @@ class CfgPatches {
       "I_CX_Crew_F"
     };
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 

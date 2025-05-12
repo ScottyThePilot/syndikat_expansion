@@ -9,10 +9,10 @@ class CfgPatches {
     VERSION_CONFIG;
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
-      QUOTE(ADDON_MAIN),
-      QUOTE(ADDONOF(red_tiger_units)),
-      QUOTE(ADDONOF(red_tiger_units_compat_lxws)),
-      QUOTE(ADDONOF(red_tiger_vehicles_static)),
+      QADDON_MAIN,
+      QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_units_compat_lxws),
+      QADDONOF(red_tiger_vehicles_static),
       "Vehicles_F_lxWS_zu23"
     };
     skipWhenMissingDependencies = 1;
@@ -20,16 +20,6 @@ class CfgPatches {
       "I_CX_ZU23_lxWS"
     };
     weapons[] = {};
-  };
-};
-
-class CfgSettings {
-  class CBA {
-    class Versioning {
-      class ADDON {
-        main_addon = QUOTE(ADDON_MAIN);
-      };
-    };
   };
 };
 
