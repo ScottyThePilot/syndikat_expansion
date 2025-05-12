@@ -4,12 +4,24 @@ workshop = [
   "450814997",
   # 3den Enhanced
   "623475643",
-  # Arma 3 Aegis
-  "949252631",
-  # Western Sahara
-  "2636962953",
   # JH UH-1H Huey
   "3402184324",
   # JH UH1X
   "3386023910"
+]
+
+[western_sahara]
+extends = "default"
+workshop = [
+  # Western Sahara
+  "2636962953"
+]
+
+[aegis]
+extends = "default"
+workshop = [
+  # Arma 3 Aegis
+  "949252631",
+  # Western Sahara
+  "2636962953"
 ]
