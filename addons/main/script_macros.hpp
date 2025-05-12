@@ -38,13 +38,6 @@
 #define TRIPLES(var1,var2,var3) var1##_##var2##_##var3
 #define QUOTE(var1) #var1
 
-#ifndef COMPONENT
-  #define COMPONENT SUPCOMPONENT##_##SUBCOMPONENT
-  #define COMPONENT_PATH SUPCOMPONENT\SUBCOMPONENT
-#else
-  #define COMPONENT_PATH COMPONENT
-#endif
-
 #define PATHTO(var1) \sct\PREFIX\addons\COMPONENT_PATH\var1
 #define QPATHTO(var1) QUOTE(PATHTO(var1))
 
