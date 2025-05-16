@@ -9,5 +9,8 @@ This mod gives Syndikat some extra equipment for use in mission-making.
 The Western Sahara Creator DLC and Arma 3: Aegis are optionally supported,
 and some content will only appear when one or both of those are loaded.
 
-Credit goes to Arma 3 Aegis, from which I used the textures for the
-Mora, Gorgon and Zamak to create the textures in this mod.
+## Credits
+- Arma 3 Aegis, from which I used the textures for the Mora, Gorgon and
+  Zamak as the basis for some textures in this mod.
+- Ample Camo Pack, from which I used the textures from the 6 Color Desert
+  PBO to create a number of items.

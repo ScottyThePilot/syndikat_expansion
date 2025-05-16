@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="syndikat_expansion">
   <Package name="red_tiger_vehicles_static">
-    <Key ID="STR_sct_backpack_I_CX_Mortar_01_support_F">
+    <Key ID="STR_sct_CfgVehicles_I_CX_Mortar_01_support_F">
       <Original>Folded Mk6 Mortar Bipod [Syndikat]</Original>
       <Chinese>折起的 Mk6 迫擊砲二腳架（Syndikat）</Chinese>
       <French>Bipied repliable pour mortier Mk6 [Syndikat]</French>
@@ -18,7 +18,7 @@
       <Japanese>折り畳み式Mk6迫撃砲二脚架[Syndikat]</Japanese>
       <Turkish>Katlı Mk6 Havan Topu İkili Ayağı [Syndikat]</Turkish>
     </Key>
-    <Key ID="STR_sct_backpack_I_CX_Mortar_01_weapon_F">
+    <Key ID="STR_sct_CfgVehicles_I_CX_Mortar_01_weapon_F">
       <Original>Folded Mk6 Mortar Tube [Syndikat]</Original>
       <Chinese>折起的 Mk6 迫擊砲砲管（Syndikat）</Chinese>
       <French>Tube pour mortier Mk6 [Syndikat]</French>

@@ -37,7 +37,7 @@
       <Original>Motorized Paramilitary Reinforcements</Original>
       <English>Motorized Paramilitary Reinforcements</English>
     </Key>
-    <Key ID="STR_sct_unit_I_CX_Soldier_Para_Commander_F">
+    <Key ID="STR_sct_CfgVehicles_I_CX_Soldier_Para_Commander_F">
       <Original>Commander</Original>
       <Chinese>指揮官</Chinese>
       <French>Commandant</French>
@@ -54,7 +54,7 @@
       <Japanese>司令官</Japanese>
       <Turkish>Komutan</Turkish>
     </Key>
-    <Key ID="STR_sct_unit_I_CX_Soldier_Para_Marksman_F">
+    <Key ID="STR_sct_CfgVehicles_I_CX_Soldier_Para_Marksman_F">
       <Original>Watcher (Marksman rifle)</Original>
       <Chinese>看守人（特等射手步槍）</Chinese>
       <French>Sentinelle (Fusil de précision)</French>
@@ -71,7 +71,7 @@
       <Japanese>監視兵（マークスマンライフル）</Japanese>
       <Turkish>Gözcü (Keskin nişancı tüfeği)</Turkish>
     </Key>
-    <Key ID="STR_sct_unit_I_CX_Soldier_Para_Autorifleman_F">
+    <Key ID="STR_sct_CfgVehicles_I_CX_Soldier_Para_Autorifleman_F">
       <Original>Enforcer (Light Machine Gun)</Original>
       <Chinese>執行人（輕機槍）</Chinese>
       <French>Homme de main (Mitrailleuse légère)</French>
@@ -88,7 +88,7 @@
       <Japanese>用心棒（軽機関銃）</Japanese>
       <Turkish>İnfazcı (Hafif Makineli Tüfek)</Turkish>
     </Key>
-    <Key ID="STR_sct_unit_I_CX_Soldier_Para_AT_F">
+    <Key ID="STR_sct_CfgVehicles_I_CX_Soldier_Para_AT_F">
       <Original>Specialist (AT)</Original>
       <Chinese>技師（AT）</Chinese>
       <French>Spécialiste (AC)</French>
@@ -105,7 +105,7 @@
       <Japanese>専門兵（AT）</Japanese>
       <Turkish>Uzman (AT)</Turkish>
     </Key>
-    <Key ID="STR_sct_unit_I_CX_Soldier_Para_AA_F">
+    <Key ID="STR_sct_CfgVehicles_I_CX_Soldier_Para_AA_F">
       <Original>Specialist (AA)</Original>
       <Chinese>技師（AA）</Chinese>
       <French>Spécialiste (AA)</French>
@@ -122,7 +122,92 @@
       <Japanese>専門兵（AA）</Japanese>
       <Turkish>Uzman (AA)</Turkish>
     </Key>
-    <Key ID="STR_sct_uniform_I_U_CX_Soldier_Para_Sweater">
+    <Key ID="STR_sct_CfgWeapons_H_PASGT_basic_red_F">
+      <Original>Basic Helmet (Red)</Original>
+      <English>Basic Helmet (Red)</English>
+      <Chinese>基本頭盔（紅色的）</Chinese>
+      <Chinesesimp>基本头盔（红色的）</Chinesesimp>
+      <Czech>Základní helma (červený)</Czech>
+      <French>Casque de base (rouge)</French>
+      <German>Standard-Helm (rot)</German>
+      <Italian>Elmetto base (rosso)</Italian>
+      <Japanese>基本型ヘルメット（赤）</Japanese>
+      <Korean>기본 헬멧(빨간색)</Korean>
+      <Polish>Zwykły hełm (czerwony)</Polish>
+      <Portuguese>Capacete básico (vermelho)</Portuguese>
+      <Russian>Обычный шлем (красный)</Russian>
+      <Spanish>Casco básico (rojo)</Spanish>
+      <Turkish>Temel Kask (Kırmızı)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_H_Hat_Safari_brown_F">
+      <Original>Safari Hat (Brown)</Original>
+      <English>Safari Hat (Brown)</English>
+      <Chinese>遊獵遮陽帽（棕色）</Chinese>
+      <Chinesesimp>旅行帽（棕色）</Chinesesimp>
+      <Czech>Safari klobouk (hnědý)</Czech>
+      <French>Chapeau traveller (marron)</French>
+      <German>Safarihut (braun)</German>
+      <Italian>Cappello da safari (marrone)</Italian>
+      <Japanese>サファリハット（茶）</Japanese>
+      <Korean>사파리 모자(갈색)</Korean>
+      <Polish>Kapelusz safari (brązowy)</Polish>
+      <Portuguese>Chapéu de safari (marrom)</Portuguese>
+      <Russian>Шляпа для сафари (коричневая)</Russian>
+      <Spanish>Sombrero de safari (marrón)</Spanish>
+      <Turkish>Safari Şapkası (Kahverengi)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_H_Booniehat_IND_CX">
+      <Original>Booniehat [Syndikat]</Original>
+      <English>Booniehat [Syndikat]</English>
+      <Chinese>登山帽（Syndikat）</Chinese>
+      <Chinesesimp>奔尼帽 [Syndikat]</Chinesesimp>
+      <Czech>Klobouk [Syndikat]</Czech>
+      <French>Chapeau de brousse [Syndikat]</French>
+      <German>Buschhut [Syndikat]</German>
+      <Italian>Cappello a tesa larga [Syndikat]</Italian>
+      <Japanese>ブーニーハット [Syndikat]</Japanese>
+      <Korean>부니햇 [Syndikat]</Korean>
+      <Polish>Kapelusz polowy [Syndikat]</Polish>
+      <Portuguese>Chapéu militar estilo pescador [Syndikat]</Portuguese>
+      <Russian>Панама [Syndikat]</Russian>
+      <Spanish>Gorro militar [Syndikat]</Spanish>
+      <Turkish>Boonie Şapka [Syndikat]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_H_Booniehat_IND_CX_hs">
+      <Original>Booniehat [Syndikat] (Headset)</Original>
+      <English>Booniehat [Syndikat] (Headset)</English>
+      <Chinese>登山帽（Syndikat）（耳機）</Chinese>
+      <Chinesesimp>奔尼帽 [Syndikat]（头戴式耳机）</Chinesesimp>
+      <Czech>Klobouk [Syndikat] (náhlavní souprava)</Czech>
+      <French>Chapeau de brousse [Syndikat] (micro-casque)</French>
+      <German>Buschhut [Syndikat] (Headset)</German>
+      <Italian>Cappello a tesa larga [Syndikat] (cuffia)</Italian>
+      <Japanese>ブーニーハット [Syndikat]（ヘッドセット）</Japanese>
+      <Korean>부니햇 [Syndikat] (헤드셋)</Korean>
+      <Polish>Kapelusz polowy [Syndikat] (głowa)</Polish>
+      <Portuguese>Chapéu militar estilo pescador [Syndikat] (headset)</Portuguese>
+      <Russian>Панама [Syndikat] (гарнитура)</Russian>
+      <Spanish>Gorro militar [Syndikat] (auricular)</Spanish>
+      <Turkish>Boonie Şapka [Syndikat] (Baş Giysisi)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_C_Soldier_Camo_F">
+      <Original>Paramilitary Uniform</Original>
+      <English>Paramilitary Uniform</English>
+      <Chinese>準軍事制服</Chinese>
+      <Chinesesimp>准军事制服</Chinesesimp>
+      <Czech>Polovojenské uniforma</Czech>
+      <French>Uniforme paramilitaire</French>
+      <German>Paramilitär-Uniform</German>
+      <Italian>Uniforme paramilitare</Italian>
+      <Japanese>準軍事制服</Japanese>
+      <Korean>민병대 제복</Korean>
+      <Polish>Mundur paramilitarny</Polish>
+      <Portuguese>Uniforme paramilitar</Portuguese>
+      <Russian>Военизированная форма</Russian>
+      <Spanish>Uniforme paramilitar</Spanish>
+      <Turkish>Paramiliter Üniforma</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_CX_Soldier_Para_Sweater_F">
       <Original>Paramilitary Garb (Sweater)</Original>
       <Chinese>準軍事服裝（毛衣）</Chinese>
       <French>Vêtements paramilitaires (pullover)</French>

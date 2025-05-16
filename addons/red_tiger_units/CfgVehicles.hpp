@@ -1,7 +1,3 @@
-#define BASE_ITEMS "ItemMap","ItemCompass","ItemWatch","ItemRadio"
-
-// \A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa
-
 class I_G_Soldier_base_F;
 
 class I_C_Soldier_base_F: I_G_Soldier_base_F {
@@ -55,16 +51,19 @@ class I_C_Soldier_base_F: I_G_Soldier_base_F {
   };
 };
 
+class I_C_Soldier_Para_1_F: I_C_Soldier_base_F {
+  linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+};
+
+class I_C_Soldier_Para_7_F: I_C_Soldier_base_F {
+  linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+};
+
 class I_CX_Soldier_Para_Sweater_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
-
-  model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
-  hiddenSelections[] = { "camo", "insignia" };
-  hiddenSelectionsTextures[] = {
-    QPATHTO(data\uniforms\Soldier_Para_Sweater_co.paa)
-  };
-
-  uniformClass = "U_I_CX_Soldier_Para_Sweater_F";
+  UNIFORM_PROPERTIES_SOLDIER_SWEATER;
 
   scope = 1;
   scopeCurator = 1;
@@ -72,19 +71,13 @@ class I_CX_Soldier_Para_Sweater_F: I_C_Soldier_base_F {
 
 class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_unit_I_CX_Soldier_Para_Commander_F";
+  displayName = "$STR_sct_CfgVehicles_I_CX_Soldier_Para_Commander_F";
   side = 2;
   faction = "IND_C_F";
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_Commander_F.jpeg);
-  model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_1_F.p3d";
-  hiddenSelectionsTextures[] = {
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_1_co.paa",
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
-  };
-
+  UNIFORM_PROPERTIES_SOLDIER_PARA_1;
   cost = 200000;
-  uniformClass = "U_I_C_Soldier_Para_1_F";
   role = "Grenadier";
 
   weapons[] = { "arifle_AK12_GL_F", "Throw", "Put" };
@@ -106,18 +99,12 @@ class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
 
 class I_CX_Soldier_Para_Marksman_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_unit_I_CX_Soldier_Para_Marksman_F";
+  displayName = "$STR_sct_CfgVehicles_I_CX_Soldier_Para_Marksman_F";
   side = 2;
   faction = "IND_C_F";
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_Marksman_F.jpeg);
-  model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
-  hiddenSelections[] = { "camo", "insignia" };
-  hiddenSelectionsTextures[] = {
-    QPATHTO(data\uniforms\Soldier_Para_Sweater_co.paa)
-  };
-
-  uniformClass = "U_I_CX_Soldier_Para_Sweater_F";
+  UNIFORM_PROPERTIES_SOLDIER_SWEATER;
   role = "Marksman";
 
   weapons[] = { "srifle_DMR_06_olive_F", "Throw", "Put" };
@@ -142,18 +129,12 @@ class I_CX_Soldier_Para_Marksman_F: I_C_Soldier_base_F {
 
 class I_CX_Soldier_Para_Autorifleman_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_unit_I_CX_Soldier_Para_Autorifleman_F";
+  displayName = "$STR_sct_CfgVehicles_I_CX_Soldier_Para_Autorifleman_F";
   side = 2;
   faction = "IND_C_F";
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_Autorifleman_F.jpeg);
-  model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_1_F.p3d";
-  hiddenSelectionsTextures[] = {
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_1_co.paa",
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
-  };
-
-  uniformClass = "U_I_C_Soldier_Para_1_F";
+  UNIFORM_PROPERTIES_SOLDIER_PARA_1;
   role = "MachineGunner";
   icon = "iconManMG";
 
@@ -171,20 +152,14 @@ class I_CX_Soldier_Para_Autorifleman_F: I_C_Soldier_base_F {
 
 class I_CX_Soldier_Para_AT_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_unit_I_CX_Soldier_Para_AT_F";
+  displayName = "$STR_sct_CfgVehicles_I_CX_Soldier_Para_AT_F";
   side = 2;
   faction = "IND_C_F";
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_AT_F.jpeg);
-  model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_3_F.p3d";
-  hiddenSelectionsTextures[] = {
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_3_F_1_co.paa",
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
-  };
-
+  UNIFORM_PROPERTIES_SOLDIER_PARA_3;
   cost = 130000;
   threat[] = { 0.8, 0.8, 0.3 };
-  uniformClass = "U_I_C_Soldier_Para_3_F";
   role = "MissileSpecialist";
   icon = "iconManAT";
 
@@ -213,20 +188,14 @@ class I_CX_Soldier_Para_AT_F: I_C_Soldier_base_F {
 
 class I_CX_Soldier_Para_AA_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_unit_I_CX_Soldier_Para_AA_F";
+  displayName = "$STR_sct_CfgVehicles_I_CX_Soldier_Para_AA_F";
   side = 2;
   faction = "IND_C_F";
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_AA_F.jpeg);
-  model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_3_F.p3d";
-  hiddenSelectionsTextures[] = {
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_3_F_1_co.paa",
-    "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
-  };
-
+  UNIFORM_PROPERTIES_SOLDIER_PARA_3;
   cost = 130000;
   threat[] = { 0.8, 0.1, 1 };
-  uniformClass = "U_I_C_Soldier_Para_3_F";
   role = "MissileSpecialist";
   icon = "iconManAT";
 
@@ -260,15 +229,9 @@ class I_CX_Crew_F: I_C_Soldier_base_F {
   faction = "IND_C_F";
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Crew_F.jpeg);
-  model = "a3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_1_F.p3d";
-  hiddenSelectionsTextures[] = {
-    "a3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_1_co.paa",
-    "a3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"
-  };
-
+  UNIFORM_PROPERTIES_SOLDIER_PARA_1;
   camouflage = 1.6;
   cost = 93000;
-  uniformClass = "U_I_C_Soldier_Para_1_F";
   role = "Crewman";
 
   items[] = {};

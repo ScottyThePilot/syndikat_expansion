@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="black_dawn_units">
+    <Key ID="STR_sct_CfgFactionClasses_IND_BD_F">
+      <Original>L'Alba Nera</Original>
+      <English>L'Alba Nera</English>
+      <Chinese>L'Alba Nera</Chinese>
+      <Chinesesimp>L'Alba Nera</Chinesesimp>
+      <Czech>L'Alba Nera</Czech>
+      <French>L'Alba Nera</French>
+      <German>L'Alba Nera</German>
+      <Italian>L'Alba Nera</Italian>
+      <Japanese>L'Alba Nera</Japanese>
+      <Korean>L'Alba Nera</Korean>
+      <Polish>L'Alba Nera</Polish>
+      <Portuguese>L'Alba Nera</Portuguese>
+      <Russian>L'Alba Nera</Russian>
+      <Spanish>L'Alba Nera</Spanish>
+      <Turkish>L'Alba Nera</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_H_PASGT_basic_brown_F">
+      <Original>Basic Helmet (Brown)</Original>
+      <English>Basic Helmet (Brown)</English>
+      <Chinese>基本頭盔（棕色）</Chinese>
+      <Chinesesimp>基本头盔（棕色）</Chinesesimp>
+      <Czech>Základní helma (hnědý)</Czech>
+      <French>Casque de base (marron)</French>
+      <German>Standard-Helm (braun)</German>
+      <Italian>Elmetto base (marrone)</Italian>
+      <Japanese>基本型ヘルメット（茶）</Japanese>
+      <Korean>기본 헬멧(갈색)</Korean>
+      <Polish>Zwykły hełm (brązowy)</Polish>
+      <Portuguese>Capacete básico (marrom)</Portuguese>
+      <Russian>Обычный шлем (коричневая)</Russian>
+      <Spanish>Casco básico (marrón)</Spanish>
+      <Turkish>Temel Kask (Kahverengi)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_H_Booniehat_IND_BD">
+      <Original>Booniehat [L'Alba Nera]</Original>
+      <English>Booniehat [L'Alba Nera]</English>
+      <Chinese>登山帽（L'Alba Nera）</Chinese>
+      <Chinesesimp>奔尼帽 [L'Alba Nera]</Chinesesimp>
+      <Czech>Klobouk [L'Alba Nera]</Czech>
+      <French>Chapeau de brousse [L'Alba Nera]</French>
+      <German>Buschhut [L'Alba Nera]</German>
+      <Italian>Cappello a tesa larga [L'Alba Nera]</Italian>
+      <Japanese>ブーニーハット [L'Alba Nera]</Japanese>
+      <Korean>부니햇 [L'Alba Nera]</Korean>
+      <Polish>Kapelusz polowy [L'Alba Nera]</Polish>
+      <Portuguese>Chapéu militar estilo pescador [L'Alba Nera]</Portuguese>
+      <Russian>Панама [L'Alba Nera]</Russian>
+      <Spanish>Gorro militar [L'Alba Nera]</Spanish>
+      <Turkish>Boonie Şapka [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_H_Booniehat_IND_BD_hs">
+      <Original>Booniehat [L'Alba Nera] (Headset)</Original>
+      <English>Booniehat [L'Alba Nera] (Headset)</English>
+      <Chinese>登山帽（L'Alba Nera）（耳機）</Chinese>
+      <Chinesesimp>奔尼帽 [L'Alba Nera]（头戴式耳机）</Chinesesimp>
+      <Czech>Klobouk [L'Alba Nera] (náhlavní souprava)</Czech>
+      <French>Chapeau de brousse [L'Alba Nera] (micro-casque)</French>
+      <German>Buschhut [L'Alba Nera] (Headset)</German>
+      <Italian>Cappello a tesa larga [L'Alba Nera] (cuffia)</Italian>
+      <Japanese>ブーニーハット [L'Alba Nera]（ヘッドセット）</Japanese>
+      <Korean>부니햇 [L'Alba Nera] (헤드셋)</Korean>
+      <Polish>Kapelusz polowy [L'Alba Nera] (głowa)</Polish>
+      <Portuguese>Chapéu militar estilo pescador [L'Alba Nera] (headset)</Portuguese>
+      <Russian>Панама [L'Alba Nera] (гарнитура)</Russian>
+      <Spanish>Gorro militar [L'Alba Nera] (auricular)</Spanish>
+      <Turkish>Boonie Şapka [L'Alba Nera] (Baş Giysisi)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Camo_F">
+      <Original>Paramilitary Uniform (Arid)</Original>
+      <English>Paramilitary Uniform (Arid)</English>
+      <Chinese>準軍事制服（乾燥氣候）</Chinese>
+      <Chinesesimp>准军事制服（干旱）</Chinesesimp>
+      <Czech>Polovojenské uniforma (suchý)</Czech>
+      <French>Uniforme paramilitaire (désert)</French>
+      <German>Paramilitär-Uniform (Karg)</German>
+      <Italian>Uniforme paramilitare (arido)</Italian>
+      <Japanese>準軍事制服（乾燥地帯）</Japanese>
+      <Korean>민병대 제복 유니폼(황폐)</Korean>
+      <Polish>Mundur paramilitarny (region suchy)</Polish>
+      <Portuguese>Uniforme paramilitar (árido)</Portuguese>
+      <Russian>Военизированная форма (пустынный)</Russian>
+      <Spanish>Uniforme paramilitar (árido)</Spanish>
+      <Turkish>Paramiliter Üniforma (Kurak)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Para_1_F">
+      <Original>Paramilitary Garb (Tee, Arid)</Original>
+      <English>Paramilitary Garb (Tee, Arid)</English>
+      <Chinese>準軍事服裝（T 恤，乾燥氣候）</Chinese>
+      <Chinesesimp>准军事部队装束（T 恤，干旱）</Chinesesimp>
+      <Czech>Polovojenské oblečení (triko, suchý)</Czech>
+      <French>Vêtements paramilitaires (t-shirt, désert)</French>
+      <German>Paramilitär-Kleidung (T-Shirt, karg)</German>
+      <Italian>Abbigliamento Paramilitari (maglietta maniche corte, arido)</Italian>
+      <Japanese>準軍事組織の服（Tシャツ、乾燥地帯）</Japanese>
+      <Korean>민병대 복장(티, 황폐)</Korean>
+      <Polish>Ubiór paramilitarny (podkoszulek, region suchy)</Polish>
+      <Portuguese>Traje paramilitar (camiseta, árido)</Portuguese>
+      <Russian>Военная одежда (футболка, пустынный)</Russian>
+      <Spanish>Traje paramilitar (camiseta, árido)</Spanish>
+      <Turkish>Paramiliter Kostüm (Tişört, Kurak)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Para_2_F">
+      <Original>Paramilitary Garb (Jacket, Arid)</Original>
+      <English>Paramilitary Garb (Jacket, Arid)</English>
+      <Chinese>準軍事服裝（夾克，乾燥氣候）</Chinese>
+      <Chinesesimp>准军事部队装束（夹克，干旱）</Chinesesimp>
+      <Czech>Polovojenské oblečení (bunda, suchý)</Czech>
+      <French>Vêtements paramilitaires (veste, désert)</French>
+      <German>Paramilitär-Kleidung (Jacke, karg)</German>
+      <Italian>Abbigliamento Paramilitari (giacca, arido)</Italian>
+      <Japanese>準軍事組織の服（ジャケット、乾燥地帯）</Japanese>
+      <Korean>민병대 복장(자켓, 황폐)</Korean>
+      <Polish>Ubiór paramilitarny (kurtka, region suchy)</Polish>
+      <Portuguese>Traje paramilitar (jaqueta, árido)</Portuguese>
+      <Russian>Военная одежда (куртка, пустынный)</Russian>
+      <Spanish>Traje paramilitar (chaqueta, árido)</Spanish>
+      <Turkish>Paramiliter Kostüm (Ceket, Kurak)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Para_3_F">
+      <Original>Paramilitary Garb (Shirt, Arid)</Original>
+      <English>Paramilitary Garb (Shirt, Arid)</English>
+      <Chinese>準軍事服裝（襯衫，乾燥氣候）</Chinese>
+      <Chinesesimp>准军事部队装束（汗衫，干旱）</Chinesesimp>
+      <Czech>Polovojenské oblečení (košile, suchý)</Czech>
+      <French>Vêtements paramilitaires (chemise, désert)</French>
+      <German>Paramilitär-Kleidung (Shirt, karg)</German>
+      <Italian>Abbigliamento Paramilitari (camicia, arido)</Italian>
+      <Japanese>準軍事組織の服（シャツ、乾燥地帯）</Japanese>
+      <Korean>민병대 복장(반팔, 황폐)</Korean>
+      <Polish>Ubiór paramilitarny (koszula, region suchy)</Polish>
+      <Portuguese>Traje paramilitar (camisa, árido)</Portuguese>
+      <Russian>Военная одежда (рубашка, пустынный)</Russian>
+      <Spanish>Traje paramilitar (camisa, árido)</Spanish>
+      <Turkish>Paramiliter Kostüm (Gömlek, Kurak)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Para_4_F">
+      <Original>Paramilitary Garb (Tank Top, Arid)</Original>
+      <English>Paramilitary Garb (Tank Top, Arid)</English>
+      <Chinese>準軍事服裝（上衣背心，乾燥氣候）</Chinese>
+      <Chinesesimp>准军事部队装束（背心装，干旱）</Chinesesimp>
+      <Czech>Polovojenské oblečení (tílko, suchý)</Czech>
+      <French>Vêtements paramilitaires (débardeur, désert)</French>
+      <German>Paramilitär-Kleidung (Muskelshirt, karg)</German>
+      <Italian>Abbigliamento Paramilitari (canotta, arido)</Italian>
+      <Japanese>準軍事組織の服（タンクトップ、乾燥地帯）</Japanese>
+      <Korean>민병대 복장(탱크톱, 황폐)</Korean>
+      <Polish>Ubiór paramilitarny (bezrękawnik, region suchy)</Polish>
+      <Portuguese>Traje paramilitar (regata, árido)</Portuguese>
+      <Russian>Военная одежда (безрукавка, пустынный)</Russian>
+      <Spanish>Traje paramilitar (sin mangas, árido)</Spanish>
+      <Turkish>Paramiliter Kostüm (Atlet, Kurak)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Para_5_F">
+      <Original>Paramilitary Garb (Shorts, Arid)</Original>
+      <English>Paramilitary Garb (Shorts, Arid)</English>
+      <Chinese>準軍事服裝（短褲，乾燥氣候）</Chinese>
+      <Chinesesimp>准（短，干旱）</Chinesesimp>
+      <Czech>Polovojenské oblečení (šortky, suchý)</Czech>
+      <French>Vêtements paramilitaires (short, désert)</French>
+      <German>Paramilitär-Kleidung (Shorts, karg)</German>
+      <Italian>Abbigliamento Paramilitari (pantaloncini, arido)</Italian>
+      <Japanese>準軍事組織の服（半ズボン、乾燥地帯）</Japanese>
+      <Korean>민병대 복장(바지, 황폐)</Korean>
+      <Polish>Ubiór paramilitarny (szorty, region suchy)</Polish>
+      <Portuguese>Traje paramilitar (calção, árido)</Portuguese>
+      <Russian>Военная одежда (шорты, пустынный)</Russian>
+      <Spanish>Traje paramilitar (pantalón corto, árido)</Spanish>
+      <Turkish>Paramiliter Kostüm (Şort, Kurak)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Para_Sweater_F">
+      <Original>Paramilitary Garb (Sweater, Arid)</Original>
+      <English>Paramilitary Garb (Sweater, Arid)</English>
+      <Chinese>準軍事服裝（毛衣，乾燥氣候）</Chinese>
+      <Chinesesimp>准军事部队装束（毛衣，干旱）</Chinesesimp>
+      <Czech>Polovojenské oblečení (svetr, suchý)</Czech>
+      <French>Vêtements paramilitaires (pullover, désert)</French>
+      <German>Paramilitär-Kleidung (Pullover, karg)</German>
+      <Italian>Abbigliamento Paramilitari (maglione, arido)</Italian>
+      <Japanese>準軍事組織の服（セーター、乾燥地帯）</Japanese>
+      <Korean>민병대 복장(스웨터, 황폐)</Korean>
+      <Polish>Ubiór paramilitarny (sweter, region suchy)</Polish>
+      <Portuguese>Traje paramilitar (suéter, árido)</Portuguese>
+      <Russian>Военная одежда (свитер, пустынный)</Russian>
+      <Spanish>Traje paramilitar (jersey, árido)</Spanish>
+      <Turkish>Paramiliter Kostüm (Kazak, Kurak)</Turkish>
+    </Key>
+  </Package>
+</Project>

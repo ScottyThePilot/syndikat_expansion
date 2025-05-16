@@ -16,3 +16,19 @@ class CfgPatches {
     weapons[] = {};
   };
 };
+
+class CfgFactionClasses {
+  class IND_C_F;
+
+  class IND_BD_F: IND_C_F {
+    displayName = "$STR_sct_CfgFactionClasses_IND_BD_F";
+  };
+};
+
+class CfgVehicles {
+  #include "CfgVehicles.hpp"
+};
+
+class CfgWeapons {
+  #include "CfgWeapons.hpp"
+};

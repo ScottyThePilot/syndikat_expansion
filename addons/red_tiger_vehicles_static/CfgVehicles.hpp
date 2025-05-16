@@ -29,7 +29,7 @@ class I_CX_Mortar_01_support_F: I_Mortar_01_support_F {
   author = "ScottyThePilot";
   side = 2;
   faction = "IND_C_F";
-  displayName = "$STR_sct_backpack_I_CX_Mortar_01_support_F";
+  displayName = "$STR_sct_CfgVehicles_I_CX_Mortar_01_support_F";
   hiddenSelectionsTextures[] = {
     "\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_co.paa"
   };
@@ -61,7 +61,7 @@ class I_CX_Mortar_01_weapon_F: I_Mortar_01_weapon_F {
   author = "ScottyThePilot";
   side = 2;
   faction = "IND_C_F";
-  displayName = "$STR_sct_backpack_I_CX_Mortar_01_weapon_F";
+  displayName = "$STR_sct_CfgVehicles_I_CX_Mortar_01_weapon_F";
   hiddenSelectionsTextures[] = {
     "\A3\Weapons_F\Ammoboxes\Bags\Data\backpack_small_oli_co.paa"
   };
