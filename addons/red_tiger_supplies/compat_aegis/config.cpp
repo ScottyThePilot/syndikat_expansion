@@ -10,7 +10,7 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
-      QADDONOF(red_tiger_supplies),
+      QADDON_PARENT,
       "A3_Supplies_F_Exp_Ammoboxes",
       "A3_Aegis_Supplies_F_Aegis_Ammoboxes",
       "A3_Aegis_Characters_F_Aegis",

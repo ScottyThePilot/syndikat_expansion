@@ -10,14 +10,26 @@ class I_C_Soldier_Para_8_F;
 class I_C_Helipilot_F;
 class I_C_Soldier_base_unarmed_F;
 class I_CX_Soldier_Para_Sweater_F;
-class I_CX_Soldier_Para_Commander_F;
 class I_CX_Soldier_Para_Marksman_F;
 class I_CX_Soldier_Para_Autorifleman_F;
 class I_CX_Soldier_Para_AT_F;
 class I_CX_Soldier_Para_AA_F;
 class I_CX_Crew_F;
+class I_G_Soldier_base_F;
 
 
+
+class I_C_Soldier_base_F: I_G_Soldier_base_F {
+  headgearList[] += {
+    "H_PASGT_basic_brown_F", 3.0
+  };
+};
+
+class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
+  headgearList[] += {
+    "H_PASGT_basic_brown_F", 3.0
+  };
+};
 
 class I_BD_Soldier_Camo_F: I_C_Soldier_Camo_F {
   author = "ScottyThePilot";
@@ -48,6 +60,9 @@ class I_BD_Soldier_Para_2_F: I_C_Soldier_Para_2_F {
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_2;
 
+  linkedItems[] = { "V_TacVest_brn", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_TacVest_brn", BASE_ITEMS };
+
   scope = 2;
   scopeCurator = 2;
 };
@@ -57,9 +72,6 @@ class I_BD_Soldier_Para_3_F: I_C_Soldier_Para_3_F {
   side = 2;
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_3;
-
-  linkedItems[] = { "V_TacVest_brn", BASE_ITEMS };
-  respawnLinkedItems[] = { "V_TacVest_brn", BASE_ITEMS };
 
   scope = 2;
   scopeCurator = 2;
@@ -90,6 +102,9 @@ class I_BD_Soldier_Para_6_F: I_C_Soldier_Para_6_F {
   side = 2;
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_1;
+
+  linkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
 
   scope = 2;
   scopeCurator = 2;
@@ -134,6 +149,9 @@ class I_BD_Soldier_base_unarmed_F: I_C_Soldier_base_unarmed_F {
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_1;
 
+  linkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
+
   scope = 2;
   scopeCurator = 2;
 };
@@ -152,6 +170,9 @@ class I_BD_Soldier_Para_Commander_F: I_CX_Soldier_Para_Commander_F {
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_1;
 
+  linkedItems[] = { "H_PASGT_basic_brown_F", "V_TacVest_blk", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_PASGT_basic_brown_F", "V_TacVest_blk", BASE_ITEMS };
+
   scope = 2;
   scopeCurator = 2;
 };
@@ -162,8 +183,22 @@ class I_BD_Soldier_Para_Marksman_F: I_CX_Soldier_Para_Marksman_F {
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_SWEATER;
 
+  weapons[] = { "srifle_DMR_06_camo_F", "Throw", "Put" };
   linkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
+
+  respawnWeapons[] = { "srifle_DMR_06_camo_F", "Throw", "Put" };
   respawnLinkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
+
+  headgearList[] = {
+    "H_Booniehat_khk", 1.5,
+    "H_Booniehat_oli", 1.5,
+    "H_Booniehat_tan", 1.5,
+    "H_Booniehat_IND_BD", 1.5,
+    "H_Booniehat_IND_BD_hs", 1.5,
+    "H_Hat_Safari_brown_F", 2.0,
+    "H_Hat_Safari_olive_F", 2.0,
+    "H_Hat_Safari_sand_F", 2.0
+  };
 
   scope = 2;
   scopeCurator = 2;
@@ -243,6 +278,7 @@ class B_Kitbag_tan_BD_Para_AT: B_Kitbag_tan {
 class B_Kitbag_tan_BD_Para_AA: B_Kitbag_tan {
   author = "ScottyThePilot";
   scope = 1;
+
   class TransportMagazines {
     class _xx_30Rnd_545x39_Mag_F {
       count = 4;
@@ -252,6 +288,81 @@ class B_Kitbag_tan_BD_Para_AA: B_Kitbag_tan {
     class _xx_Titan_AA {
       count = 2;
       magazine = "Titan_AA";
+    };
+  };
+};
+
+
+
+class B_Kitbag_cbr;
+class B_Kitbag_rgr;
+
+class B_Kitbag_cbr_BD_Para_3_F: B_Kitbag_cbr {
+  author = "ScottyThePilot";
+  scope = 1;
+
+  class TransportMagazines {
+    class _xx_30Rnd_762x39_Mag_F {
+      magazine = "30Rnd_762x39_Mag_F";
+      count = 4;
+    };
+  };
+
+  class TransportItems {
+    class _xx_Medikit {
+      name = "Medikit";
+      count = 1;
+    };
+
+    class _xx_FirstAidKit {
+      name = "FirstAidKit";
+      count = 4;
+    };
+  };
+};
+
+class B_Kitbag_cbr_BD_Para_8_F: B_Kitbag_cbr {
+  author = "ScottyThePilot";
+  scope = 1;
+
+  class TransportMagazines {
+    class _xx_30Rnd_762x39_Mag_F {
+      magazine = "30Rnd_762x39_Mag_F";
+      count = 4;
+    };
+
+    class _xx_DemoCharge_Remote_Mag {
+      magazine = "DemoCharge_Remote_Mag";
+      count = 3;
+    };
+
+    class _xx_SatchelCharge_Remote_Mag {
+      magazine = "SatchelCharge_Remote_Mag";
+      count = 1;
+    };
+  };
+
+  class TransportItems {
+    class _xx_ToolKit {
+      name = "ToolKit";
+      count = 1;
+    };
+  };
+};
+
+class B_Kitbag_rgr_BD_Para_5_F: B_Kitbag_rgr {
+  author = "ScottyThePilot";
+  scope = 1;
+
+  class TransportMagazines {
+    class _xx_30Rnd_545x39_Mag_F {
+      magazine = "30Rnd_545x39_Mag_F";
+      count = 4;
+    };
+
+    class _xx_RPG7_F {
+      magazine = "RPG7_F";
+      count = 3;
     };
   };
 };

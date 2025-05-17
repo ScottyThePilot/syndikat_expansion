@@ -37,7 +37,7 @@ class H_PASGT_basic_red_F: H_PASGT_basic_base_F {
   hiddenSelectionsTextures[] = {
     QPATHTO(data\headgear\PASGT_red_co.paa)
   };
-  picture = QPATHTO(data\headgear\ui\icon_PASGT_red_ca.paa);
+  picture = QPATHTO(data\headgear\ui\icon_PASGT_basic_red_ca.paa);
 
   scope = 2;
 };

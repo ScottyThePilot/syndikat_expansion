@@ -43,7 +43,7 @@ class CfgWeapons {
 class CfgGroups {
   class Indep {
     class IND_C_F {
-      #include "CfgGroupsSyndikat.hpp"
+      #include "CfgGroups.hpp"
     };
   };
 };

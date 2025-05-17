@@ -10,9 +10,9 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
+      QADDON_PARENT,
       QADDONOF(red_tiger_units),
       QADDONOF(red_tiger_units_compat_aegis),
-      QADDONOF(red_tiger_vehicles_armor),
       "A3_Aegis_Characters_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"

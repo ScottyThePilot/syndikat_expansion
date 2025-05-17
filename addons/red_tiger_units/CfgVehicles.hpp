@@ -23,10 +23,12 @@ class I_C_Soldier_base_F: I_G_Soldier_base_F {
     "H_Booniehat_khk", 1.5,
     "H_Booniehat_oli", 1.5,
     "H_Booniehat_tan", 1.5,
+    "H_Hat_Safari_brown_F", 2.0,
     "H_Hat_Safari_olive_F", 2.0,
     "H_Hat_Safari_sand_F", 2.0,
     "H_PASGT_basic_black_F", 3.0,
-    "H_PASGT_basic_olive_F", 3.0
+    "H_PASGT_basic_olive_F", 3.0,
+    "H_PASGT_basic_red_F", 3.0
   };
 
   CBA_facewearList[] = {
@@ -56,7 +58,17 @@ class I_C_Soldier_Para_1_F: I_C_Soldier_base_F {
   respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
 };
 
+class I_C_Soldier_Para_6_F: I_C_Soldier_base_F {
+  linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+};
+
 class I_C_Soldier_Para_7_F: I_C_Soldier_base_F {
+  linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+};
+
+class I_C_Soldier_base_unarmed_F: I_C_Soldier_base_F {
   linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
   respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
 };
@@ -90,7 +102,8 @@ class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
 
   headgearList[] = {
     "H_PASGT_basic_black_F", 3.0,
-    "H_PASGT_basic_olive_F", 3.0
+    "H_PASGT_basic_olive_F", 3.0,
+    "H_PASGT_basic_red_F", 3.0
   };
 
   scope = 2;
@@ -119,6 +132,9 @@ class I_CX_Soldier_Para_Marksman_F: I_C_Soldier_base_F {
     "H_Booniehat_khk", 1.5,
     "H_Booniehat_oli", 1.5,
     "H_Booniehat_tan", 1.5,
+    "H_Booniehat_IND_CX", 1.5,
+    "H_Booniehat_IND_CX_hs", 1.5,
+    "H_Hat_Safari_brown_F", 2.0,
     "H_Hat_Safari_olive_F", 2.0,
     "H_Hat_Safari_sand_F", 2.0
   };
@@ -259,6 +275,7 @@ class B_Kitbag_sgg;
 class B_Kitbag_sgg_CX_Para_AT: B_Kitbag_sgg {
   author = "ScottyThePilot";
   scope = 1;
+
   class TransportMagazines {
     class _xx_30Rnd_545x39_Mag_F {
       count = 4;
@@ -275,6 +292,7 @@ class B_Kitbag_sgg_CX_Para_AT: B_Kitbag_sgg {
 class B_Kitbag_sgg_CX_Para_AA: B_Kitbag_sgg {
   author = "ScottyThePilot";
   scope = 1;
+
   class TransportMagazines {
     class _xx_30Rnd_545x39_Mag_F {
       count = 4;

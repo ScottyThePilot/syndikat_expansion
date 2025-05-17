@@ -11,7 +11,13 @@ class CfgPatches {
     requiredAddons[] = {
       QADDON_MAIN,
       QADDON_PARENT,
-      "Characters_f_lxWS_headgear"
+      QADDON_SIBLING(compat_lxws),
+      QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_units_compat_lxws),
+      QADDONOF(red_tiger_units_compat_aegis),
+      "A3_Aegis_Characters_F_Aegis",
+      "A3_Aegis_Weapons_F_Aegis",
+      "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
     };
     skipWhenMissingDependencies = 1;
     units[] = {};
@@ -23,6 +29,10 @@ class CfgVehicles {
   #include "CfgVehicles.hpp"
 };
 
-class CfgWeapons {
-  #include "CfgWeapons.hpp"
+class CfgGroups {
+  class Indep {
+    class IND_BD_F {
+      #include "CfgGroups.hpp"
+    };
+  };
 };

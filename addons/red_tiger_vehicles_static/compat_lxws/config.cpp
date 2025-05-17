@@ -10,9 +10,9 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
+      QADDON_PARENT,
       QADDONOF(red_tiger_units),
       QADDONOF(red_tiger_units_compat_lxws),
-      QADDONOF(red_tiger_vehicles_static),
       "Vehicles_F_lxWS_zu23"
     };
     skipWhenMissingDependencies = 1;

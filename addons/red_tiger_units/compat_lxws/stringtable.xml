@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="red_tiger_units_compat_lxws">
+    <Key ID="STR_sct_CfgWeapons_lxWS_H_PASGT_goggles_red_F">
+      <Original>Basic Helmet (Goggles, Red)</Original>
+      <English>Basic Helmet (Goggles, Red)</English>
+      <Chinese>基本頭盔（風鏡，紅色的）</Chinese>
+      <Chinesesimp>基本头盔（风镜，红色的）</Chinesesimp>
+      <Czech>Základní helma (ochranné brýle, červený)</Czech>
+      <French>Casque de base (Lunettes de protection, rouge)</French>
+      <German>Standard-Helm (Brille, rot)</German>
+      <Italian>Elmetto base (Occhiali, rosso)</Italian>
+      <Japanese>基本型ヘルメット（ゴーグル、赤）</Japanese>
+      <Korean>기본 헬멧(고글, 빨간색)</Korean>
+      <Polish>Zwykły hełm (okulary ochronne, czerwony)</Polish>
+      <Portuguese>Capacete básico (óculos de proteção, vermelho)</Portuguese>
+      <Russian>Обычный шлем (очки, красный)</Russian>
+      <Spanish>Casco básico (gafas de protección, rojo)</Spanish>
+      <Turkish>Temel Kask (Gözlük, Kırmızı)</Turkish>
+    </Key>
+  </Package>
+</Project>

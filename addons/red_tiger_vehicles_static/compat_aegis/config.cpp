@@ -10,10 +10,10 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
+      QADDON_PARENT,
+      QADDON_SIBLING(compat_lxws),
       QADDONOF(red_tiger_units),
       QADDONOF(red_tiger_units_compat_aegis),
-      QADDONOF(red_tiger_vehicles_static),
-      QADDONOF(red_tiger_vehicles_static_compat_lxws),
       "A3_Aegis_Static_F_Aegis_ZU23"
     };
     skipWhenMissingDependencies = 1;

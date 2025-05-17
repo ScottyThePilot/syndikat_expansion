@@ -10,8 +10,8 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
-      QADDONOF(red_tiger_units),
-      QADDONOF(red_tiger_units_compat_lxws),
+      QADDON_PARENT,
+      QADDON_SIBLING(compat_lxws),
       "A3_Aegis_Characters_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
@@ -29,7 +29,7 @@ class CfgVehicles {
 class CfgGroups {
   class Indep {
     class IND_C_F {
-      #include "CfgGroupsSyndikat.hpp"
+      #include "CfgGroups.hpp"
     };
   };
 };

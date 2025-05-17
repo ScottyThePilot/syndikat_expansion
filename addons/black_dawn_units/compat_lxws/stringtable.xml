@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="black_dawn_units_compat_lxws">
+    <Key ID="STR_sct_CfgWeapons_lxWS_H_PASGT_goggles_brown_F">
+      <Original>Basic Helmet (Goggles, Brown)</Original>
+      <English>Basic Helmet (Goggles, Brown)</English>
+      <Chinese>基本頭盔（風鏡，棕色）</Chinese>
+      <Chinesesimp>基本头盔（风镜，棕色）</Chinesesimp>
+      <Czech>Základní helma (ochranné brýle, hnědý)</Czech>
+      <French>Casque de base (Lunettes de protection, marron)</French>
+      <German>Standard-Helm (Brille, braun)</German>
+      <Italian>Elmetto base (Occhiali, marrone)</Italian>
+      <Japanese>基本型ヘルメット（ゴーグル、茶）</Japanese>
+      <Korean>기본 헬멧(고글, 갈색)</Korean>
+      <Polish>Zwykły hełm (okulary ochronne, brązowy)</Polish>
+      <Portuguese>Capacete básico (óculos de proteção, marrom)</Portuguese>
+      <Russian>Обычный шлем (очки, коричневая)</Russian>
+      <Spanish>Casco básico (gafas de protección, marrón)</Spanish>
+      <Turkish>Temel Kask (Gözlük, Kahverengi)</Turkish>
+    </Key>
+  </Package>
+</Project>

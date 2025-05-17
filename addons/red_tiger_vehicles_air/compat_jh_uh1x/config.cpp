@@ -10,8 +10,8 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
+      QADDON_PARENT,
       QADDONOF(red_tiger_units),
-      QADDONOF(red_tiger_vehicles_air),
       // JH UH1X
       "jj_uh1"
     };

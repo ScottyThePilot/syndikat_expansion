@@ -168,7 +168,7 @@ class H_PASGT_basic_brown_F: H_PASGT_basic_base_F {
   hiddenSelectionsTextures[] = {
     QPATHTO(data\headgear\PASGT_brown_co.paa)
   };
-  picture = QPATHTO(data\headgear\ui\icon_PASGT_brown_ca.paa);
+  picture = QPATHTO(data\headgear\ui\icon_PASGT_basic_brown_ca.paa);
 
   scope = 2;
 };

@@ -11,6 +11,8 @@ class CfgPatches {
     requiredAddons[] = {
       QADDON_MAIN,
       QADDON_PARENT,
+      QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_units_compat_lxws),
       "Characters_f_lxWS_headgear"
     };
     skipWhenMissingDependencies = 1;

@@ -10,7 +10,16 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
-      QADDONOF(red_tiger_units)
+      QADDONOF(red_tiger_units),
+      "A3_Characters_F",
+      "A3_Characters_F_Exp",
+      "A3_Characters_F_Orange_Headgear",
+      "A3_Characters_F_Tank_Headgear",
+      "A3_Supplies_F_Exp",
+      "A3_Weapons_F_Ammoboxes",
+      "A3_Weapons_F_Enoch_Rifles_AK12",
+      "A3_Weapons_F_Mark_LongRangeRifles_DMR_06",
+      "A3_Weapons_F_Exp_Rifles_AKS"
     };
     units[] = {};
     weapons[] = {};
