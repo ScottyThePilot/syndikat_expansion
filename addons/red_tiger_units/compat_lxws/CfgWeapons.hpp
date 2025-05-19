@@ -1,6 +1,6 @@
-class lxWS_H_PASGT_goggles_base_F;
+class lxWS_H_PASGT_goggles_UN_F;
 
-class lxWS_H_PASGT_goggles_red_F: lxWS_H_PASGT_goggles_base_F {
+class lxWS_H_PASGT_goggles_red_F: lxWS_H_PASGT_goggles_UN_F {
   author = "ScottyThePilot";
   displayName = "$STR_sct_CfgWeapons_lxWS_H_PASGT_goggles_red_F";
   hiddenSelectionsTextures[] = {
