@@ -116,6 +116,9 @@ class I_C_Sharpshooter_F: I_C_Soldier_base_F {
     "H_Booniehat_khk", 1.5,
     "H_Booniehat_oli", 1.5,
     "H_Booniehat_tan", 1.5,
+    "H_Booniehat_IND_CX", 1.5,
+    "H_Booniehat_IND_CX_hs", 1.5,
+    "H_Hat_Safari_brown_F", 2.0,
     "H_Hat_Safari_olive_F", 2.0,
     "H_Hat_Safari_sand_F", 2.0
   };

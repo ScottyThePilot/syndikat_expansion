@@ -10,20 +10,20 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
+      QADDON_PARENT,
       QADDONOF(black_dawn_units),
+      QADDONOF(black_dawn_units_compat_lxws),
       QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_units_compat_lxws),
       QADDONOF(red_tiger_vehicles_soft),
-      "A3_Soft_F_Beta_Truck_02",
-      "A3_Soft_F_Gamma_Truck_02"
+      QADDONOF(red_tiger_vehicles_soft_compat_lxws),
+      "Vehicles_F_lxWS_Truck_02"
     };
+    skipWhenMissingDependencies = 1;
     units[] = {
-      "I_BD_Truck_02_ammo_F",
-      "I_BD_Truck_02_box_F",
-      "I_BD_Truck_02_covered_F",
-      "I_BD_Truck_02_fuel_F",
-      "I_BD_Truck_02_medical_F",
-      "I_BD_Truck_02_transport_F",
-      "I_BD_Truck_02_mrl_F"
+      "I_BD_Truck_02_aa_lxWS",
+      "I_BD_Truck_02_cargo_lxWS",
+      "I_BD_Truck_02_flatbed_lxWS"
     };
     weapons[] = {};
   };

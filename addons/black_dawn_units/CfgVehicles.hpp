@@ -73,6 +73,8 @@ class I_BD_Soldier_Para_3_F: I_C_Soldier_Para_3_F {
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_3;
 
+  backpack = "B_Kitbag_cbr_BD_Para_3_F";
+
   scope = 2;
   scopeCurator = 2;
 };
@@ -92,6 +94,8 @@ class I_BD_Soldier_Para_5_F: I_C_Soldier_Para_5_F {
   side = 2;
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_5;
+
+  backpack = "B_Kitbag_rgr_BD_Para_5_F";
 
   scope = 2;
   scopeCurator = 2;
@@ -129,6 +133,8 @@ class I_BD_Soldier_Para_8_F: I_C_Soldier_Para_8_F {
   faction = "IND_BD_F";
   UNIFORM_PROPERTIES_SOLDIER_PARA_2;
 
+  backpack = "B_Kitbag_cbr_BD_Para_8_F";
+
   scope = 2;
   scopeCurator = 2;
 };
@@ -152,8 +158,8 @@ class I_BD_Soldier_base_unarmed_F: I_C_Soldier_base_unarmed_F {
   linkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
   respawnLinkedItems[] = { "V_Chestrig_khk", BASE_ITEMS };
 
-  scope = 2;
-  scopeCurator = 2;
+  scope = 0;
+  scopeCurator = 0;
 };
 
 class I_BD_Soldier_Para_Sweater_F: I_CX_Soldier_Para_Sweater_F {
@@ -291,8 +297,6 @@ class B_Kitbag_tan_BD_Para_AA: B_Kitbag_tan {
     };
   };
 };
-
-
 
 class B_Kitbag_cbr;
 class B_Kitbag_rgr;
