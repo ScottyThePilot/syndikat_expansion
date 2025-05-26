@@ -53,24 +53,69 @@ class I_C_Soldier_base_F: I_G_Soldier_base_F {
   };
 };
 
+class I_C_Soldier_Camo_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Camo_F.jpeg);
+
+  linkedItems[] = { "V_TacVest_blk", "H_MilCap_gry", BASE_ITEMS };
+  respawnLinkedItems[] = { "V_TacVest_blk", "H_MilCap_gry", BASE_ITEMS };
+};
+
 class I_C_Soldier_Para_1_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_1_F.jpeg);
+
   linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
   respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
 };
 
+class I_C_Soldier_Para_2_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_2_F.jpeg);
+};
+
+class I_C_Soldier_Para_3_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_3_F.jpeg);
+};
+
+class I_C_Soldier_Para_4_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_4_F.jpeg);
+};
+
+class I_C_Soldier_Para_5_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_5_F.jpeg);
+
+  backpack = "B_Kitbag_rgr_CX_Para_5_F";
+};
+
 class I_C_Soldier_Para_6_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_6_F.jpeg);
+
   linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
   respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
 };
 
 class I_C_Soldier_Para_7_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_7_F.jpeg);
+
   linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
   respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
 };
 
+class I_C_Soldier_Para_8_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_8_F.jpeg);
+};
+
 class I_C_Soldier_base_unarmed_F: I_C_Soldier_base_F {
+  author = "ScottyThePilot";
+  displayName = "$STR_sct_CfgVehicles_I_C_Soldier_base_unarmed_F";
+  side = 2;
+  faction = "IND_C_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_8_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_1;
+
   linkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
   respawnLinkedItems[] = { "V_Chestrig_rgr", BASE_ITEMS };
+
+  scope = 2;
+  scopeCurator = 2;
 };
 
 class I_CX_Soldier_Para_Sweater_F: I_C_Soldier_base_F {
@@ -302,6 +347,25 @@ class B_Kitbag_sgg_CX_Para_AA: B_Kitbag_sgg {
     class _xx_Titan_AA {
       count = 2;
       magazine = "Titan_AA";
+    };
+  };
+};
+
+class B_Kitbag_rgr;
+
+class B_Kitbag_rgr_CX_Para_5_F: B_Kitbag_rgr {
+  author = "ScottyThePilot";
+  scope = 1;
+
+  class TransportMagazines {
+    class _xx_30Rnd_545x39_Mag_F {
+      magazine = "30Rnd_545x39_Mag_F";
+      count = 4;
+    };
+
+    class _xx_RPG7_F {
+      magazine = "RPG7_F";
+      count = 3;
     };
   };
 };

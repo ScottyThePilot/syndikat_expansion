@@ -6,3 +6,4 @@
 
 #include "\sct\syndikat_expansion\addons\main\script_version.hpp"
 #include "\sct\syndikat_expansion\addons\main\script_macros.hpp"
+#include ".\script_component_macros.hpp"

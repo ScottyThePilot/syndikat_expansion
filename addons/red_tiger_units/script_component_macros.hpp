@@ -58,6 +58,6 @@
   model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d"; \
   hiddenSelections[] = { "camo", "insignia" }; \
   hiddenSelectionsTextures[] = { \
-    QPATHTO(data\uniforms\Soldier_Para_Sweater_co.paa) \
+    QPATHTOE(red_tiger_units,data\uniforms\Soldier_Para_Sweater_co.paa) \
   }; \
   uniformClass = "U_I_CX_Soldier_Para_Sweater_F"

@@ -37,6 +37,23 @@
       <Original>Motorized Paramilitary Reinforcements</Original>
       <English>Motorized Paramilitary Reinforcements</English>
     </Key>
+    <Key ID="STR_sct_CfgVehicles_I_C_Soldier_base_unarmed_F">
+      <Original>Soldier (Unarmed)</Original>
+      <Chinese>士兵（無武裝）</Chinese>
+      <French>Soldat (désarmé)</French>
+      <Spanish>Soldado (desarmado)</Spanish>
+      <Italian>Soldato (non armato)</Italian>
+      <Polish>Żołnierz (nieuzbrojony)</Polish>
+      <Russian>Солдат (без оружия)</Russian>
+      <German>Soldat (Unbewaffnet)</German>
+      <Czech>Voják (neozbrojený)</Czech>
+      <English>Soldier (Unarmed)</English>
+      <Portuguese>Soldado (desarmado)</Portuguese>
+      <Korean>군인(비무장)</Korean>
+      <Chinesesimp>士兵（未武装）</Chinesesimp>
+      <Japanese>兵士（非武装）</Japanese>
+      <Turkish>Asker (Silahsız)</Turkish>
+    </Key>
     <Key ID="STR_sct_CfgVehicles_I_CX_Soldier_Para_Commander_F">
       <Original>Commander</Original>
       <Chinese>指揮官</Chinese>
