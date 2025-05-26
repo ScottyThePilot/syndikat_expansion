@@ -3,26 +3,34 @@ class Tank_F;
 class APC_Tracked_03_base_F: Tank_F {
   class TextureSources {
     class Jungle_CX_01 {
-      author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_01";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
-      textures[] = {
-        QPATHTO(data\vehicles\APC_Tracked_03_ext1_jungle_01_co.paa),
-        QPATHTO(data\vehicles\APC_Tracked_03_ext2_jungle_01_co.paa),
-        "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-        "\A3\Armor_F\Data\cage_csat_green_co.paa"
-      };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_02 {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Arid_BD_01 {
       author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_02";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
+      displayName = "$STR_sct_TextureSources_Arid_01";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_BD_F", "IND_C_F" };
       textures[] = {
-        QPATHTO(data\vehicles\APC_Tracked_03_ext1_jungle_02_co.paa),
-        QPATHTO(data\vehicles\APC_Tracked_03_ext2_jungle_02_co.paa),
-        "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-        "\A3\Armor_F\Data\cage_csat_green_co.paa"
+        QPATHTO(data\vehicles\APC_Tracked_03_ext1_arid_01_co.paa),
+        QPATHTO(data\vehicles\APC_Tracked_03_ext2_arid_01_co.paa),
+        QPATHTO(data\vehicles\camonet_arid_co.paa),
+        QPATHTO(data\vehicles\cage_arid_co.paa)
+      };
+    };
+
+    class Arid_BD_02 {
+      author = "ScottyThePilot";
+      displayName = "$STR_sct_TextureSources_Arid_02";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_BD_F", "IND_C_F" };
+      textures[] = {
+        QPATHTO(data\vehicles\APC_Tracked_03_ext1_arid_02_co.paa),
+        QPATHTO(data\vehicles\APC_Tracked_03_ext2_arid_02_co.paa),
+        QPATHTO(data\vehicles\camonet_arid_co.paa),
+        QPATHTO(data\vehicles\cage_arid_co.paa)
       };
     };
   };
@@ -31,18 +39,21 @@ class APC_Tracked_03_base_F: Tank_F {
 class I_APC_Tracked_03_base_F: APC_Tracked_03_base_F {};
 class I_APC_Tracked_03_cannon_F: I_APC_Tracked_03_base_F {};
 
-class I_CX_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
+class I_BD_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
   author = "ScottyThePilot";
-  crew = "I_CX_crew_F";
+  crew = "I_BD_crew_F";
   side = 2;
-  faction = "IND_C_F";
-  editorPreview = QPATHTO(data\editorpreviews\I_CX_APC_Tracked_03_F.jpeg);
-  textureList[] = { "Jungle_CX_01", 1.0 };
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_APC_Tracked_03_F.jpeg);
+  textureList[] = {
+    "Arid_BD_01", 1.0,
+    "Arid_BD_02", 1.0
+  };
   hiddenSelectionsTextures[] = {
-    QPATHTO(data\vehicles\APC_Tracked_03_ext1_jungle_01_co.paa),
-    QPATHTO(data\vehicles\APC_Tracked_03_ext2_jungle_01_co.paa),
-    "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-    "\A3\Armor_F\Data\cage_csat_green_co.paa"
+    QPATHTO(data\vehicles\APC_Tracked_03_ext1_arid_01_co.paa),
+    QPATHTO(data\vehicles\APC_Tracked_03_ext2_arid_01_co.paa),
+    QPATHTO(data\vehicles\camonet_arid_co.paa),
+    QPATHTO(data\vehicles\cage_arid_co.paa)
   };
 
   class TransportMagazines {
@@ -119,42 +130,50 @@ class Wheeled_APC_F;
 class APC_Wheeled_03_base_F: Wheeled_APC_F {
   class TextureSources {
     class Guerilla_01 {
-      factions[] += { "IND_C_F" };
+      factions[] += { "IND_BD_F" };
     };
 
     class Guerilla_02 {
-      factions[] += { "IND_C_F" };
+      factions[] += { "IND_BD_F" };
     };
 
     class Guerilla_03 {
-      factions[] += { "IND_C_F" };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_01 {
-      author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_01";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
-      textures[] = {
-        QPATHTO(data\vehicles\APC_Wheeled_03_ext1_jungle_01_co.paa),
-        QPATHTO(data\vehicles\APC_Wheeled_03_ext2_jungle_01_co.paa),
-        QPATHTO(data\vehicles\APC_Wheeled_03_rcws30_jungle_01_co.paa),
-        QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_jungle_01_co.paa),
-        "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-        "\A3\Armor_F\Data\cage_csat_green_co.paa"
-      };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_02 {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Arid_BD_01 {
       author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_02";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
+      displayName = "$STR_sct_TextureSources_Arid_01";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_BD_F", "IND_C_F" };
       textures[] = {
-        QPATHTO(data\vehicles\APC_Wheeled_03_ext1_jungle_02_co.paa),
-        QPATHTO(data\vehicles\APC_Wheeled_03_ext2_jungle_02_co.paa),
-        QPATHTO(data\vehicles\APC_Wheeled_03_rcws30_jungle_02_co.paa),
-        QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_jungle_02_co.paa),
-        "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-        "\A3\Armor_F\Data\cage_csat_green_co.paa"
+        QPATHTO(data\vehicles\APC_Wheeled_03_ext1_arid_01_co.paa),
+        QPATHTO(data\vehicles\APC_Wheeled_03_ext2_arid_01_co.paa),
+        QPATHTO(data\vehicles\APC_Wheeled_03_rcws30_arid_01_co.paa),
+        QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_arid_01_co.paa),
+        QPATHTO(data\vehicles\camonet_arid_co.paa),
+        QPATHTO(data\vehicles\cage_arid_co.paa)
+      };
+    };
+
+    class Arid_BD_02 {
+      author = "ScottyThePilot";
+      displayName = "$STR_sct_TextureSources_Arid_02";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_BD_F", "IND_C_F" };
+      textures[] = {
+        QPATHTO(data\vehicles\APC_Wheeled_03_ext1_arid_02_co.paa),
+        QPATHTO(data\vehicles\APC_Wheeled_03_ext2_arid_02_co.paa),
+        QPATHTO(data\vehicles\APC_Wheeled_03_rcws30_arid_02_co.paa),
+        QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_arid_02_co.paa),
+        QPATHTO(data\vehicles\camonet_arid_co.paa),
+        QPATHTO(data\vehicles\cage_arid_co.paa)
       };
     };
   };
@@ -163,20 +182,23 @@ class APC_Wheeled_03_base_F: Wheeled_APC_F {
 class I_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F {};
 class I_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_base_F {};
 
-class I_CX_APC_Wheeled_03_F: I_APC_Wheeled_03_cannon_F {
+class I_BD_APC_Wheeled_03_F: I_APC_Wheeled_03_cannon_F {
   author = "ScottyThePilot";
-  crew = "I_CX_crew_F";
+  crew = "I_BD_crew_F";
   side = 2;
-  faction = "IND_C_F";
-  editorPreview = QPATHTO(data\editorpreviews\I_CX_APC_Wheeled_03_F.jpeg);
-  textureList[] = { "Jungle_CX_01", 1.0 };
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_APC_Wheeled_03_F.jpeg);
+  textureList[] = {
+    "Arid_BD_01", 1.0,
+    "Arid_BD_02", 1.0
+  };
   hiddenSelectionsTextures[] = {
-    QPATHTO(data\vehicles\APC_Wheeled_03_ext1_jungle_01_co.paa),
-    QPATHTO(data\vehicles\APC_Wheeled_03_ext2_jungle_01_co.paa),
-    QPATHTO(data\vehicles\APC_Wheeled_03_rcws30_jungle_01_co.paa),
-    QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_jungle_01_co.paa),
-    "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-    "\A3\Armor_F\Data\cage_csat_green_co.paa"
+    QPATHTO(data\vehicles\APC_Wheeled_03_ext1_arid_01_co.paa),
+    QPATHTO(data\vehicles\APC_Wheeled_03_ext2_arid_01_co.paa),
+    QPATHTO(data\vehicles\APC_Wheeled_03_rcws30_arid_01_co.paa),
+    QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_arid_01_co.paa),
+    QPATHTO(data\vehicles\camonet_arid_co.paa),
+    QPATHTO(data\vehicles\cage_arid_co.paa)
   };
 
   class TransportMagazines {

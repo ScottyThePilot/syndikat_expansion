@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="black_dawn_vehicles_armor">
+    <Key ID="STR_sct_TextureSources_Arid_01">
+      <Original>Arid</Original>
+      <English>Arid</English>
+      <Chinese>乾燥氣候</Chinese>
+      <Chinesesimp>干旱</Chinesesimp>
+      <Czech>Suchý</Czech>
+      <French>Désert</French>
+      <German>Karg</German>
+      <Italian>Arido</Italian>
+      <Japanese>乾燥地帯</Japanese>
+      <Korean>황폐</Korean>
+      <Polish>Region suchy</Polish>
+      <Portuguese>Árido</Portuguese>
+      <Russian>Пустынный</Russian>
+      <Spanish>Árido</Spanish>
+      <Turkish>Kurak</Turkish>
+    </Key>
+    <Key ID="STR_sct_TextureSources_Arid_02">
+      <Original>Arid (Striped)</Original>
+      <English>Arid (Striped)</English>
+      <Chinese>乾燥氣候（條紋）</Chinese>
+      <Chinesesimp>干旱（条纹）</Chinesesimp>
+      <Czech>Suchý (pruhovaný)</Czech>
+      <French>Désert (rayé)</French>
+      <German>Karg (Streifen)</German>
+      <Italian>Arido (striato)</Italian>
+      <Japanese>乾燥地帯（ストライプ）</Japanese>
+      <Korean>황폐 (줄무늬)</Korean>
+      <Polish>Region suchy (w paski)</Polish>
+      <Portuguese>Árido (Listrado)</Portuguese>
+      <Russian>Пустынный (полосатая)</Russian>
+      <Spanish>Árido (rayado)</Spanish>
+      <Turkish>Kurak (Çizgili)</Turkish>
+    </Key>
+  </Package>
+</Project>

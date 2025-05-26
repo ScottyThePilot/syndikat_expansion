@@ -4,8 +4,8 @@
   model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Camo_F.p3d"; \
   hiddenSelections[] = { "camo1", "camo2", "insignia" }; \
   hiddenSelectionsTextures[] = { \
-    QPATHTO(data\uniforms\Soldier_Camo_1_Arid_co.paa), \
-    QPATHTO(data\uniforms\Soldier_Camo_2_Arid_co.paa) \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Camo_1_Arid_co.paa), \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Camo_2_Arid_co.paa) \
   }; \
   uniformClass = "U_I_BD_Soldier_Camo_F"
 
@@ -14,7 +14,7 @@
   hiddenSelections[] = { "camo1", "camo2" }; \
   hiddenSelectionsTextures[] = { \
     "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_2_F_2_co.paa", \
-    QPATHTO(data\uniforms\Soldier_Camo_2_Arid_co.paa) \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Camo_2_Arid_co.paa) \
   }; \
   uniformClass = "U_I_BD_Soldier_Para_1_F"
 
@@ -22,7 +22,7 @@
   model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_2_F.p3d"; \
   hiddenSelections[] = { "camo1", "camo2", "insignia" }; \
   hiddenSelectionsTextures[] = { \
-    QPATHTO(data\uniforms\Soldier_Camo_1_Arid_co.paa), \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Camo_1_Arid_co.paa), \
     "\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa" \
   }; \
   uniformClass = "U_I_BD_Soldier_Para_2_F"
@@ -31,8 +31,8 @@
   model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_3_F.p3d"; \
   hiddenSelections[] = { "camo1", "camo2" }; \
   hiddenSelectionsTextures[] = { \
-    QPATHTO(data\uniforms\Soldier_Para_3_1_Arid_co.paa), \
-    QPATHTO(data\uniforms\Soldier_Camo_2_Arid_co.paa) \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Para_3_1_Arid_co.paa), \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Camo_2_Arid_co.paa) \
   }; \
   uniformClass = "U_I_BD_Soldier_Para_3_F"
 
@@ -40,7 +40,7 @@
   model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d"; \
   hiddenSelections[] = { "camo1", "camo2" }; \
   hiddenSelectionsTextures[] = { \
-    QPATHTO(data\uniforms\Soldier_Para_4_1_Arid_co.paa), \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Para_4_1_Arid_co.paa), \
     "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_4_F_2_co.paa" \
   }; \
   uniformClass = "U_I_BD_Soldier_Para_4_F"
@@ -49,8 +49,8 @@
   model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_5_F.p3d"; \
   hiddenSelections[] = { "camo1", "camo2", "insignia" }; \
   hiddenSelectionsTextures[] = { \
-    QPATHTO(data\uniforms\Soldier_Para_5_1_Arid_co.paa), \
-    QPATHTO(data\uniforms\Soldier_Para_5_2_Arid_co.paa) \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Para_5_1_Arid_co.paa), \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Para_5_2_Arid_co.paa) \
   }; \
   uniformClass = "U_I_BD_Soldier_Para_5_F"
 
@@ -58,6 +58,6 @@
   model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d"; \
   hiddenSelections[] = { "camo", "insignia" }; \
   hiddenSelectionsTextures[] = { \
-    QPATHTO(data\uniforms\Soldier_Para_Sweater_Arid_co.paa) \
+    QPATHTOE(black_dawn_units,data\uniforms\Soldier_Para_Sweater_Arid_co.paa) \
   }; \
   uniformClass = "U_I_BD_Soldier_Para_Sweater_F"

@@ -10,16 +10,19 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
+      QADDON_PARENT,
       QADDONOF(black_dawn_units),
+      QADDONOF(black_dawn_units_compat_aegis),
       QADDONOF(red_tiger_units),
+      QADDONOF(red_tiger_units_compat_aegis),
       QADDONOF(red_tiger_vehicles_armor),
-      "A3_Armor_F_Gamma_APC_Wheeled_03",
-      "A3_Armor_F_EPB_APC_Tracked_03"
+      QADDONOF(red_tiger_vehicles_armor_compat_aegis),
+      "A3_Aegis_Characters_F_Aegis",
+      "A3_Aegis_Weapons_F_Aegis",
+      "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
     };
-    units[] = {
-      "I_BD_APC_Tracked_03_F",
-      "I_BD_APC_Wheeled_03_F"
-    };
+    skipWhenMissingDependencies = 1;
+    units[] = {};
     weapons[] = {};
   };
 };
