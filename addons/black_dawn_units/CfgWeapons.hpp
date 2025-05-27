@@ -7,8 +7,6 @@ class U_I_C_Soldier_Para_4_F;
 class U_I_C_Soldier_Para_5_F;
 class U_I_CX_Soldier_Para_Sweater_F;
 
-
-
 class U_I_BD_Soldier_Camo_F: U_I_C_Soldier_Camo_F {
   author = "ScottyThePilot";
   displayName = "$STR_sct_CfgWeapons_U_I_BD_Soldier_Camo_F";
@@ -154,6 +152,37 @@ class U_I_BD_Soldier_Para_Sweater_F: U_I_CX_Soldier_Para_Sweater_F {
   picture = QPATHTO(data\uniforms\ui\icon_Soldier_Para_Sweater_Arid_ca.paa);
 
   scope = 2;
+};
+
+
+
+class V_PlateCarrier1_rgr_noflag_F;
+class V_PlateCarrier2_rgr_noflag_F;
+
+class V_PlateCarrier1_IND_BD: V_PlateCarrier1_rgr_noflag_F {
+  author = "ScottyThePilot, Seb";
+  displayName = "$STR_sct_CfgWeapons_V_PlateCarrier1_IND_BD";
+  hiddenSelections[] = { "camo" };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\vests\PlateCarrier_Arid_co.paa)
+  };
+  picture = QPATHTO(data\vests\ui\icon_PlateCarrier1_Arid_ca.paa);
+
+  scope = 2;
+  scopeArsenal = 2;
+};
+
+class V_PlateCarrier2_IND_BD: V_PlateCarrier2_rgr_noflag_F {
+  author = "ScottyThePilot, Seb";
+  displayName = "$STR_sct_CfgWeapons_V_PlateCarrier2_IND_BD";
+  hiddenSelections[] = { "camo" };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\vests\PlateCarrier_Arid_co.paa)
+  };
+  picture = QPATHTO(data\vests\ui\icon_PlateCarrier2_Arid_ca.paa);
+
+  scope = 2;
+  scopeArsenal = 2;
 };
 
 

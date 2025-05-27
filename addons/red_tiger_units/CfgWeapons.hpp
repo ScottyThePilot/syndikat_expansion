@@ -26,6 +26,39 @@ class U_I_CX_Soldier_Para_Sweater_F: Uniform_Base {
   scope = 2;
 };
 
+
+
+class V_PlateCarrier1_rgr_noflag_F;
+class V_PlateCarrier2_rgr_noflag_F;
+
+class V_PlateCarrier1_IND_CX: V_PlateCarrier1_rgr_noflag_F {
+  author = "ScottyThePilot, Seb";
+  displayName = "$STR_sct_CfgWeapons_V_PlateCarrier1_IND_CX";
+  hiddenSelections[] = { "camo" };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\vests\PlateCarrier_co.paa)
+  };
+  picture = QPATHTO(data\vests\ui\icon_PlateCarrier1_ca.paa);
+
+  scope = 2;
+  scopeArsenal = 2;
+};
+
+class V_PlateCarrier2_IND_CX: V_PlateCarrier2_rgr_noflag_F {
+  author = "ScottyThePilot, Seb";
+  displayName = "$STR_sct_CfgWeapons_V_PlateCarrier2_IND_CX";
+  hiddenSelections[] = { "camo" };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\vests\PlateCarrier_co.paa)
+  };
+  picture = QPATHTO(data\vests\ui\icon_PlateCarrier2_ca.paa);
+
+  scope = 2;
+  scopeArsenal = 2;
+};
+
+
+
 class H_PASGT_basic_base_F;
 class H_Hat_Safari_base_F;
 class H_Booniehat_khk;

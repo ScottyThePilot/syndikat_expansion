@@ -69,6 +69,40 @@
       <Spanish>Gorro militar [L'Alba Nera] (auricular)</Spanish>
       <Turkish>Boonie Şapka [L'Alba Nera] (Baş Giysisi)</Turkish>
     </Key>
+    <Key ID="STR_sct_CfgWeapons_V_PlateCarrier1_IND_BD">
+      <Original>Carrier Lite [L'Alba Nera]</Original>
+      <English>Carrier Lite [L'Alba Nera]</English>
+      <Chinese>輕型負載背心（L'Alba Nera）</Chinese>
+      <Chinesesimp>轻便背心 [L'Alba Nera]</Chinesesimp>
+      <Czech>Lehký nosič plátů [L'Alba Nera]</Czech>
+      <French>Gilet léger [L'Alba Nera]</French>
+      <German>Leichter Tragegurt [L'Alba Nera]</German>
+      <Italian>Gilet leggero [L'Alba Nera]</Italian>
+      <Japanese>キャリア・ライト [L'Alba Nera]</Japanese>
+      <Korean>캐리어 라이트 [L'Alba Nera]</Korean>
+      <Polish>Kamizelka Lite [L'Alba Nera]</Polish>
+      <Portuguese>Transportador leve [L'Alba Nera]</Portuguese>
+      <Russian>Облегченный жилет [L'Alba Nera]</Russian>
+      <Spanish>Cartuchera ligera [L'Alba Nera]</Spanish>
+      <Turkish>Hafif Taşıyıcı [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_V_PlateCarrier2_IND_BD">
+      <Original>Carrier Rig [L'Alba Nera]</Original>
+      <English>Carrier Rig [L'Alba Nera]</English>
+      <Chinese>負載外掛（L'Alba Nera）</Chinese>
+      <Chinesesimp>背心装备 [L'Alba Nera]</Chinesesimp>
+      <Czech>Nosič plátů [L'Alba Nera]</Czech>
+      <French>Gilet modulable léger [L'Alba Nera]</French>
+      <German>Tragegurt [L'Alba Nera]</German>
+      <Italian>Gilet [L'Alba Nera]</Italian>
+      <Japanese>キャリアリグ [L'Alba Nera]</Japanese>
+      <Korean>캐리어 리그 [L'Alba Nera]</Korean>
+      <Polish>Kamizelka Platecarrier [L'Alba Nera]</Polish>
+      <Portuguese>Traje transportador [L'Alba Nera]</Portuguese>
+      <Russian>Разгрузочный жилет [L'Alba Nera]</Russian>
+      <Spanish>Cartuchera [L'Alba Nera]</Spanish>
+      <Turkish>Taşıyıcı Yelek [L'Alba Nera]</Turkish>
+    </Key>
     <Key ID="STR_sct_CfgWeapons_U_I_BD_Soldier_Camo_F">
       <Original>Paramilitary Uniform (Arid)</Original>
       <English>Paramilitary Uniform (Arid)</English>

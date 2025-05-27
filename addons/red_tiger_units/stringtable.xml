@@ -207,6 +207,40 @@
       <Spanish>Gorro militar [Syndikat] (auricular)</Spanish>
       <Turkish>Boonie Şapka [Syndikat] (Baş Giysisi)</Turkish>
     </Key>
+    <Key ID="STR_sct_CfgWeapons_V_PlateCarrier1_IND_CX">
+      <Original>Carrier Lite [Syndikat]</Original>
+      <English>Carrier Lite [Syndikat]</English>
+      <Chinese>輕型負載背心（Syndikat）</Chinese>
+      <Chinesesimp>轻便背心 [Syndikat]</Chinesesimp>
+      <Czech>Lehký nosič plátů [Syndikat]</Czech>
+      <French>Gilet léger [Syndikat]</French>
+      <German>Leichter Tragegurt [Syndikat]</German>
+      <Italian>Gilet leggero [Syndikat]</Italian>
+      <Japanese>キャリア・ライト [Syndikat]</Japanese>
+      <Korean>캐리어 라이트 [Syndikat]</Korean>
+      <Polish>Kamizelka Lite [Syndikat]</Polish>
+      <Portuguese>Transportador leve [Syndikat]</Portuguese>
+      <Russian>Облегченный жилет [Syndikat]</Russian>
+      <Spanish>Cartuchera ligera [Syndikat]</Spanish>
+      <Turkish>Hafif Taşıyıcı [Syndikat]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgWeapons_V_PlateCarrier2_IND_CX">
+      <Original>Carrier Rig [Syndikat]</Original>
+      <English>Carrier Rig [Syndikat]</English>
+      <Chinese>負載外掛（Syndikat）</Chinese>
+      <Chinesesimp>背心装备 [Syndikat]</Chinesesimp>
+      <Czech>Nosič plátů [Syndikat]</Czech>
+      <French>Gilet modulable léger [Syndikat]</French>
+      <German>Tragegurt [Syndikat]</German>
+      <Italian>Gilet [Syndikat]</Italian>
+      <Japanese>キャリアリグ [Syndikat]</Japanese>
+      <Korean>캐리어 리그 [Syndikat]</Korean>
+      <Polish>Kamizelka Platecarrier [Syndikat]</Polish>
+      <Portuguese>Traje transportador [Syndikat]</Portuguese>
+      <Russian>Разгрузочный жилет [Syndikat]</Russian>
+      <Spanish>Cartuchera [Syndikat]</Spanish>
+      <Turkish>Taşıyıcı Yelek [Syndikat]</Turkish>
+    </Key>
     <Key ID="STR_sct_CfgWeapons_U_I_C_Soldier_Camo_F">
       <Original>Paramilitary Uniform</Original>
       <English>Paramilitary Uniform</English>
