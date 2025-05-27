@@ -75,6 +75,21 @@ class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
   respawnMagazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST6("1Rnd_HE_Grenade_shell") };
 };
 
+class I_CX_Soldier_Elite_base_F: I_C_Soldier_base_F {
+  headgearList[] = {
+    "H_PASGT_basic_black_F", 3.0,
+    "H_PASGT_basic_olive_F", 3.0,
+    "H_PASGT_basic_green_F", 3.0,
+    "H_PASGT_basic_red_F", 3.0,
+    "lxWS_H_PASGT_goggles_black_F", 1.5,
+    "lxWS_H_PASGT_goggles_olive_F", 1.5,
+    "lxWS_H_PASGT_goggles_green_F", 1.5,
+    "lxWS_H_PASGT_goggles_red_F", 1.5,
+    "lxWS_H_ssh40_black", 3.0,
+    "lxWS_H_ssh40_green", 3.0
+  };
+};
+
 class I_CX_Soldier_Para_Autorifleman_F: I_C_Soldier_base_F {
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_Autorifleman_F.jpeg);
 

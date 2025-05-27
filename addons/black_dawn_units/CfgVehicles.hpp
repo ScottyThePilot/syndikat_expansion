@@ -31,6 +31,12 @@ class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
   };
 };
 
+class I_CX_Soldier_Elite_base_F: I_C_Soldier_base_F {
+  headgearList[] += {
+    "H_PASGT_basic_brown_F", 3.0
+  };
+};
+
 class I_BD_Soldier_Camo_F: I_C_Soldier_Camo_F {
   author = "ScottyThePilot";
   side = 2;

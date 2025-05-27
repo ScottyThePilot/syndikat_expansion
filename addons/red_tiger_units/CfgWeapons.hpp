@@ -24,9 +24,38 @@ class U_I_CX_Soldier_Para_Sweater_F: Uniform_Base {
   picture = QPATHTO(data\uniforms\ui\icon_Soldier_Para_Sweater_ca.paa);
 
   scope = 2;
+  scopeArsenal = 2;
 };
 
 
+
+class HeadgearItem;
+class H_Beret_blk;
+
+class H_Beret_red: H_Beret_blk {
+  author = "ScottyThePilot";
+  displayName = "$STR_A3_H_Beret_blk0";
+  hiddenSelections[] = { "camo" };
+  hiddenSelectionsMaterials[] = {
+    QPATHTO(data\headgear\Beret.rvmat)
+  };
+  hiddenSelectionsTextures[] = {
+    QPATHTO(data\headgear\Beret_red_co.paa)
+  };
+  model = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+  picture = QPATHTO(data\headgear\ui\icon_Beret_red_ca.paa);
+
+  class ItemInfo: HeadgearItem {
+    hiddenSelections[] = { "camo" };
+    allowedSlots[] = { 801, 901, 701, 605 };
+    mass = 6;
+    modelSides[] = { 6 };
+    uniformModel = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
+  };
+
+  scope = 2;
+  scopeArsenal = 2;
+};
 
 class V_PlateCarrier1_rgr_noflag_F;
 class V_PlateCarrier2_rgr_noflag_F;

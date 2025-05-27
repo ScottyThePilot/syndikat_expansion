@@ -138,8 +138,10 @@ class I_CX_Soldier_Para_Commander_F: I_C_Soldier_base_F {
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_Commander_F.jpeg);
   UNIFORM_PROPERTIES_SOLDIER_PARA_1;
-  cost = 200000;
+  camouflage = 1.4;
+  cost = 250000;
   role = "Grenadier";
+  icon = "iconManLeader";
 
   weapons[] = { "arifle_AK12_GL_F", "Throw", "Put" };
   magazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST6("1Rnd_HE_Grenade_shell") };
@@ -167,6 +169,7 @@ class I_CX_Soldier_Para_Marksman_F: I_C_Soldier_base_F {
   editorSubcategory = "EdSubcat_Personnel_Paramilitary";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Para_Marksman_F.jpeg);
   UNIFORM_PROPERTIES_SOLDIER_SWEATER;
+  cost = 250000;
   role = "Marksman";
 
   weapons[] = { "srifle_DMR_06_olive_F", "Throw", "Put" };
@@ -202,6 +205,16 @@ class I_CX_Soldier_Para_Autorifleman_F: I_C_Soldier_base_F {
   UNIFORM_PROPERTIES_SOLDIER_PARA_1;
   role = "MachineGunner";
   icon = "iconManMG";
+
+  nameSound = "veh_infantry_MG_s";
+  textSingular = "$STR_A3_nameSound_veh_infantry_MG_s";
+  textPlural = "$STR_A3_nameSound_veh_infantry_MG_p";
+  class SpeechVariants {
+    class Default {
+      speechSingular[] = { "veh_infantry_MG_s" };
+      speechPlural[] = { "veh_infantry_MG_p" };
+    };
+  };
 
   weapons[] = { "arifle_RPK12_F", "hgun_Pistol_01_F", "Throw", "Put" };
   magazines[] = { LIST4("75rnd_762x39_AK12_Mag_Tracer_F"), LIST3("10Rnd_9x21_Mag"), "HandGrenade" };
@@ -312,6 +325,188 @@ class I_CX_Crew_F: I_C_Soldier_base_F {
   class EventHandlers: EventHandlers {
     init = "";
   };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class I_CX_Soldier_Elite_base_F: I_C_Soldier_base_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_C_F";
+  editorSubcategory = "EdSubcat_Personnel_SpecialForces";
+
+  headgearList[] = {
+    "H_PASGT_basic_black_F", 3.0,
+    "H_PASGT_basic_olive_F", 3.0,
+    "H_PASGT_basic_red_F", 3.0
+  };
+
+  scope = 0;
+  scopeCurator = 0;
+};
+
+class I_CX_Soldier_Elite_Officer_F: I_CX_Soldier_Elite_base_F {
+  author = "ScottyThePilot";
+  displayName = "$STR_Lieutenant";
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Officer_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_CAMO;
+  camouflage = 1.6;
+  cost = 250000;
+  role = "Rifleman";
+  icon = "iconManOfficer";
+
+  nameSound = "veh_infantry_officer_s";
+  textSingular = "$STR_A3_nameSound_veh_infantry_officer_s";
+  textPlural = "$STR_A3_nameSound_veh_infantry_officer_p";
+  class SpeechVariants {
+    class Default {
+      speechSingular[] = { "veh_infantry_officer_s" };
+      speechPlural[] = { "veh_infantry_officer_p" };
+    };
+  };
+
+  weapons[] = { "arifle_AK12U_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
+  linkedItems[] = { "H_Beret_red", "V_TacVest_blk", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_AK12U_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
+  respawnLinkedItems[] = { "H_Beret_red", "V_TacVest_blk", BASE_ITEMS };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class I_CX_Soldier_Elite_TeamLeader_F: I_CX_Soldier_Elite_base_F {
+  author = "ScottyThePilot";
+  displayName = "$STR_Sergeant";
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_TeamLeader_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_2;
+  camouflage = 1.4;
+  cost = 250000;
+  role = "Grenadier";
+  icon = "iconManLeader";
+
+  weapons[] = { "arifle_AK12_GL_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST6("1Rnd_HE_Grenade_shell") };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_AK12_GL_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST6("1Rnd_HE_Grenade_shell") };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class I_CX_Soldier_Elite_Gunner_F: I_CX_Soldier_Elite_base_F {
+  author = "ScottyThePilot";
+  displayName = "$STR_A3_CfgVehicles_B_Patrol_Soldier_MG_F0";
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Gunner_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_1;
+  cost = 220000;
+  role = "MachineGunner";
+  icon = "iconManMG";
+
+  nameSound = "veh_infantry_MG_s";
+  textSingular = "$STR_A3_nameSound_veh_infantry_MG_s";
+  textPlural = "$STR_A3_nameSound_veh_infantry_MG_p";
+  class SpeechVariants {
+    class Default {
+      speechSingular[] = { "veh_infantry_MG_s" };
+      speechPlural[] = { "veh_infantry_MG_p" };
+    };
+  };
+
+  weapons[] = { "arifle_RPK12_F", "hgun_Pistol_01_F", "Throw", "Put" };
+  magazines[] = { LIST4("75rnd_762x39_AK12_Mag_Tracer_F"), LIST3("10Rnd_9x21_Mag"), "HandGrenade" };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_RPK12_F", "hgun_Pistol_01_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST4("75rnd_762x39_AK12_Mag_Tracer_F"), LIST3("10Rnd_9x21_Mag"), "HandGrenade" };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class I_CX_Soldier_Elite_Sniper_F: I_CX_Soldier_Elite_base_F {
+  author = "ScottyThePilot";
+  displayName = "$STR_A3_cfgVehicles_B_Sharpshooter_F0";
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Sniper_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_SWEATER;
+  role = "Marksman";
+
+  nameSound = "veh_infantry_sniper_s";
+  textSingular = "$STR_A3_nameSound_veh_infantry_sniper_s";
+  textPlural = "$STR_A3_nameSound_veh_infantry_sniper_p";
+  class SpeechVariants {
+    class Default {
+      speechSingular[] = { "veh_infantry_sniper_s" };
+      speechPlural[] = { "veh_infantry_sniper_p" };
+    };
+  };
+
+  weapons[] = { "srifle_DMR_06_camo_khs_F", "Throw", "Put" };
+  magazines[] = { LIST6("20Rnd_762x51_Mag"), "HandGrenade" };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "srifle_DMR_06_camo_khs_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("20Rnd_762x51_Mag"), "HandGrenade" };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class I_CX_Soldier_Elite_Scout_F: I_CX_Soldier_Elite_base_F {
+  author = "ScottyThePilot";
+  displayName = "$STR_A3_B_CTRG_Soldier_tna_F0";
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Scout_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_3;
+  role = "Rifleman";
+
+  weapons[] = { "arifle_AK12_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_AK12_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class I_CX_Soldier_Elite_Scout_LAT_F: I_CX_Soldier_Elite_base_F {
+  author = "ScottyThePilot";
+  displayName = "$STR_A3_B_CTRG_Soldier_LAT_tna_F0";
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Scout_LAT_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_3;
+  cost = 130000;
+  threat[] = { 0.8, 0.8, 0.3 };
+  role = "MissileSpecialist";
+  icon = "iconManAT";
+
+  nameSound = "veh_infantry_AT_s";
+  textSingular = "$STR_A3_nameSound_veh_infantry_AT_s";
+  textPlural = "$STR_A3_nameSound_veh_infantry_AT_p";
+  class SpeechVariants {
+    class Default {
+      speechSingular[] = { "veh_infantry_AT_s" };
+      speechPlural[] = { "veh_infantry_AT_p" };
+    };
+  };
+
+  backpack = "B_Kitbag_rgr_CX_Para_5_F";
+  weapons[] = { "arifle_AK12U_F", "launch_RPG7_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_AK12U_F", "launch_RPG7_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
 
   scope = 2;
   scopeCurator = 2;
