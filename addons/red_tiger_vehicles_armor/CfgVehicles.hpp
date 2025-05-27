@@ -1,4 +1,8 @@
-class Tank_F;
+class Tank;
+
+class Tank_F: Tank {
+  class EventHandlers;
+};
 
 class APC_Tracked_03_base_F: Tank_F {
   class TextureSources {
@@ -37,12 +41,19 @@ class I_CX_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
   side = 2;
   faction = "IND_C_F";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_APC_Tracked_03_F.jpeg);
-  textureList[] = { "Jungle_CX_01", 1.0 };
+  textureList[] = {
+    "Jungle_CX_01", 1.0,
+    "Jungle_CX_02", 1.0
+  };
   hiddenSelectionsTextures[] = {
     QPATHTO(data\vehicles\APC_Tracked_03_ext1_jungle_01_co.paa),
     QPATHTO(data\vehicles\APC_Tracked_03_ext2_jungle_01_co.paa),
     "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
     "\A3\Armor_F\Data\cage_csat_green_co.paa"
+  };
+
+  class EventHandlers: EventHandlers {
+    postInit = "if (local (_this select 0)) then {[(_this select 0), '', [], false] call BIS_fnc_initVehicle;};";
   };
 
   class TransportMagazines {
@@ -87,6 +98,7 @@ class I_CX_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
       count = 5;
     };
   };
+
   class TransportWeapons {
     class _xx_arifle_AK12_F {
       weapon = "arifle_AK12_F";
@@ -101,6 +113,7 @@ class I_CX_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
       count = 1;
     };
   };
+
   class TransportBackpacks {
     class _xx_B_Kitbag_rgr {
       backpack = "B_Kitbag_rgr";
@@ -158,6 +171,8 @@ class APC_Wheeled_03_base_F: Wheeled_APC_F {
       };
     };
   };
+
+  class EventHandlers;
 };
 
 class I_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F {};
@@ -169,7 +184,10 @@ class I_CX_APC_Wheeled_03_F: I_APC_Wheeled_03_cannon_F {
   side = 2;
   faction = "IND_C_F";
   editorPreview = QPATHTO(data\editorpreviews\I_CX_APC_Wheeled_03_F.jpeg);
-  textureList[] = { "Jungle_CX_01", 1.0 };
+  textureList[] = {
+    "Jungle_CX_01", 1.0,
+    "Jungle_CX_02", 1.0
+  };
   hiddenSelectionsTextures[] = {
     QPATHTO(data\vehicles\APC_Wheeled_03_ext1_jungle_01_co.paa),
     QPATHTO(data\vehicles\APC_Wheeled_03_ext2_jungle_01_co.paa),
@@ -177,6 +195,10 @@ class I_CX_APC_Wheeled_03_F: I_APC_Wheeled_03_cannon_F {
     QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_jungle_01_co.paa),
     "\A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
     "\A3\Armor_F\Data\cage_csat_green_co.paa"
+  };
+
+  class EventHandlers: EventHandlers {
+    postInit = "if (local (_this select 0)) then {[(_this select 0), '', [], false] call BIS_fnc_initVehicle;};";
   };
 
   class TransportMagazines {

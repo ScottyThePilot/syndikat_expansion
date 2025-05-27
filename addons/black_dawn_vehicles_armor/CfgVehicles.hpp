@@ -1,4 +1,8 @@
-class Tank_F;
+class Tank;
+
+class Tank_F: Tank {
+  class EventHandlers;
+};
 
 class APC_Tracked_03_base_F: Tank_F {
   class TextureSources {
@@ -56,6 +60,10 @@ class I_BD_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
     QPATHTO(data\vehicles\cage_arid_co.paa)
   };
 
+  class EventHandlers: EventHandlers {
+    postInit = "if (local (_this select 0)) then {[(_this select 0), '', [], false] call BIS_fnc_initVehicle;};";
+  };
+
   class TransportMagazines {
     class _xx_30Rnd_762x39_AK12_Mag_F {
       magazine = "30Rnd_762x39_AK12_Mag_F";
@@ -98,6 +106,7 @@ class I_BD_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
       count = 5;
     };
   };
+
   class TransportWeapons {
     class _xx_arifle_AK12_F {
       weapon = "arifle_AK12_F";
@@ -112,6 +121,7 @@ class I_BD_APC_Tracked_03_F: I_APC_Tracked_03_cannon_F {
       count = 1;
     };
   };
+
   class TransportBackpacks {
     class _xx_B_Kitbag_rgr {
       backpack = "B_Kitbag_rgr";
@@ -177,6 +187,8 @@ class APC_Wheeled_03_base_F: Wheeled_APC_F {
       };
     };
   };
+
+  class EventHandlers;
 };
 
 class I_APC_Wheeled_03_base_F: APC_Wheeled_03_base_F {};
@@ -199,6 +211,10 @@ class I_BD_APC_Wheeled_03_F: I_APC_Wheeled_03_cannon_F {
     QPATHTO(data\vehicles\APC_Wheeled_03_ext_alpha_arid_01_co.paa),
     QPATHTO(data\vehicles\camonet_arid_co.paa),
     QPATHTO(data\vehicles\cage_arid_co.paa)
+  };
+
+  class EventHandlers: EventHandlers {
+    postInit = "if (local (_this select 0)) then {[(_this select 0), '', [], false] call BIS_fnc_initVehicle;};";
   };
 
   class TransportMagazines {
