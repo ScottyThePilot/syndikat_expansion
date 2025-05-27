@@ -32,18 +32,18 @@ class U_I_CX_Soldier_Para_Sweater_F: Uniform_Base {
 class HeadgearItem;
 class H_Beret_blk;
 
-class H_Beret_red: H_Beret_blk {
+class H_BeretPeaked_red: H_Beret_blk {
   author = "ScottyThePilot";
-  displayName = "$STR_A3_H_Beret_blk0";
+  displayName = "$STR_sct_CfgWeapons_H_BeretPeaked_red";
   hiddenSelections[] = { "camo" };
   hiddenSelectionsMaterials[] = {
-    QPATHTO(data\headgear\Beret.rvmat)
+    QPATHTO(data\headgear\BeretPeaked.rvmat)
   };
   hiddenSelectionsTextures[] = {
-    QPATHTO(data\headgear\Beret_red_co.paa)
+    QPATHTO(data\headgear\BeretPeaked_red_co.paa)
   };
   model = "\A3\Characters_F\OPFOR\H_Beret_CSAT_01_F";
-  picture = QPATHTO(data\headgear\ui\icon_Beret_red_ca.paa);
+  picture = QPATHTO(data\headgear\ui\icon_BeretPeaked_red_ca.paa);
 
   class ItemInfo: HeadgearItem {
     hiddenSelections[] = { "camo" };

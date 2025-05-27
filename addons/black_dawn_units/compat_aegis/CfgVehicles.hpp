@@ -13,6 +13,12 @@ class Aegis_I_C_Soldier_UAV_lxWS;
 class Aegis_I_C_Soldier_TechSpec_F;
 class Aegis_I_C_HeavyGunner_Para_F;
 class Aegis_I_C_Soldier_M_Para_F;
+class I_CX_Soldier_Elite_Officer_F;
+class I_CX_Soldier_Elite_TeamLeader_F;
+class I_CX_Soldier_Elite_Gunner_F;
+class I_CX_Soldier_Elite_Sniper_F;
+class I_CX_Soldier_Elite_Scout_F;
+class I_CX_Soldier_Elite_Scout_LAT_F;
 class I_G_Soldier_base_F;
 
 
@@ -177,6 +183,47 @@ class Aegis_I_BD_Soldier_M_Para_F: Aegis_I_C_Soldier_M_Para_F {
 
   linkedItems[] = { "V_TacVest_brn", BASE_ITEMS };
   respawnLinkedItems[] = { "V_TacVest_brn", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Elite_Officer_F: I_CX_Soldier_Elite_Officer_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Officer_F.jpeg);
+
+  backpack = "B_RadioBag_01_coyote_IND_BD_F";
+  linkedItems[] = { "H_BeretPeaked_red", "V_TacVest_brn", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_BeretPeaked_red", "V_TacVest_brn", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Elite_TeamLeader_F: I_CX_Soldier_Elite_TeamLeader_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_TeamLeader_F.jpeg);
+};
+
+class I_BD_Soldier_Elite_Gunner_F: I_CX_Soldier_Elite_Gunner_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Gunner_F.jpeg);
+};
+
+class I_BD_Soldier_Elite_Sniper_F: I_CX_Soldier_Elite_Sniper_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Sniper_F.jpeg);
+};
+
+class I_BD_Soldier_Elite_Scout_F: I_CX_Soldier_Elite_Scout_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Scout_F.jpeg);
+};
+
+class I_BD_Soldier_Elite_Scout_LAT_F: I_CX_Soldier_Elite_Scout_LAT_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Scout_LAT_F.jpeg);
+};
+
+class B_RadioBag_01_coyote_F;
+
+class B_RadioBag_01_coyote_IND_BD_F: B_RadioBag_01_coyote_F {
+  tf_dialog = "anprc155_radio_dialog";
+  tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+  tf_encryptionCode = "tf_independent_radio_code";
+  tf_hasLRradio = 1;
+  tf_range = 20000;
+  tf_subtype = "digital_lr";
+
+  scope = 1;
 };
 
 

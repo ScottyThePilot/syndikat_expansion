@@ -16,6 +16,12 @@ class I_CX_Soldier_Para_AT_F;
 class I_CX_Soldier_Para_AA_F;
 class I_CX_Crew_F;
 class I_G_Soldier_base_F;
+class I_CX_Soldier_Elite_Officer_F;
+class I_CX_Soldier_Elite_TeamLeader_F;
+class I_CX_Soldier_Elite_Gunner_F;
+class I_CX_Soldier_Elite_Sniper_F;
+class I_CX_Soldier_Elite_Scout_F;
+class I_CX_Soldier_Elite_Scout_LAT_F;
 
 
 
@@ -234,6 +240,73 @@ class I_BD_Crew_F: I_CX_Crew_F {
   faction = "IND_BD_F";
   editorPreview = QPATHTO(data\editorpreviews\I_BD_Crew_F.jpeg);
   UNIFORM_PROPERTIES_SOLDIER_PARA_1;
+};
+
+class I_BD_Soldier_Elite_Officer_F: I_CX_Soldier_Elite_Officer_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Officer_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_CAMO;
+
+  linkedItems[] = { "H_BeretPeaked_red", "V_TacVest_blk", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_BeretPeaked_red", "V_TacVest_blk", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Elite_TeamLeader_F: I_CX_Soldier_Elite_TeamLeader_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_TeamLeader_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_2;
+
+  linkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier2_IND_BD", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier2_IND_BD", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Elite_Gunner_F: I_CX_Soldier_Elite_Gunner_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Gunner_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_1;
+
+  linkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier2_IND_BD", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier2_IND_BD", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Elite_Sniper_F: I_CX_Soldier_Elite_Sniper_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Sniper_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_SWEATER;
+
+  linkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier1_IND_BD", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier1_IND_BD", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Elite_Scout_F: I_CX_Soldier_Elite_Scout_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Scout_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_3;
+
+  linkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier1_IND_BD", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier1_IND_BD", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Elite_Scout_LAT_F: I_CX_Soldier_Elite_Scout_LAT_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Elite_Scout_LAT_F.jpeg);
+  UNIFORM_PROPERTIES_SOLDIER_PARA_3;
+
+  backpack = "B_Kitbag_cbr_Para_5_F";
+  linkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier1_IND_BD", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_PASGT_basic_brown_F", "V_PlateCarrier1_IND_BD", BASE_ITEMS };
 };
 
 

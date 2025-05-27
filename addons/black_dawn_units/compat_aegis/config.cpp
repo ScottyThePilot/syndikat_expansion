@@ -17,7 +17,8 @@ class CfgPatches {
       QADDONOF(red_tiger_units_compat_aegis),
       "A3_Aegis_Characters_F_Aegis",
       "A3_Aegis_Weapons_F_Aegis",
-      "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
+      "A3_Aegis_Weapons_F_Aegis_Rifles_AK12",
+      "A3_Aegis_Supplies_F_Aegis_Bags"
     };
     skipWhenMissingDependencies = 1;
     units[] = {

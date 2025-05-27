@@ -56,12 +56,23 @@ class I_C_Soldier_base_F: I_G_Soldier_base_F {
 class I_C_Soldier_Camo_F: I_C_Soldier_base_F {
   editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Camo_F.jpeg);
 
+  camouflage = 1.6;
+  cost = 250000;
+  role = "Rifleman";
+  icon = "iconManOfficer";
+
+  nameSound = "veh_infantry_officer_s";
+  textSingular = "$STR_A3_nameSound_veh_infantry_officer_s";
+  textPlural = "$STR_A3_nameSound_veh_infantry_officer_p";
+  class SpeechVariants {
+    class Default {
+      speechSingular[] = { "veh_infantry_officer_s" };
+      speechPlural[] = { "veh_infantry_officer_p" };
+    };
+  };
+
   linkedItems[] = { "V_TacVest_blk", "H_MilCap_gry", BASE_ITEMS };
   respawnLinkedItems[] = { "V_TacVest_blk", "H_MilCap_gry", BASE_ITEMS };
-
-  class EventHandlers: EventHandlers {
-    init = "";
-  };
 };
 
 class I_C_Soldier_Para_1_F: I_C_Soldier_base_F {
@@ -366,13 +377,18 @@ class I_CX_Soldier_Elite_Officer_F: I_CX_Soldier_Elite_base_F {
     };
   };
 
+  backpack = "B_RadioBag_01_black_F";
   weapons[] = { "arifle_AK12U_F", "Throw", "Put" };
   magazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
-  linkedItems[] = { "H_Beret_red", "V_TacVest_blk", BASE_ITEMS };
+  linkedItems[] = { "H_BeretPeaked_red", "V_TacVest_blk", BASE_ITEMS };
 
   respawnWeapons[] = { "arifle_AK12U_F", "Throw", "Put" };
   respawnMagazines[] = { LIST6("30Rnd_762x39_AK12_Mag_F"), LIST2("HandGrenade") };
-  respawnLinkedItems[] = { "H_Beret_red", "V_TacVest_blk", BASE_ITEMS };
+  respawnLinkedItems[] = { "H_BeretPeaked_red", "V_TacVest_blk", BASE_ITEMS };
+
+  class EventHandlers: EventHandlers {
+    init = "";
+  };
 
   scope = 2;
   scopeCurator = 2;
@@ -448,11 +464,11 @@ class I_CX_Soldier_Elite_Sniper_F: I_CX_Soldier_Elite_base_F {
     };
   };
 
-  weapons[] = { "srifle_DMR_06_camo_khs_F", "Throw", "Put" };
+  weapons[] = { "srifle_DMR_06_camo_khs_F", "Throw", "Put", "Binocular" };
   magazines[] = { LIST6("20Rnd_762x51_Mag"), "HandGrenade" };
   linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
 
-  respawnWeapons[] = { "srifle_DMR_06_camo_khs_F", "Throw", "Put" };
+  respawnWeapons[] = { "srifle_DMR_06_camo_khs_F", "Throw", "Put", "Binocular" };
   respawnMagazines[] = { LIST6("20Rnd_762x51_Mag"), "HandGrenade" };
   respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
 

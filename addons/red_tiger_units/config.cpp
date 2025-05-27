@@ -15,8 +15,8 @@ class CfgPatches {
       "A3_Characters_F_Exp_Vests",
       "A3_Characters_F_Orange_Headgear",
       "A3_Characters_F_Tank_Headgear",
-      "A3_Weapons_F_Enoch_Rifles_AK12",
       "A3_Supplies_F_Exp",
+      "A3_Supplies_F_Enoch_Bags",
       "A3_Weapons_F_Ammoboxes",
       "A3_Weapons_F_Enoch_Rifles_AK12",
       "A3_Weapons_F_Mark_LongRangeRifles_DMR_06",
@@ -39,7 +39,14 @@ class CfgPatches {
       "I_CX_Soldier_Para_Autorifleman_F",
       "I_CX_Soldier_Para_AT_F",
       "I_CX_Soldier_Para_AA_F",
-      "I_CX_Crew_F"
+      "I_CX_Crew_F",
+      "I_CX_Soldier_Elite_base_F",
+      "I_CX_Soldier_Elite_Officer_F",
+      "I_CX_Soldier_Elite_TeamLeader_F",
+      "I_CX_Soldier_Elite_Gunner_F",
+      "I_CX_Soldier_Elite_Sniper_F",
+      "I_CX_Soldier_Elite_Scout_F",
+      "I_CX_Soldier_Elite_Scout_LAT_F"
     };
     weapons[] = {
       "U_I_C_Soldier_Camo_F",

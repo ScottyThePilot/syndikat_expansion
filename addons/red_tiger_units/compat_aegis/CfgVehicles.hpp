@@ -281,6 +281,95 @@ class Aegis_I_C_Soldier_M_Para_F: I_C_Sharpshooter_F {
   respawnLinkedItems[] = { "V_TacVest_grn", BASE_ITEMS };
 };
 
+class I_CX_Soldier_Elite_Officer_F: I_CX_Soldier_Elite_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Officer_F.jpeg);
+
+  backpack = "B_RadioBag_01_green_IND_CX_F";
+  weapons[] = { "arifle_AK12U_545_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST2("HandGrenade_Guer") };
+  linkedItems[] = { "H_BeretPeaked_red", "V_TacVest_grn", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_AK12U_545_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST2("HandGrenade_Guer") };
+  respawnLinkedItems[] = { "H_BeretPeaked_red", "V_TacVest_grn", BASE_ITEMS };
+};
+
+class I_CX_Soldier_Elite_TeamLeader_F: I_CX_Soldier_Elite_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_TeamLeader_F.jpeg);
+
+  weapons[] = { "Aegis_arifle_AK12_GL_545_aco_flash_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST6("1Rnd_HE_Grenade_shell") };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "Aegis_arifle_AK12_GL_545_aco_flash_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST6("1Rnd_HE_Grenade_shell") };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+};
+
+class I_CX_Soldier_Elite_Gunner_F: I_CX_Soldier_Elite_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Gunner_F.jpeg);
+
+  weapons[] = { "Aegis_arifle_RPK12_545_F", "hgun_Pistol_01_F", "Throw", "Put" };
+  magazines[] = { LIST4("Aegis_60Rnd_545x39_Mag_F"), LIST3("10Rnd_9x21_Mag"), "HandGrenade_Guer" };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "Aegis_arifle_RPK12_545_F", "hgun_Pistol_01_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST4("Aegis_60Rnd_545x39_Mag_F"), LIST3("10Rnd_9x21_Mag"), "HandGrenade_Guer" };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier2_IND_CX", BASE_ITEMS };
+};
+
+class I_CX_Soldier_Elite_Sniper_F: I_CX_Soldier_Elite_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Sniper_F.jpeg);
+
+  weapons[] = { "Aegis_srifle_SVD_blk_DMS_old_F", "Throw", "Put", "Binocular" };
+  magazines[] = { LIST6("Aegis_10Rnd_762x54_SVD_Yellow_Mag_F"), "HandGrenade_Guer" };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "Aegis_srifle_SVD_blk_DMS_old_F", "Throw", "Put", "Binocular" };
+  respawnMagazines[] = { LIST6("Aegis_10Rnd_762x54_SVD_Yellow_Mag_F"), "HandGrenade_Guer" };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+};
+
+class I_CX_Soldier_Elite_Scout_F: I_CX_Soldier_Elite_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Scout_F.jpeg);
+
+  weapons[] = { "arifle_AK12_545_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST2("HandGrenade_Guer") };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_AK12_545_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST2("HandGrenade_Guer") };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+};
+
+class I_CX_Soldier_Elite_Scout_LAT_F: I_CX_Soldier_Elite_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Soldier_Elite_Scout_LAT_F.jpeg);
+
+  backpack = "B_Kitbag_rgr_CX_Para_5_F";
+  weapons[] = { "arifle_AK12U_545_F", "launch_RPG7_F", "Throw", "Put" };
+  magazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST2("HandGrenade_Guer") };
+  linkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+
+  respawnWeapons[] = { "arifle_AK12U_545_F", "launch_RPG7_F", "Throw", "Put" };
+  respawnMagazines[] = { LIST6("30Rnd_545x39_Black_Mag_Yellow_F"), LIST2("HandGrenade_Guer") };
+  respawnLinkedItems[] = { "H_PASGT_basic_olive_F", "V_PlateCarrier1_IND_CX", BASE_ITEMS };
+};
+
+
+
+class B_RadioBag_01_green_F;
+
+class B_RadioBag_01_green_IND_CX_F: B_RadioBag_01_green_F {
+  tf_dialog = "anprc155_radio_dialog";
+  tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+  tf_encryptionCode = "tf_independent_radio_code";
+  tf_hasLRradio = 1;
+  tf_range = 20000;
+  tf_subtype = "digital_lr";
+
+  scope = 1;
+};
+
 
 
 class B_Kitbag_rgr;

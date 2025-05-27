@@ -139,6 +139,23 @@
       <Japanese>専門兵（AA）</Japanese>
       <Turkish>Uzman (AA)</Turkish>
     </Key>
+    <Key ID="STR_sct_CfgWeapons_H_BeretPeaked_red">
+      <Original>Beret (Red)</Original>
+      <Chinese>貝雷帽（紅色）</Chinese>
+      <French>Béret (rouge)</French>
+      <Spanish>Boina (roja)</Spanish>
+      <Italian>Basco (rosso)</Italian>
+      <Polish>Beret (czerwony)</Polish>
+      <Russian>Берет (красный)</Russian>
+      <German>Barett (rot)</German>
+      <Czech>Baret (červený)</Czech>
+      <English>Beret (Red)</English>
+      <Portuguese>Boina (vermelha)</Portuguese>
+      <Korean>베레모 (적색)</Korean>
+      <Chinesesimp>贝雷帽（红色）</Chinesesimp>
+      <Japanese>ベレー帽（赤）</Japanese>
+      <Turkish>Bere (Kırmızı)</Turkish>
+    </Key>
     <Key ID="STR_sct_CfgWeapons_H_PASGT_basic_red_F">
       <Original>Basic Helmet (Red)</Original>
       <English>Basic Helmet (Red)</English>

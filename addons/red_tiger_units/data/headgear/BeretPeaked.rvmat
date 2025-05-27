@@ -12,7 +12,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 
 class Stage1 {
-  texture = "sct\syndikat_expansion\addons\red_tiger_units\data\headgear\Beret_nohq.paa";
+  texture = "sct\syndikat_expansion\addons\red_tiger_units\data\headgear\BeretPeaked_nohq.paa";
   uvSource = "tex";
   class uvTransform {
     aside[] = {1,0,0};
