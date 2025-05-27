@@ -53,6 +53,18 @@ class I_BD_Soldier_Para_1_F: I_C_Soldier_Para_1_F {
   respawnLinkedItems[] = { "V_TacChestrig_cbr_F", BASE_ITEMS };
 };
 
+class I_BD_Soldier_Para_2_F: I_C_Soldier_Para_2_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_2_F.jpeg);
+};
+
+class I_BD_Soldier_Para_3_F: I_C_Soldier_Para_3_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_3_F.jpeg);
+};
+
+class I_BD_Soldier_Para_4_F: I_C_Soldier_Para_4_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_4_F.jpeg);
+};
+
 class I_BD_Soldier_Para_6_F: I_C_Soldier_Para_6_F {
   editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_6_F.jpeg);
 
@@ -65,6 +77,10 @@ class I_BD_Soldier_Para_7_F: I_C_Soldier_Para_7_F {
 
   linkedItems[] = { "V_TacChestrig_cbr_F", BASE_ITEMS };
   respawnLinkedItems[] = { "V_TacChestrig_cbr_F", BASE_ITEMS };
+};
+
+class I_BD_Soldier_Para_8_F: I_C_Soldier_Para_8_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_8_F.jpeg);
 };
 
 class I_BD_Soldier_base_unarmed_F: I_C_Soldier_base_unarmed_F {

@@ -20,7 +20,13 @@ class CfgPatches {
       "A3_Aegis_Weapons_F_Aegis_Rifles_AK12"
     };
     skipWhenMissingDependencies = 1;
-    units[] = {};
+    units[] = {
+      "I_BD_Sharpshooter_F",
+      "Aegis_I_BD_Soldier_UAV_lxWS",
+      "Aegis_I_BD_Soldier_TechSpec_F",
+      "Aegis_I_BD_HeavyGunner_Para_F",
+      "Aegis_I_BD_Soldier_M_Para_F"
+    };
     weapons[] = {};
   };
 };

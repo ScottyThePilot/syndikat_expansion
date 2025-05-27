@@ -148,7 +148,6 @@ class I_BD_Soldier_base_unarmed_F: I_C_Soldier_base_unarmed_F {
 
 class I_BD_Soldier_Para_Sweater_F: I_CX_Soldier_Para_Sweater_F {
   author = "ScottyThePilot";
-  editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_Sweater_F.jpeg);
   UNIFORM_PROPERTIES_SOLDIER_SWEATER;
 
   scope = 1;

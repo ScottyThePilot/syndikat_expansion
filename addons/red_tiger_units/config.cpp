@@ -21,7 +21,17 @@ class CfgPatches {
       "A3_Weapons_F_Exp_Rifles_AKS"
     };
     units[] = {
+      "I_C_Soldier_Camo_F",
+      "I_C_Soldier_Para_1_F",
+      "I_C_Soldier_Para_2_F",
+      "I_C_Soldier_Para_3_F",
+      "I_C_Soldier_Para_4_F",
+      "I_C_Soldier_Para_5_F",
+      "I_C_Soldier_Para_6_F",
+      "I_C_Soldier_Para_7_F",
+      "I_C_Soldier_Para_8_F",
       "I_C_Soldier_base_unarmed_F",
+      "I_CX_Soldier_Para_Sweater_F",
       "I_CX_Soldier_Para_Commander_F",
       "I_CX_Soldier_Para_Marksman_F",
       "I_CX_Soldier_Para_Autorifleman_F",
@@ -30,6 +40,7 @@ class CfgPatches {
       "I_CX_Crew_F"
     };
     weapons[] = {
+      "U_I_C_Soldier_Camo_F",
       "U_I_CX_Soldier_Para_Sweater_F",
       "H_PASGT_basic_red_F",
       "H_Hat_Safari_brown_F",

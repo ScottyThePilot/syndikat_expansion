@@ -58,6 +58,10 @@ class I_C_Soldier_Camo_F: I_C_Soldier_base_F {
 
   linkedItems[] = { "V_TacVest_blk", "H_MilCap_gry", BASE_ITEMS };
   respawnLinkedItems[] = { "V_TacVest_blk", "H_MilCap_gry", BASE_ITEMS };
+
+  class EventHandlers: EventHandlers {
+    init = "";
+  };
 };
 
 class I_C_Soldier_Para_1_F: I_C_Soldier_base_F {

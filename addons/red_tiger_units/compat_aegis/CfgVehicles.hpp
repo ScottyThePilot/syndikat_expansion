@@ -175,10 +175,6 @@ class I_C_Soldier_Bandit_4_F: I_C_Soldier_base_F {
 
   respawnWeapons[] = { "Aegis_arifle_AK74_F", "Throw", "Put" };
   respawnMagazines[] = { LIST6("30Rnd_545x39_Mag_F"), LIST2("MiniGrenade") };
-
-  class EventHandlers: EventHandlers {
-    init = "";
-  };
 };
 
 class I_C_Soldier_Bandit_5_F: I_C_Soldier_base_F {
@@ -202,6 +198,8 @@ class I_C_Soldier_Bandit_6_F: I_C_Soldier_base_F {
 };
 
 class I_C_Soldier_base_unarmed_F: I_C_Soldier_base_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_base_unarmed_F.jpeg);
+
   linkedItems[] = { "V_TacChestrig_grn_F", BASE_ITEMS };
   respawnLinkedItems[] = { "V_TacChestrig_grn_F", BASE_ITEMS };
 };
@@ -242,6 +240,7 @@ class Aegis_I_C_Soldier_TechSpec_F: I_C_Soldier_Para_1_F {
 };
 
 class Aegis_I_C_HeavyGunner_Para_F: I_C_Soldier_Para_4_F {
+  editorPreview = QPATHTO(data\editorpreviews\Aegis_I_C_HeavyGunner_Para_F.jpeg);
   UNIFORM_PROPERTIES_SOLDIER_PARA_2;
 
   linkedItems[] = { "V_ChestrigF_oli", "Aegis_H_Milcap_nohs_grn_F", "G_Aviator", BASE_ITEMS };
@@ -249,6 +248,7 @@ class Aegis_I_C_HeavyGunner_Para_F: I_C_Soldier_Para_4_F {
 };
 
 class Aegis_I_C_Soldier_M_Para_F: I_C_Sharpshooter_F {
+  editorPreview = QPATHTO(data\editorpreviews\Aegis_I_C_Soldier_M_Para_F.jpeg);
   UNIFORM_PROPERTIES_SOLDIER_PARA_2;
 
   headgearList[] = {

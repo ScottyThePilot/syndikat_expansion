@@ -17,7 +17,9 @@ class CfgPatches {
     };
     skipWhenMissingDependencies = 1;
     units[] = {};
-    weapons[] = {};
+    weapons[] = {
+      "lxWS_H_PASGT_goggles_brown_F"
+    };
   };
 };
 
