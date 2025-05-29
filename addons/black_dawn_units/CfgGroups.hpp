@@ -773,8 +773,7 @@ class Motorized {
 
     class Unit0 {
       side = 2;
-      // TODO: Swap out with own faction variant
-      vehicle = "I_C_Offroad_02_unarmed_F";
+      vehicle = "I_BD_Offroad_02_unarmed_F";
       rank = "PRIVATE";
       position[] = { 0, 0, 0 };
     };

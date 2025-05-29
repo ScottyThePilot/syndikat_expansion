@@ -1,3 +1,147 @@
+class Car_F;
+
+class Offroad_02_base_F: Car_F {
+  class TextureSources {
+    class Brown {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Olive {
+      factions[] += { "IND_BD_F" };
+    };
+  };
+};
+
+class I_C_Offroad_02_unarmed_F;
+
+class I_BD_Offroad_02_unarmed_F: I_C_Offroad_02_unarmed_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Soldier_Para_1_F";
+  typicalCargo[] = { "I_BD_Soldier_Para_3_F" };
+  side = 2;
+  faction = "IND_BD_F";
+  textureList[] = {
+    "Brown", 1.0,
+    "Olive", 1.0
+  };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class Offroad_02_LMG_base_F: Offroad_02_base_F {
+  class TextureSources: TextureSources {
+    class Brown: Brown {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Olive: Olive {
+      factions[] += { "IND_BD_F" };
+    };
+  };
+};
+
+class I_C_Offroad_02_LMG_F;
+
+class I_BD_Offroad_02_LMG_F: I_C_Offroad_02_LMG_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Soldier_Para_1_F";
+  typicalCargo[] = { "I_BD_Soldier_Para_3_F" };
+  side = 2;
+  faction = "IND_BD_F";
+  textureList[] = {
+    "Brown", 1.0,
+    "Olive", 1.0
+  };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class Offroad_02_AT_base_F: Offroad_02_base_F {
+  class TextureSources: TextureSources {
+    class Brown: Brown {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Olive: Olive {
+      factions[] += { "IND_BD_F" };
+    };
+  };
+};
+
+class I_C_Offroad_02_AT_F;
+
+class I_BD_Offroad_02_AT_F: I_C_Offroad_02_AT_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Soldier_Para_1_F";
+  typicalCargo[] = { "I_BD_Soldier_Para_3_F" };
+  side = 2;
+  faction = "IND_BD_F";
+  textureList[] = {
+    "Brown", 1.0,
+    "Olive", 1.0
+  };
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class Van_01_base_F;
+
+class Van_01_transport_base_F: Van_01_base_F {
+  class TextureSources {
+    class Brown {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Olive {
+      factions[] += { "IND_BD_F" };
+    };
+  };
+};
+
+class I_C_Van_01_transport_F;
+
+class I_BD_Van_01_transport_F: I_C_Van_01_transport_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Soldier_Bandit_7_F";
+  typicalCargo[] = { "I_BD_Soldier_Bandit_5_F" };
+  side = 2;
+  faction = "IND_BD_F";
+  textureList[] = {
+    "Brown", 1.0,
+    "Olive", 1.0
+  };
+
+  scope = 2;
+};
+
+class I_C_Van_02_vehicle_F;
+class I_C_Van_02_transport_F;
+
+class I_BD_Van_02_vehicle_F: I_C_Van_02_vehicle_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Soldier_Bandit_7_F";
+  typicalCargo[] = { "I_BD_Soldier_Bandit_7_F" };
+  side = 2;
+  faction = "IND_BD_F";
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
+class I_BD_Van_02_transport_F: I_C_Van_02_transport_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Soldier_Bandit_7_F";
+  typicalCargo[] = { "I_BD_Soldier_Bandit_7_F" };
+  side = 2;
+  faction = "IND_BD_F";
+
+  scope = 2;
+  scopeCurator = 2;
+};
+
 class Truck_F;
 
 class Truck_02_base_F: Truck_F {
