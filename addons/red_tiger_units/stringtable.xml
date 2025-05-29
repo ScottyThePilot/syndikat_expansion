@@ -37,6 +37,14 @@
       <Original>Motorized Paramilitary Reinforcements</Original>
       <English>Motorized Paramilitary Reinforcements</English>
     </Key>
+    <Key ID="STR_sct_group_I_CX_EliteGroup">
+      <Original>Elite Paramilitary Guard Group</Original>
+      <English>Elite Paramilitary Guard Group</English>
+    </Key>
+    <Key ID="STR_sct_group_I_CX_EliteSentry">
+      <Original>Elite Paramilitary Guard Sentry</Original>
+      <English>Elite Paramilitary Guard Sentry</English>
+    </Key>
     <Key ID="STR_sct_CfgVehicles_I_C_Soldier_base_unarmed_F">
       <Original>Soldier (Unarmed)</Original>
       <Chinese>士兵（無武裝）</Chinese>

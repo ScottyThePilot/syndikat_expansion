@@ -1,3 +1,12 @@
+class I_C_Soldier_Bandit_1_F;
+class I_C_Soldier_Bandit_2_F;
+class I_C_Soldier_Bandit_3_F;
+class I_C_Soldier_Bandit_4_F;
+class I_C_Soldier_Bandit_5_F;
+class I_C_Soldier_Bandit_6_F;
+class I_C_Soldier_Bandit_7_F;
+class I_C_Soldier_Bandit_8_F;
+class I_C_Pilot_F;
 class I_C_Soldier_Camo_F;
 class I_C_Soldier_Para_1_F;
 class I_C_Soldier_Para_2_F;
@@ -41,6 +50,60 @@ class I_CX_Soldier_Elite_base_F: I_C_Soldier_base_F {
   headgearList[] += {
     "H_PASGT_basic_brown_F", 3.0
   };
+};
+
+class I_BD_Soldier_Bandit_1_F: I_C_Soldier_Bandit_1_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Soldier_Bandit_2_F: I_C_Soldier_Bandit_2_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Soldier_Bandit_3_F: I_C_Soldier_Bandit_3_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Soldier_Bandit_4_F: I_C_Soldier_Bandit_4_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Soldier_Bandit_5_F: I_C_Soldier_Bandit_5_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Soldier_Bandit_6_F: I_C_Soldier_Bandit_6_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Soldier_Bandit_7_F: I_C_Soldier_Bandit_7_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Soldier_Bandit_8_F: I_C_Soldier_Bandit_8_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
+};
+
+class I_BD_Pilot_F: I_C_Pilot_F {
+  author = "ScottyThePilot";
+  side = 2;
+  faction = "IND_BD_F";
 };
 
 class I_BD_Soldier_Camo_F: I_C_Soldier_Camo_F {

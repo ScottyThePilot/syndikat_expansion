@@ -1,4 +1,6 @@
 class Infantry {
+  name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
+
   class ParaCombatGroup {
     class Unit0 {
       vehicle = "I_CX_Soldier_Para_Commander_F";
@@ -180,6 +182,66 @@ class Infantry {
       vehicle = "I_C_Soldier_Para_3_F";
       rank = "PRIVATE";
       position[] = { 20, -20, 0 };
+    };
+  };
+};
+
+class SpecOps {
+  name = "$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
+
+  class I_CX_EliteGroup {
+    name = "$STR_sct_group_I_CX_EliteGroup";
+    side = 2;
+    faction = "IND_C_F";
+    icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
+
+    class Unit0 {
+      side = 2;
+      vehicle = "I_CX_Soldier_Elite_TeamLeader_F";
+      rank = "SERGEANT";
+      position[] = { 0, 0, 0 };
+    };
+
+    class Unit1 {
+      side = 2;
+      vehicle = "I_CX_Soldier_Elite_Sniper_F";
+      rank = "CORPORAL";
+      position[] = { 5, -5, 0 };
+    };
+
+    class Unit2 {
+      side = 2;
+      vehicle = "I_CX_Soldier_Elite_Gunner_F";
+      rank = "PRIVATE";
+      position[] = { -5, -5, 0 };
+    };
+
+    class Unit3 {
+      side = 2;
+      vehicle = "I_CX_Soldier_Elite_Scout_LAT_F";
+      rank = "PRIVATE";
+      position[] = { 10, -10, 0 };
+    };
+  };
+
+  class I_CX_EliteSentry {
+    name = "$STR_sct_group_I_CX_EliteSentry";
+    side = 2;
+    faction = "IND_C_F";
+    icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
+
+    class Unit0 {
+      side = 2;
+      vehicle = "I_CX_Soldier_Elite_Scout_LAT_F";
+      rank = "CORPORAL";
+      position[] = { 0, 0, 0 };
+    };
+
+    class Unit1 {
+      side = 2;
+      vehicle = "I_CX_Soldier_Elite_Scout_F";
+      rank = "PRIVATE";
+      position[] = { 5, -5, 0 };
     };
   };
 };
