@@ -15,29 +15,32 @@ class Heli_Light_01_base_F: Helicopter_Base_H {};
 class Heli_Light_01_unarmed_base_F: Heli_Light_01_base_F {
   class TextureSources: TextureSources {
     class Shadow {
-      author = "$STR_A3_Bohemia_Interactive";
-      displayName = "$STR_A3_TEXTURESOURCES_SHADOW0";
-      factions[] = { "CIV_F", "IND_C_F" };
-      textures[] = {
-        "\A3\Air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_shadow_co.paa"
-      };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_01 {
-      author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_01";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
-      textures[] = {
-        QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_01_co.paa)
-      };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_02 {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Arid_BD_01 {
       author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_02";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
+      displayName = "$STR_sct_TextureSources_Arid_01";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F", "IND_BD_F" };
       textures[] = {
-        QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_02_co.paa)
+        QPATHTO(data\vehicles\Heli_Light_01_ext_arid_01_co.paa)
+      };
+    };
+
+    class Arid_BD_02 {
+      author = "ScottyThePilot";
+      displayName = "$STR_sct_TextureSources_Arid_02";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F", "IND_BD_F" };
+      textures[] = {
+        QPATHTO(data\vehicles\Heli_Light_01_ext_arid_02_co.paa)
       };
     };
   };
@@ -50,31 +53,33 @@ class Heli_Light_01_armed_base_F: Heli_Light_01_base_F {};
 class Heli_Light_01_dynamicLoadout_base_F: Heli_Light_01_armed_base_F {
   class TextureSources: TextureSources {
     class Shadow {
-      author = "$STR_A3_Bohemia_Interactive";
-      displayName = "$STR_A3_TEXTURESOURCES_SHADOW0";
-      factions[] = { "CIV_F","IND_C_F" };
-      textures[] = {
-        "\A3\Air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_shadow_co.paa",
-        "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
-      };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_01 {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Jungle_CX_02 {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Arid_BD_01 {
       author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_01";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
+      displayName = "$STR_sct_TextureSources_Arid_01";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F", "IND_BD_F" };
       textures[] = {
-        QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_01_co.paa),
+        QPATHTO(data\vehicles\Heli_Light_01_ext_arid_01_co.paa),
         "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
       };
     };
 
-    class Jungle_CX_02 {
+    class Arid_BD_02 {
       author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_02";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
+      displayName = "$STR_sct_TextureSources_Arid_02";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F", "IND_BD_F" };
       textures[] = {
-        QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_02_co.paa),
+        QPATHTO(data\vehicles\Heli_Light_01_ext_arid_02_co.paa),
         "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
       };
     };
@@ -85,20 +90,20 @@ class B_Heli_Light_01_F: Heli_Light_01_unarmed_base_F {
   class EventHandlers;
 };
 
-class I_CX_Heli_Light_01_F: B_Heli_Light_01_F {
+class I_BD_Heli_Light_01_F: B_Heli_Light_01_F {
   author = "ScottyThePilot";
-  crew = "I_C_Helipilot_F";
+  crew = "I_BD_Helipilot_F";
   side = 2;
-  faction = "IND_C_F";
-  editorPreview = QPATHTO(data\editorpreviews\I_CX_Heli_Light_01_F.jpeg);
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Heli_Light_01_F.jpeg);
   textureList[] = {
-    "Jungle_CX_01", 1.0,
-    "Jungle_CX_02", 1.0
+    "Arid_BD_01", 1.0,
+    "Arid_BD_02", 1.0
   };
   hiddenSelectionsTextures[] = {
-    QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_01_co.paa)
+    QPATHTO(data\vehicles\Heli_Light_01_ext_arid_01_co.paa)
   };
-  typicalCargo[] = { "I_C_Helipilot_F" };
+  typicalCargo[] = { "I_BD_Helipilot_F" };
 
   class EventHandlers: EventHandlers {
     postInit = "if (local (_this select 0)) then {[(_this select 0), '', [], false] call BIS_fnc_initVehicle;};";
@@ -132,21 +137,21 @@ class I_CX_Heli_Light_01_F: B_Heli_Light_01_F {
 
 class B_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F {};
 
-class I_CX_Heli_Light_01_dynamicLoadout_F: B_Heli_Light_01_dynamicLoadout_F {
+class I_BD_Heli_Light_01_dynamicLoadout_F: B_Heli_Light_01_dynamicLoadout_F {
   author = "ScottyThePilot";
-  crew = "I_C_Helipilot_F";
+  crew = "I_BD_Helipilot_F";
   side = 2;
-  faction = "IND_C_F";
-  editorPreview = QPATHTO(data\editorpreviews\I_CX_Heli_Light_01_dynamicLoadout_F.jpeg);
+  faction = "IND_BD_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Heli_Light_01_dynamicLoadout_F.jpeg);
   textureList[] = {
-    "Jungle_CX_01", 1.0,
-    "Jungle_CX_02", 1.0
+    "Arid_BD_01", 1.0,
+    "Arid_BD_02", 1.0
   };
   hiddenSelectionsTextures[] = {
-    QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_01_co.paa),
+    QPATHTO(data\vehicles\Heli_Light_01_ext_arid_01_co.paa),
     "\A3\Air_F\Heli_Light_01\Data\Heli_Light_01_dot_CA.paa"
   };
-  typicalCargo[] = { "I_C_Helipilot_F" };
+  typicalCargo[] = { "I_BD_Helipilot_F" };
   forceInGarage = 0;
   magazines[] = {
     "5000Rnd_762x51_Yellow_Belt"
@@ -186,25 +191,46 @@ class I_CX_Heli_Light_01_dynamicLoadout_F: B_Heli_Light_01_dynamicLoadout_F {
 class Heli_Light_01_civil_base_F: Heli_Light_01_unarmed_base_F {
   class TextureSources {
     class Shadow {
-      factions[] += { "IND_C_F" };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_01 {
-      author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_01";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
-      textures[] = {
-        QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_01_co.paa)
-      };
+      factions[] += { "IND_BD_F" };
     };
 
     class Jungle_CX_02 {
+      factions[] += { "IND_BD_F" };
+    };
+
+    class Arid_BD_01 {
       author = "ScottyThePilot";
-      displayName = "$STR_sct_TextureSources_Jungle_02";
-      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F" };
+      displayName = "$STR_sct_TextureSources_Arid_01";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F", "IND_BD_F" };
       textures[] = {
-        QPATHTO(data\vehicles\Heli_Light_01_ext_jungle_02_co.paa)
+        QPATHTO(data\vehicles\Heli_Light_01_ext_arid_01_co.paa)
+      };
+    };
+
+    class Arid_BD_02 {
+      author = "ScottyThePilot";
+      displayName = "$STR_sct_TextureSources_Arid_02";
+      factions[] = { "IND_F", "BLU_F_F", "OPF_G_F", "IND_G_F", "IND_C_F", "IND_BD_F" };
+      textures[] = {
+        QPATHTO(data\vehicles\Heli_Light_01_ext_arid_02_co.paa)
       };
     };
   };
+};
+
+class I_C_Heli_Light_01_civil_F: Heli_Light_01_civil_base_F {};
+
+class I_BD_Heli_Light_01_civil_F: I_C_Heli_Light_01_civil_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Helipilot_F";
+  side = 2;
+  faction = "IND_BD_F";
+  typicalCargo[] = { "I_BD_Helipilot_F" };
+
+  scope = 2;
+  scopeCurator = 2;
 };

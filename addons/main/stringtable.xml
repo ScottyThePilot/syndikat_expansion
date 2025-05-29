@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="syndikat_expansion">
-  <Package name="black_dawn_vehicles_armor">
+  <Package name="main">
     <Key ID="STR_sct_TextureSources_Arid_01">
       <Original>Arid</Original>
       <English>Arid</English>
@@ -34,6 +34,40 @@
       <Russian>Пустынный (полосатая)</Russian>
       <Spanish>Árido (rayado)</Spanish>
       <Turkish>Kurak (Çizgili)</Turkish>
+    </Key>
+    <Key ID="STR_sct_TextureSources_Jungle_01">
+      <Original>Jungle</Original>
+      <English>Jungle</English>
+      <Chinese>叢林</Chinese>
+      <Chinesesimp>丛林</Chinesesimp>
+      <Czech>Džungle</Czech>
+      <French>Jungle</French>
+      <German>Urwald</German>
+      <Italian>Giungla</Italian>
+      <Japanese>密林</Japanese>
+      <Korean>정글</Korean>
+      <Polish>Dżungla</Polish>
+      <Portuguese>Selva</Portuguese>
+      <Russian>Джунгли</Russian>
+      <Spanish>Jungla</Spanish>
+      <Turkish>Orman</Turkish>
+    </Key>
+    <Key ID="STR_sct_TextureSources_Jungle_02">
+      <Original>Jungle (Striped)</Original>
+      <English>Jungle (Striped)</English>
+      <Chinese>叢林（條紋）</Chinese>
+      <Chinesesimp>丛林（条纹）</Chinesesimp>
+      <Czech>Džungle (pruhovaná)</Czech>
+      <French>Jungle (rayé)</French>
+      <German>Urwald (Streifen)</German>
+      <Italian>Giungla (a strisce)</Italian>
+      <Japanese>密林（ストライプ）</Japanese>
+      <Korean>정글 (줄무늬)</Korean>
+      <Polish>Dżungla (w paski)</Polish>
+      <Portuguese>Selva (Listrada)</Portuguese>
+      <Russian>Джунгли (полосатая)</Russian>
+      <Spanish>Jungla (rayada)</Spanish>
+      <Turkish>Orman (Çizgili)</Turkish>
     </Key>
   </Package>
 </Project>

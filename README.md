@@ -13,4 +13,7 @@ and some content will only appear when one or both of those are loaded.
 - Arma 3 Aegis, from which I used the textures for the Mora, Gorgon and
   Zamak as the basis for some textures in this mod.
 - Ample Camo Pack, from which I used the textures from the 6 Color Desert
-  PBO to create a number of items.
+  PBO and the A3 Syndikat PBO to create a number of items.
+
+## License
+This mod is licensed under the APL-SA license.
