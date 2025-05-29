@@ -18,7 +18,9 @@ class CfgPatches {
     };
     units[] = {
       "I_BD_Heli_Light_01_F",
-      "I_BD_Heli_Light_01_dynamicLoadout_F"
+      "I_BD_Heli_Light_01_dynamicLoadout_F",
+      "I_BD_Heli_Light_01_civil_F",
+      "I_BD_Plane_Civil_01_F"
     };
     weapons[] = {};
   };

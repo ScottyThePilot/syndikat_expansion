@@ -13,7 +13,7 @@ class Truck_02_aa_base_lxWS: Truck_02_base_F {
       textures[] = {
         QPATHTOP(data\vehicles\Truck_02_kab_olive_co.paa),
         QPATHTO(data\vehicles\Truck_02_cargo_co.paa),
-        "a3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+        "\A3\Soft_F_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
         QPATHTOP(data\vehicles\Truck_02_chassis_co.paa),
         "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
         "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
@@ -50,7 +50,7 @@ class Truck_02_cargo_base_lxWS: Truck_02_base_F {
       textures[] = {
         QPATHTOP(data\vehicles\Truck_02_kab_olive_co.paa),
         QPATHTO(data\vehicles\Truck_02_cargo_co.paa),
-        "a3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+        "\A3\Soft_F_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
         QPATHTOP(data\vehicles\Truck_02_chassis_co.paa),
         "lxws\vehicles_f_lxws\truck_02\data\addons_black_co.paa"
       };
@@ -72,7 +72,7 @@ class I_CX_Truck_02_aa_lxWS: I_A_Truck_02_aa_lxWS {
   hiddenSelectionsTextures[] = {
     QPATHTOP(data\vehicles\Truck_02_kab_olive_co.paa),
     QPATHTO(data\vehicles\Truck_02_cargo_co.paa),
-    "a3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+    "\A3\Soft_F_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
     QPATHTOP(data\vehicles\Truck_02_chassis_co.paa),
     "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
     "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
@@ -98,7 +98,7 @@ class I_CX_Truck_02_cargo_lxWS: I_Truck_02_cargo_lxWS {
   hiddenSelectionsTextures[] = {
     QPATHTOP(data\vehicles\Truck_02_kab_olive_co.paa),
     QPATHTO(data\vehicles\Truck_02_cargo_co.paa),
-    "a3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+    "\A3\Soft_F_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
     QPATHTOP(data\vehicles\Truck_02_chassis_co.paa),
     "lxws\vehicles_f_lxws\truck_02\data\addons_black_co.paa"
   };
@@ -121,7 +121,7 @@ class I_CX_Truck_02_flatbed_lxWS: I_Truck_02_flatbed_lxWS {
   hiddenSelectionsTextures[] = {
     QPATHTOP(data\vehicles\Truck_02_kab_olive_co.paa),
     QPATHTO(data\vehicles\Truck_02_cargo_co.paa),
-    "a3\soft_f_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
+    "\A3\Soft_F_Enoch\Truck_02\Data\Truck_02_int_EAF_co.paa",
     QPATHTOP(data\vehicles\Truck_02_chassis_co.paa),
     "lxws\vehicles_f_lxws\truck_02\data\addons_black_co.paa"
   };

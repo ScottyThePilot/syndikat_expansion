@@ -17,6 +17,12 @@ class CfgPatches {
       "A3_Soft_F_Gamma_Truck_02"
     };
     units[] = {
+      "I_BD_Offroad_02_unarmed_F",
+      "I_BD_Offroad_02_LMG_F",
+      "I_BD_Offroad_02_AT_F",
+      "I_BD_Van_01_transport_F",
+      "I_BD_Van_02_vehicle_F",
+      "I_BD_Van_02_transport_F",
       "I_BD_Truck_02_ammo_F",
       "I_BD_Truck_02_box_F",
       "I_BD_Truck_02_covered_F",
