@@ -12,13 +12,12 @@ class CfgPatches {
       QADDON_MAIN,
       QADDONOF(black_dawn_units),
       QADDONOF(red_tiger_units),
-      QADDONOF(red_tiger_vehicles_air),
-      "A3_Air_F_Heli_Light_01",
-      "A3_Air_F_Exp_Plane_Civil_01"
+      "A3_Boat_F_Exp_Boat_Transport_01",
+      "A3_Boat_F_Exp_Boat_Transport_02"
     };
     units[] = {
-      "I_BD_Heli_Light_01_F",
-      "I_BD_Heli_Light_01_dynamicLoadout_F"
+      "I_BD_Boat_Transport_01_F",
+      "I_BD_Boat_Transport_02_F"
     };
     weapons[] = {};
   };

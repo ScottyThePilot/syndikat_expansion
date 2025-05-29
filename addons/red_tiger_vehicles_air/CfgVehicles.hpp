@@ -208,3 +208,33 @@ class Heli_Light_01_civil_base_F: Heli_Light_01_unarmed_base_F {
     };
   };
 };
+
+class Plane_Base_F;
+
+class Plane_Civil_01_base_F: Plane_Base_F {
+  class TextureSources {
+    class White_1 {
+      author = "$STR_A3_Bohemia_Interactive";
+      displayName = "$STR_sct_TextureSources_Plane_01_White_TanInterior";
+      factions[] = { "CIV_F", "IND_C_F" };
+      textures[] = {
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_co.paa",
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_co.paa",
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_tan_co.paa",
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_tan_co.paa"
+      };
+    };
+
+    class White_2 {
+      author = "$STR_A3_Bohemia_Interactive";
+      displayName = "$STR_sct_TextureSources_Plane_01_White";
+      factions[] = { "CIV_F", "IND_C_F" };
+      textures[] = {
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_co.paa",
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_co.paa",
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+        "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+      };
+    };
+  };
+};

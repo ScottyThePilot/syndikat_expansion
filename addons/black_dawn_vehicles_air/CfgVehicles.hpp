@@ -234,3 +234,27 @@ class I_BD_Heli_Light_01_civil_F: I_C_Heli_Light_01_civil_F {
   scope = 2;
   scopeCurator = 2;
 };
+
+class I_C_Plane_Civil_01_F;
+
+class I_BD_Plane_Civil_01_F: I_C_Plane_Civil_01_F {
+  author = "ScottyThePilot";
+  crew = "I_BD_Pilot_F";
+  side = 2;
+  faction = "IND_BD_F";
+  typicalCargo[] = { "I_BD_Pilot_F" };
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Plane_Civil_01_F.jpeg);
+  textureList[] = {
+    "White_1", 1.0,
+    "White_2", 1.0
+  };
+  hiddenSelectionsTextures[] = {
+    "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_co.paa",
+    "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_co.paa",
+    "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+    "\A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+  };
+
+  scope = 2;
+  scopeCurator = 2;
+};

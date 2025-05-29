@@ -11,7 +11,8 @@ class CfgPatches {
     requiredAddons[] = {
       QADDON_MAIN,
       QADDONOF(red_tiger_units),
-      "A3_Air_F_Heli_Light_01"
+      "A3_Air_F_Heli_Light_01",
+      "A3_Air_F_Exp_Plane_Civil_01"
     };
     units[] = {
       "I_CX_Heli_Light_01_F",

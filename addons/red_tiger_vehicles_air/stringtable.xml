@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="red_tiger_vehicles_air">
+    <Key ID="STR_sct_TextureSources_Plane_01_White">
+      <Original>White</Original>
+      <English>White</English>
+      <Chinese>白</Chinese>
+      <Chinesesimp>白色</Chinesesimp>
+      <Czech>Bílá</Czech>
+      <French>Blanc</French>
+      <German>Weiß</German>
+      <Italian>Bianco</Italian>
+      <Japanese>白</Japanese>
+      <Korean>백색</Korean>
+      <Polish>Biały</Polish>
+      <Portuguese>Branco</Portuguese>
+      <Russian>Белый</Russian>
+      <Spanish>Blanco</Spanish>
+      <Turkish>Beyaz</Turkish>
+    </Key>
+    <Key ID="STR_sct_TextureSources_Plane_01_White_TanInterior">
+      <Original>White (Tan Interior)</Original>
+      <English>White (Tan Interior)</English>
+      <Chinese>白（淺棕色內裝）</Chinese>
+      <Chinesesimp>白色（棕褐色内饰)</Chinesesimp>
+      <Czech>Bílá (tmavý interiér)</Czech>
+      <French>Blanc (intérieur marron clair)</French>
+      <German>Weiß (Hellbrauner Innenraum)</German>
+      <Italian>Bianco (interno marrone chiaro)</Italian>
+      <Japanese>白（黄褐色の内装）</Japanese>
+      <Korean>백색(황갈색 내부)</Korean>
+      <Polish>Biały (beżowe wnętrze)</Polish>
+      <Portuguese>Branco (interior de Tan)</Portuguese>
+      <Russian>Белый (коричневый салон)</Russian>
+      <Spanish>Blanco (interior de color tostado)</Spanish>
+      <Turkish>Beyaz (Taba İç)</Turkish>
+    </Key>
+  </Package>
+</Project>
