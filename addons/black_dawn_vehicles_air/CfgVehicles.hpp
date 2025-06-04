@@ -10,7 +10,9 @@ class Helicopter_Base_H: Helicopter_Base_F {
   class TextureSources {};
 };
 
-class Heli_Light_01_base_F: Helicopter_Base_H {};
+class Heli_Light_01_base_F: Helicopter_Base_H {
+  class EventHandlers;
+};
 
 class Heli_Light_01_unarmed_base_F: Heli_Light_01_base_F {
   class TextureSources: TextureSources {
