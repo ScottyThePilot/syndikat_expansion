@@ -14,13 +14,18 @@ class CfgPatches {
       QADDONOF(red_tiger_units),
       QADDONOF(red_tiger_vehicles_soft),
       "A3_Soft_F_Beta_Truck_02",
-      "A3_Soft_F_Gamma_Truck_02"
+      "A3_Soft_F_Gamma_Truck_02",
+      "A3_Soft_F_Gamma_Van_01",
+      "A3_Soft_F_Exp_Van_01",
+      "A3_Soft_F_Exp_Offroad_02",
+      "A3_Soft_F_Orange_Van_02"
     };
     units[] = {
       "I_BD_Offroad_02_unarmed_F",
       "I_BD_Offroad_02_LMG_F",
       "I_BD_Offroad_02_AT_F",
       "I_BD_Van_01_transport_F",
+      "I_BD_Van_01_fuel_F",
       "I_BD_Van_02_vehicle_F",
       "I_BD_Van_02_transport_F",
       "I_BD_Truck_02_ammo_F",

@@ -1,3 +1,62 @@
+class Van_01_base_F;
+
+class Van_01_fuel_base_F: Van_01_base_F {
+  class TextureSources {
+    class Brown {
+      author = "ScottyThePilot";
+      displayName = "$STR_A3_TEXTURESOURCES_BROWN0";
+      factions[] = { "IND_C_F" };
+      materials[] = {
+        "\A3\Soft_F_Exp\Van_01\Data\Van_01_ext.rvmat",
+        "\A3\Soft_F_Gamma\Van_01\Data\Van_01_tank.rvmat"
+      };
+      textures[] = {
+        "\A3\Soft_F_Exp\Van_01\Data\Van_01_ext_brn_co.paa",
+        QPATHTO(data\vehicles\Van_01_tank_grey_co.paa)
+      };
+    };
+
+    class Olive {
+      author = "ScottyThePilot";
+      displayName = "$STR_A3_TEXTURESOURCES_OLIVE0";
+      factions[] = { "IND_C_F" };
+      materials[] = {
+        "\A3\Soft_F_Exp\Van_01\Data\Van_01_ext.rvmat",
+        "\A3\Soft_F_Gamma\Van_01\Data\Van_01_tank.rvmat"
+      };
+      textures[] = {
+        "\A3\Soft_F_Exp\Van_01\Data\Van_01_ext_oli_co.paa",
+        QPATHTO(data\vehicles\Van_01_tank_grey_co.paa)
+      };
+    };
+  };
+};
+
+class I_G_Van_01_fuel_F;
+
+class I_CX_Van_01_fuel_F: I_G_Van_01_fuel_F {
+  author = "ScottyThePilot";
+  crew = "I_C_Soldier_Bandit_7_F";
+  typicalCargo[] = { "I_C_Soldier_Bandit_5_F" };
+  side = 2;
+  faction = "IND_C_F";
+  editorPreview = QPATHTO(data\editorpreviews\I_CX_Van_01_fuel_F.jpeg);
+  textureList[] = {
+    "Brown", 1.0,
+    "Olive", 1.0
+  };
+  hiddenSelectionsMaterials[] = {
+    "\A3\Soft_F_Exp\Van_01\Data\Van_01_ext.rvmat",
+    "\A3\Soft_F_Gamma\Van_01\Data\Van_01_tank.rvmat"
+  };
+  hiddenSelectionsTextures[] = {
+    "\A3\Soft_F_Exp\Van_01\Data\Van_01_ext_brn_co.paa",
+    QPATHTO(data\vehicles\Van_01_tank_grey_co.paa)
+  };
+
+  scope = 2;
+};
+
 class Truck_F;
 
 class Truck_02_base_F: Truck_F {
