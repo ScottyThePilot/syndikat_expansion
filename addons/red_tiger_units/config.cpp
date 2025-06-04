@@ -57,6 +57,11 @@ class CfgPatches {
       "H_Booniehat_IND_CX_hs"
     };
   };
+
+  class ADDONOF(units): ADDON {
+    units[] = {};
+    weapons[] = {};
+  };
 };
 
 class CfgVehicles {

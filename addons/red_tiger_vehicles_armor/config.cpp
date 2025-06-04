@@ -20,6 +20,11 @@ class CfgPatches {
     };
     weapons[] = {};
   };
+
+  class ADDONOF(vehicles_armor): ADDON {
+    units[] = {};
+    weapons[] = {};
+  };
 };
 
 class CfgVehicles {

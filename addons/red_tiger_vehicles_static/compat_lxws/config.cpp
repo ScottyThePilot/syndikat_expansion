@@ -21,6 +21,11 @@ class CfgPatches {
     };
     weapons[] = {};
   };
+
+  class ADDONOF(vehicles_static_compat_lxws): ADDON {
+    units[] = {};
+    weapons[] = {};
+  };
 };
 
 class CfgVehicles {

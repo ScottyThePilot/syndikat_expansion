@@ -30,6 +30,11 @@ class CfgPatches {
     };
     weapons[] = {};
   };
+
+  class ADDONOF(units_compat_aegis): ADDON {
+    units[] = {};
+    weapons[] = {};
+  };
 };
 
 class CfgVehicles {

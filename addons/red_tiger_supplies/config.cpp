@@ -15,6 +15,11 @@ class CfgPatches {
     units[] = {};
     weapons[] = {};
   };
+
+  class ADDONOF(supplies): ADDON {
+    units[] = {};
+    weapons[] = {};
+  };
 };
 
 class CfgVehicles {

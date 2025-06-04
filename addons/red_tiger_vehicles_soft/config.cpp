@@ -28,6 +28,11 @@ class CfgPatches {
     };
     weapons[] = {};
   };
+
+  class ADDONOF(vehicles_soft): ADDON {
+    units[] = {};
+    weapons[] = {};
+  };
 };
 
 class CfgVehicles {

@@ -19,6 +19,11 @@ class CfgPatches {
       "lxWS_H_PASGT_goggles_red_F"
     };
   };
+
+  class ADDONOF(units_compat_lxws): ADDON {
+    units[] = {};
+    weapons[] = {};
+  };
 };
 
 class CfgVehicles {
