@@ -24,15 +24,14 @@ class Motorized {
   };
 
   class I_BD_MotParaShockTeam {
-    name = "$STR_sct_group_I_CX_MotParaShockTeam";
+    name = "$STR_sct_CfgGroups_I_CX_MotParaShockTeam";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
 
     class Unit0 {
       side = 2;
-      // TODO: Swap out with own faction variant
-      vehicle = "I_C_Offroad_01_F";
+      vehicle = "I_BD_Offroad_01_F";
       rank = "PRIVATE";
       position[] = { 0, 0, 0 };
     };

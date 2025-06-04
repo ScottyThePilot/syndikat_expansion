@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="syndikat_expansion">
   <Package name="red_tiger_units">
-    <Key ID="STR_sct_group_I_CX_ParaAssaultGroup">
+    <Key ID="STR_sct_CfgGroups_I_CX_ParaAssaultGroup">
       <Original>Paramilitary Assault Group</Original>
       <English>Paramilitary Assault Group</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_ParaMarksmanTeam">
+    <Key ID="STR_sct_CfgGroups_I_CX_ParaMarksmanTeam">
       <Original>Paramilitary Marksman Group</Original>
       <English>Paramilitary Marksman Group</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_ParaTeamAA">
+    <Key ID="STR_sct_CfgGroups_I_CX_ParaTeamAA">
       <Original>Paramilitary Air-defense Team</Original>
       <English>Paramilitary Air-defense Team</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_ParaTeamAT">
+    <Key ID="STR_sct_CfgGroups_I_CX_ParaTeamAT">
       <Original>Paramilitary Anti-armor Team</Original>
       <English>Paramilitary Anti-armor Team</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_MotParaAssaultGroup">
+    <Key ID="STR_sct_CfgGroups_I_CX_MotParaAssaultGroup">
       <Original>Motorized Paramilitary Assault Group</Original>
       <English>Motorized Paramilitary Assault Group</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_MotParaCombatGroup">
+    <Key ID="STR_sct_CfgGroups_I_CX_MotParaCombatGroup">
       <Original>Motorized Paramilitary Combat Group</Original>
       <English>Motorized Paramilitary Combat Group</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_MotParaFireTeam">
+    <Key ID="STR_sct_CfgGroups_I_CX_MotParaFireTeam">
       <Original>Motorized Paramilitary Fire Team</Original>
       <English>Motorized Paramilitary Fire Team</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_MotParaShockTeam">
+    <Key ID="STR_sct_CfgGroups_I_CX_MotParaShockTeam">
       <Original>Motorized Paramilitary Shock Team</Original>
       <English>Motorized Paramilitary Shock Team</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_MotParaReinforcements">
+    <Key ID="STR_sct_CfgGroups_I_CX_MotParaReinforcements">
       <Original>Motorized Paramilitary Reinforcements</Original>
       <English>Motorized Paramilitary Reinforcements</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_EliteGroup">
+    <Key ID="STR_sct_CfgGroups_I_CX_EliteGroup">
       <Original>Elite Paramilitary Guard Group</Original>
       <English>Elite Paramilitary Guard Group</English>
     </Key>
-    <Key ID="STR_sct_group_I_CX_EliteSentry">
+    <Key ID="STR_sct_CfgGroups_I_CX_EliteSentry">
       <Original>Elite Paramilitary Guard Sentry</Original>
       <English>Elite Paramilitary Guard Sentry</English>
     </Key>

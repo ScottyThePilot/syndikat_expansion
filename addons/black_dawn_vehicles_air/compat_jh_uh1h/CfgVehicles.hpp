@@ -23,7 +23,7 @@ class jh_uh1h_ov: jh_uh1h_unarmed_base {};
 
 class I_BD_uh1h_unarmed_jh: jh_uh1h_ov {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_vehicle_I_CX_uh1h_unarmed_jh";
+  displayName = "$STR_sct_CfgVehicles_I_CX_uh1h_unarmed_jh";
   crew = "I_BD_Helipilot_F";
   side = 2;
   faction = "IND_BD_F";

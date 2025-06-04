@@ -268,7 +268,7 @@ class Infantry {
   };
 
   class I_BD_ParaMarksmanTeam {
-    name = "$STR_sct_group_I_CX_ParaMarksmanTeam";
+    name = "$STR_sct_CfgGroups_I_CX_ParaMarksmanTeam";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
@@ -303,7 +303,7 @@ class Infantry {
   };
 
   class I_BD_ParaTeamAA {
-    name = "$STR_sct_group_I_CX_ParaTeamAA";
+    name = "$STR_sct_CfgGroups_I_CX_ParaTeamAA";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
@@ -338,7 +338,7 @@ class Infantry {
   };
 
   class I_BD_ParaTeamAT {
-    name = "$STR_sct_group_I_CX_ParaTeamAT";
+    name = "$STR_sct_CfgGroups_I_CX_ParaTeamAT";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
@@ -373,7 +373,7 @@ class Infantry {
   };
 
   class I_BD_ParaAssaultGroup {
-    name = "$STR_sct_group_I_CX_ParaAssaultGroup";
+    name = "$STR_sct_CfgGroups_I_CX_ParaAssaultGroup";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
@@ -440,7 +440,7 @@ class SpecOps {
   name = "$STR_A3_CfgGroups_West_BLU_F_SpecOps0";
 
   class I_BD_EliteGroup {
-    name = "$STR_sct_group_I_CX_EliteGroup";
+    name = "$STR_sct_CfgGroups_I_CX_EliteGroup";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
@@ -475,7 +475,7 @@ class SpecOps {
   };
 
   class I_BD_EliteSentry {
-    name = "$STR_sct_group_I_CX_EliteSentry";
+    name = "$STR_sct_CfgGroups_I_CX_EliteSentry";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_recon.paa";
@@ -500,7 +500,7 @@ class Motorized {
   name = "$STR_A3_CfgGroups_West_BLU_F_Motorized0";
 
   class I_BD_MotParaAssaultGroup {
-    name = "$STR_sct_group_I_CX_MotParaAssaultGroup";
+    name = "$STR_sct_CfgGroups_I_CX_MotParaAssaultGroup";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
@@ -570,7 +570,7 @@ class Motorized {
   };
 
   class I_BD_MotParaCombatGroup {
-    name = "$STR_sct_group_I_CX_MotParaCombatGroup";
+    name = "$STR_sct_CfgGroups_I_CX_MotParaCombatGroup";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
@@ -640,7 +640,7 @@ class Motorized {
   };
 
   class I_BD_MotParaReinforcements {
-    name = "$STR_sct_group_I_CX_MotParaReinforcements";
+    name = "$STR_sct_CfgGroups_I_CX_MotParaReinforcements";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
@@ -766,7 +766,7 @@ class Motorized {
   };
 
   class I_BD_MotParaFireTeam {
-    name = "$STR_sct_group_I_CX_MotParaFireTeam";
+    name = "$STR_sct_CfgGroups_I_CX_MotParaFireTeam";
     side = 2;
     faction = "IND_BD_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";

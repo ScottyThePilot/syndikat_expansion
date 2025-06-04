@@ -24,7 +24,7 @@ class Motorized {
   };
 
   class I_CX_MotParaShockTeam {
-    name = "$STR_sct_group_I_CX_MotParaShockTeam";
+    name = "$STR_sct_CfgGroups_I_CX_MotParaShockTeam";
     side = 2;
     faction = "IND_C_F";
     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";

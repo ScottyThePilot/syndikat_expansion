@@ -49,7 +49,7 @@ class jj_uh1h_doorgunner_ov: jj_uh1h_doorgunner_base {};
 
 class I_CX_uh1x_unarmed_jh: jj_uh1h_ov {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_vehicle_I_CX_uh1x_unarmed_jh";
+  displayName = "$STR_sct_CfgVehicles_I_CX_uh1x_unarmed_jh";
   crew = "I_C_Helipilot_F";
   side = 2;
   faction = "IND_C_F";
@@ -89,7 +89,7 @@ class I_CX_uh1x_unarmed_jh: jj_uh1h_ov {
 
 class I_CX_uh1x_gunship_jh: jj_uh1h_doorgunner_ov {
   author = "ScottyThePilot";
-  displayName = "$STR_sct_vehicle_I_CX_uh1x_gunship_jh";
+  displayName = "$STR_sct_CfgVehicles_I_CX_uh1x_gunship_jh";
   crew = "I_C_Helipilot_F";
   side = 2;
   faction = "IND_C_F";
