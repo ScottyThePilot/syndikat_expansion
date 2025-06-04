@@ -1,6 +1,6 @@
-class Aegis_I_C_ZU23_lxWS_F;
+class zu23_base_lxWS;
 
-class I_CX_ZU23_lxWS: Aegis_I_C_ZU23_lxWS_F {
+class Aegis_I_C_ZU23_lxWS_F: zu23_base_lxWS {
   scope = 1;
   scopeCurator = 1;
 };

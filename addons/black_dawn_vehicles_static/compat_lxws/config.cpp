@@ -10,14 +10,18 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
+      QADDON_PARENT,
+      QADDONOF(black_dawn_units),
+      QADDONOF(black_dawn_units_compat_lxws),
       QADDONOF(red_tiger_units),
-      "A3_Static_F_HMG_02",
-      "A3_Static_F_Mortar_01"
+      QADDONOF(red_tiger_units_compat_lxws),
+      QADDONOF(red_tiger_vehicles_static),
+      QADDONOF(red_tiger_vehicles_static_compat_lxws),
+      "Vehicles_F_lxWS_zu23"
     };
+    skipWhenMissingDependencies = 1;
     units[] = {
-      "I_CX_Mortar_01_F",
-      "I_CX_Mortar_01_support_F",
-      "I_CX_Mortar_01_weapon_F"
+      "I_BD_ZU23_lxWS"
     };
     weapons[] = {};
   };

@@ -14,6 +14,8 @@ class CfgPatches {
       QADDON_SIBLING(compat_lxws),
       QADDONOF(red_tiger_units),
       QADDONOF(red_tiger_units_compat_aegis),
+      "A3_Aegis_Static_F_Aegis_AA_01",
+      "A3_Aegis_Static_F_Aegis_AT_01",
       "A3_Aegis_Static_F_Aegis_ZU23"
     };
     skipWhenMissingDependencies = 1;

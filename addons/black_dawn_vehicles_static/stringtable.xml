@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="black_dawn_vehicles_static">
+    <Key ID="STR_sct_CfgVehicles_I_BD_Mortar_01_support_F">
+      <Original>Folded Mk6 Mortar Bipod [L'Alba Nera]</Original>
+      <Chinese>折起的 Mk6 迫擊砲二腳架（L'Alba Nera）</Chinese>
+      <French>Bipied repliable pour mortier Mk6 [L'Alba Nera]</French>
+      <Spanish>Mortero bípode plegado Mk6 [L'Alba Nera]</Spanish>
+      <Italian>Cavalletto per mortaio Mk6 ripiegato [L'Alba Nera]</Italian>
+      <Polish>Składany dwójnóg moździerza Mk6 [L'Alba Nera]</Polish>
+      <Russian>Миномет Mk6 - сложенная сошка [L'Alba Nera]</Russian>
+      <German>Klappbares Zweibein für Mörser Mk6 [L'Alba Nera]</German>
+      <Czech>Složená dvojnožka minometu Mk6 [L'Alba Nera]</Czech>
+      <English>Folded Mk6 Mortar Bipod [L'Alba Nera]</English>
+      <Portuguese>Morteiro Mk6 bípede dobrável [L'Alba Nera]</Portuguese>
+      <Korean>접힌 Mk6 박격포 포다리[L'Alba Nera]</Korean>
+      <Chinesesimp>折叠的 Mk6 迫击炮两脚架 [L'Alba Nera]</Chinesesimp>
+      <Japanese>折り畳み式Mk6迫撃砲二脚架[L'Alba Nera]</Japanese>
+      <Turkish>Katlı Mk6 Havan Topu İkili Ayağı [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_I_BD_Mortar_01_weapon_F">
+      <Original>Folded Mk6 Mortar Tube [L'Alba Nera]</Original>
+      <Chinese>折起的 Mk6 迫擊砲砲管（L'Alba Nera）</Chinese>
+      <French>Tube pour mortier Mk6 [L'Alba Nera]</French>
+      <Spanish>Tubo de mortero plegado Mk6 [L'Alba Nera]</Spanish>
+      <Italian>Tubo per mortaio Mk6 ripiegato [L'Alba Nera]</Italian>
+      <Polish>Składana lufa moździerza Mk6 [L'Alba Nera]</Polish>
+      <Russian>Миномет Mk6 - сложенный ствол [L'Alba Nera]</Russian>
+      <German>Klappbares Mörserrohr für Mörser Mk6 [L'Alba Nera]</German>
+      <Czech>Složená hlaveň minometu Mk6 [L'Alba Nera]</Czech>
+      <English>Folded Mk6 Mortar Tube [L'Alba Nera]</English>
+      <Portuguese>Tubo do morteiro Mk6 dobrado [L'Alba Nera]</Portuguese>
+      <Korean>접힌 Mk6 박격포 포열[L'Alba Nera]</Korean>
+      <Chinesesimp>折叠的 Mk6 迫击炮管 [L'Alba Nera]</Chinesesimp>
+      <Japanese>折り畳み式Mk6迫撃砲発射薬筒[L'Alba Nera]</Japanese>
+      <Turkish>Katlı Mk6 Havan Topu Tüpü [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_I_BD_HMG_02_support_F">
+      <Original>Folded Tripod M2 HMG .50 [L'Alba Nera]</Original>
+      <English>Folded Tripod M2 HMG .50 [L'Alba Nera]</English>
+      <Chinese>折起的三腳架 M2 重機槍 .50（L'Alba Nera）</Chinese>
+      <Chinesesimp>折叠的三脚架 M2 重机枪 .50 [L'Alba Nera]</Chinesesimp>
+      <Czech>Složená trojnožka na těžký kulomet M2 .50 [L'Alba Nera]</Czech>
+      <French>Trépied replié M2 HMG .50 [L'Alba Nera]</French>
+      <German>Gefaltetes Dreibein für M2 HMG .50 [L'Alba Nera]</German>
+      <Italian>Cavalletto ripiegato M2 HMG .50 [L'Alba Nera]</Italian>
+      <Japanese>折り畳み式三脚 M2 HMG .50 [L'Alba Nera]</Japanese>
+      <Korean>접은 삼각대 M2 HMG .50 [L'Alba Nera]</Korean>
+      <Polish>CKM M2 .50, złożony trójnóg [L'Alba Nera]</Polish>
+      <Portuguese>Tripé dobrado M2 MP .50 [L'Alba Nera]</Portuguese>
+      <Russian>Сложенная тренога тяжелого пулемета M2 .50 [L'Alba Nera]</Russian>
+      <Spanish>Trípode de ametralladora pesada M2 de .50, plegado [L'Alba Nera]</Spanish>
+      <Turkish>Katlanır Üçayak M2 HMG .50 [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_I_BD_HMG_02_support_high_F">
+      <Original>Folded Tripod M2 HMG .50 (Raised) [L'Alba Nera]</Original>
+      <English>Folded Tripod M2 HMG .50 (Raised) [L'Alba Nera]</English>
+      <Chinese>折起的三腳架 M2 重機槍 .50（立起）（L'Alba Nera）</Chinese>
+      <Chinesesimp>折叠的三脚架 M2 重机枪 .50（升高）[L'Alba Nera]</Chinesesimp>
+      <Czech>Složená trojnožka na těžký kulomet M2 .50 (vztyčený) [L'Alba Nera]</Czech>
+      <French>Trépied replié M2 HMG .50 (rehaussé) [L'Alba Nera]</French>
+      <German>Gefaltetes Dreibein für M2 HMG .50 (erhöht) [L'Alba Nera]</German>
+      <Italian>Cavalletto ripiegato M2 HMG .50 (alzato) [L'Alba Nera]</Italian>
+      <Japanese>折り畳み式三脚 M2 HMG .50（持ち上げ）[L'Alba Nera]</Japanese>
+      <Korean>접은 삼각대 M2 HMG .50 (상단 거치) [L'Alba Nera]</Korean>
+      <Polish>CKM M2 .50, złożony trójnóg (podwyższony) [L'Alba Nera]</Polish>
+      <Portuguese>Tripé dobrado M2 MP .50 (levantado) [L'Alba Nera]</Portuguese>
+      <Russian>Сложенная тренога тяжелого пулемета M2 .50 (поднята) [L'Alba Nera]</Russian>
+      <Spanish>Trípode de ametralladora pesada M2 de .50 (elevado), plegado [L'Alba Nera]</Spanish>
+      <Turkish>Katlanır Üçayak M2 HMG .50 (Yükseltilmiş) [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_I_BD_HMG_02_weapon_F">
+      <Original>Dismantled M2 HMG .50 [L'Alba Nera]</Original>
+      <English>Dismantled M2 HMG .50 [L'Alba Nera]</English>
+      <Chinese>拆解後的 M2 重機槍 .50（L'Alba Nera）</Chinese>
+      <Chinesesimp>拆解的 M2 重机枪 .50 [L'Alba Nera]</Chinesesimp>
+      <Czech>Rozebraný těžký kulomet M2 .50 [L'Alba Nera]</Czech>
+      <French>M2 HMG .50 démontée [L'Alba Nera]</French>
+      <German>Demontiertes M2 HMG .50 [L'Alba Nera]</German>
+      <Italian>M2 HMG .50 smontata [L'Alba Nera]</Italian>
+      <Japanese>分解された M2 HMG .50 [L'Alba Nera]</Japanese>
+      <Korean>분해한 M2 HMG .50 [L'Alba Nera]</Korean>
+      <Polish>Rozłożony CKM M2 .50 [L'Alba Nera]</Polish>
+      <Portuguese>M2 MP .50 desmontada [L'Alba Nera]</Portuguese>
+      <Russian>Снятый тяжелый пулемет M2 .50 [L'Alba Nera]</Russian>
+      <Spanish>Ametralladora pesada M2 desmontada de .50 [L'Alba Nera]</Spanish>
+      <Turkish>Sökülmüş M2 HMG .50 [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_I_BD_HMG_02_high_weapon_F">
+      <Original>Dismantled M2 HMG .50 (Raised) [L'Alba Nera]</Original>
+      <English>Dismantled M2 HMG .50 (Raised) [L'Alba Nera]</English>
+      <Chinese>拆解後的 M2 重機槍 .50（立起）（L'Alba Nera）</Chinese>
+      <Chinesesimp>拆解的 M2 重机枪 .50（升高）[L'Alba Nera]</Chinesesimp>
+      <Czech>Rozebraný těžký kulomet M2 .50 (vztyčený) [L'Alba Nera]</Czech>
+      <French>M2 HMG .50 démontée (rehaussée) [L'Alba Nera]</French>
+      <German>Demontiertes M2 HMG .50 (erhöht) [L'Alba Nera]</German>
+      <Italian>M2 HMG .50 smontata (alzata) [L'Alba Nera]</Italian>
+      <Japanese>分解された M2 HMG .50（持ち上げ）[L'Alba Nera]</Japanese>
+      <Korean>분해한 M2 HMG .50 (상단 거치) [L'Alba Nera]</Korean>
+      <Polish>Rozłożony CKM M2 .50 (podwyższony) [L'Alba Nera]</Polish>
+      <Portuguese>M2 MP .50 desmontada (levantada) [L'Alba Nera]</Portuguese>
+      <Russian>Снятый тяжелый пулемет M2 .50 (поднят) [L'Alba Nera]</Russian>
+      <Spanish>Ametralladora pesada M2 desmontada de .50 (elevada) [L'Alba Nera]</Spanish>
+      <Turkish>Sökülmüş M2 HMG .50 (Yükseltilmiş) [L'Alba Nera]</Turkish>
+    </Key>
+  </Package>
+</Project>
