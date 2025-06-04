@@ -10,9 +10,15 @@ class CfgPatches {
     requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
       QADDON_MAIN,
-      QADDONOF(red_tiger_supplies)
+      QADDONOF(red_tiger_supplies),
+      "A3_Structures_F_Exp_Military_Flags",
+      "A3_Supplies_F_Exp_Ammoboxes"
     };
     units[] = {};
     weapons[] = {};
   };
+};
+
+class CfgVehicles {
+  #include "CfgVehicles.hpp"
 };

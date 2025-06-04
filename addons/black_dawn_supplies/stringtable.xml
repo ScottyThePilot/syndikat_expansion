@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="syndikat_expansion">
+  <Package name="black_dawn_supplies">
+    <Key ID="STR_sct_CfgVehicles_Flag_BlackDawn_F">
+      <Original>Flag (L'Alba Nera)</Original>
+      <Chinese>旗幟（L'Alba Nera）</Chinese>
+      <French>Drapeau (L'Alba Nera)</French>
+      <Spanish>Bandera (L'Alba Nera)</Spanish>
+      <Italian>Bandiera (L'Alba Nera)</Italian>
+      <Polish>Flaga (L'Alba Nera)</Polish>
+      <Russian>Флаг (L'Alba Nera)</Russian>
+      <German>Flagge (L'Alba Nera)</German>
+      <Czech>Vlajka (L'Alba Nera)</Czech>
+      <English>Flag (L'Alba Nera)</English>
+      <Portuguese>Bandeira (L'Alba Nera)</Portuguese>
+      <Korean>깃발 (L'Alba Nera)</Korean>
+      <Chinesesimp>旗标 (L'Alba Nera)</Chinesesimp>
+      <Japanese>旗（L'Alba Nera）</Japanese>
+      <Turkish>Bayrak (L'Alba Nera)</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_Box_BlackDawn_Ammo_F">
+      <Original>Basic Ammo [L'Alba Nera]</Original>
+      <Chinese>基本彈藥（L'Alba Nera）</Chinese>
+      <French>Munitions standard [L'Alba Nera]</French>
+      <Spanish>Munición básica [L'Alba Nera]</Spanish>
+      <Italian>Munizioni di base [L'Alba Nera]</Italian>
+      <Polish>Amunicja podstawowa [L'Alba Nera]</Polish>
+      <Russian>Основные боеприпасы [L'Alba Nera]</Russian>
+      <German>Basismunition [L'Alba Nera]</German>
+      <Czech>Základní munice [L'Alba Nera]</Czech>
+      <English>Basic Ammo [L'Alba Nera]</English>
+      <Portuguese>Munição básica [L'Alba Nera]</Portuguese>
+      <Korean>기본탄약[L'Alba Nera]</Korean>
+      <Chinesesimp>基本弹药 [L'Alba Nera]</Chinesesimp>
+      <Japanese>基本弾薬 [L'Alba Nera]</Japanese>
+      <Turkish>Temel Mühimmat [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_Box_BlackDawn_Wps_F">
+      <Original>Basic Weapons [L'Alba Nera]</Original>
+      <Chinese>基本武器（L'Alba Nera）</Chinese>
+      <French>Armes standard [L'Alba Nera]</French>
+      <Spanish>Armas básicas [L'Alba Nera]</Spanish>
+      <Italian>Armi di base [L'Alba Nera]</Italian>
+      <Polish>Broń podstawowa [L'Alba Nera]</Polish>
+      <Russian>Основное оружие [L'Alba Nera]</Russian>
+      <German>Basiswaffen [L'Alba Nera]</German>
+      <Czech>Základní zbraně [L'Alba Nera]</Czech>
+      <English>Basic Weapons [L'Alba Nera]</English>
+      <Portuguese>Armas básicas [L'Alba Nera]</Portuguese>
+      <Korean>기본무기[L'Alba Nera]</Korean>
+      <Chinesesimp>基本武器 [L'Alba Nera]</Chinesesimp>
+      <Japanese>基本武器 [L'Alba Nera]</Japanese>
+      <Turkish>Temel Silahlar [L'Alba Nera]</Turkish>
+    </Key>
+    <Key ID="STR_sct_CfgVehicles_Box_BlackDawn_WpsLaunch_F">
+      <Original>Launchers [L'Alba Nera]</Original>
+      <Chinese>發射器（L'Alba Nera）</Chinese>
+      <French>Lanceurs [L'Alba Nera]</French>
+      <Spanish>Lanzadores [L'Alba Nera]</Spanish>
+      <Italian>Lanciatori [L'Alba Nera]</Italian>
+      <Polish>Wyrzutnie [L'Alba Nera]</Polish>
+      <Russian>Пусковые установки [L'Alba Nera]</Russian>
+      <German>Werfer [L'Alba Nera]</German>
+      <Czech>Raketomety [L'Alba Nera]</Czech>
+      <English>Launchers [L'Alba Nera]</English>
+      <Portuguese>Lançadores [L'Alba Nera]</Portuguese>
+      <Korean>발사기[L'Alba Nera]</Korean>
+      <Chinesesimp>发射器 [L'Alba Nera]</Chinesesimp>
+      <Japanese>ランチャー [L'Alba Nera]</Japanese>
+      <Turkish>Fırlatıcılar [L'Alba Nera]</Turkish>
+    </Key>
+  </Package>
+</Project>

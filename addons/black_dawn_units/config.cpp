@@ -70,9 +70,8 @@ class CfgFactionClasses {
 
   class IND_BD_F: IND_C_F {
     displayName = "$STR_sct_CfgFactionClasses_IND_BD_F";
-    // TODO: Change icon and flag
-    icon = "\A3\Data_F_Exp\FactionIcons\icon_SYND_CA.paa";
-    flag = "\A3\Data_F_Exp\Flags\flag_SYND_CO.paa";
+    icon = QPATHTO(data\factionicons\icon_black_dawn_ca.paa);
+    flag = QPATHTO(data\flags\black_dawn_co.paa);
   };
 };
 
