@@ -144,9 +144,9 @@ class I_C_Soldier_Para_4_F: I_C_Soldier_base_F {
 
   linkedItems[] = { "V_ChestrigF_blk", BASE_ITEMS };
   respawnLinkedItems[] = { "V_ChestrigF_blk", BASE_ITEMS };
-
-  class EventHandlers;
 };
+
+class I_C_Soldier_Para_5_F: I_C_Soldier_base_F {};
 
 class I_C_Soldier_Para_6_F: I_C_Soldier_base_F {
   editorPreview = QPATHTO(data\editorpreviews\I_C_Soldier_Para_6_F.jpeg);

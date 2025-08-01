@@ -133,6 +133,17 @@ class I_C_Soldier_base_unarmed_F: I_C_Soldier_base_F {
   scopeCurator = 2;
 };
 
+// Not really sure why these extra "Soldier (Rifle)" and "Soldier" units
+// show up in Zeus but not 3DEN, so we're just gonna hide him in Zeus
+
+class SyndikatSoldier_Default: I_C_Soldier_Para_1_F {
+  scopeCurator = 0;
+};
+
+class I_C_Soldier_universal_F: I_C_Soldier_Para_1_F {
+  scopeCurator = 0;
+};
+
 class I_CX_Soldier_Para_Sweater_F: I_C_Soldier_base_F {
   author = "ScottyThePilot";
   UNIFORM_PROPERTIES_SOLDIER_SWEATER;

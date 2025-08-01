@@ -24,6 +24,14 @@ class CfgPatches {
       "A3_Weapons_F_Exp_Rifles_AKS"
     };
     units[] = {
+      "I_BD_Soldier_Bandit_1_F",
+      "I_BD_Soldier_Bandit_2_F",
+      "I_BD_Soldier_Bandit_3_F",
+      "I_BD_Soldier_Bandit_4_F",
+      "I_BD_Soldier_Bandit_5_F",
+      "I_BD_Soldier_Bandit_6_F",
+      "I_BD_Soldier_Bandit_7_F",
+      "I_BD_Soldier_Bandit_8_F",
       "I_BD_Soldier_Camo_F",
       "I_BD_Soldier_Para_1_F",
       "I_BD_Soldier_Para_2_F",

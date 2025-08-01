@@ -14,8 +14,6 @@ class jh_uh1h_base: Helicopter_Base_H {
       factions[] += { "IND_BD_F" };
     };
   };
-
-  class Turrets;
 };
 
 class jh_uh1h_unarmed_base: jh_uh1h_base {};

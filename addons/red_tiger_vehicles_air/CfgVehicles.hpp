@@ -43,8 +43,6 @@ class Heli_Light_01_unarmed_base_F: Heli_Light_01_base_F {
       };
     };
   };
-
-  class EventHandlers;
 };
 
 class Heli_Light_01_armed_base_F: Heli_Light_01_base_F {};

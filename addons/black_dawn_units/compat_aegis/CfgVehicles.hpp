@@ -7,6 +7,7 @@ class I_C_Soldier_Para_5_F;
 class I_C_Soldier_Para_6_F;
 class I_C_Soldier_Para_7_F;
 class I_C_Soldier_Para_8_F;
+class I_C_Helipilot_F;
 class I_C_Soldier_base_unarmed_F;
 class I_C_Sharpshooter_F;
 class Aegis_I_C_Soldier_UAV_lxWS;
@@ -81,6 +82,8 @@ class I_BD_Soldier_Para_4_F: I_C_Soldier_Para_4_F {
   editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_4_F.jpeg);
 };
 
+class I_BD_Soldier_Para_5_F: I_C_Soldier_Para_5_F {};
+
 class I_BD_Soldier_Para_6_F: I_C_Soldier_Para_6_F {
   editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_6_F.jpeg);
 
@@ -97,6 +100,12 @@ class I_BD_Soldier_Para_7_F: I_C_Soldier_Para_7_F {
 
 class I_BD_Soldier_Para_8_F: I_C_Soldier_Para_8_F {
   editorPreview = QPATHTO(data\editorpreviews\I_BD_Soldier_Para_8_F.jpeg);
+};
+
+class I_BD_Helipilot_F: I_C_Helipilot_F {
+  editorPreview = QPATHTO(data\editorpreviews\I_BD_Helipilot_F.jpeg);
+
+  linkedItems[] = { "H_Cap_headphones_tan", BASE_ITEMS };
 };
 
 class I_BD_Soldier_base_unarmed_F: I_C_Soldier_base_unarmed_F {

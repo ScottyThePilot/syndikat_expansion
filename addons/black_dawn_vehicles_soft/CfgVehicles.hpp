@@ -255,6 +255,7 @@ class I_BD_Van_01_transport_F: I_C_Van_01_transport_F {
   };
 
   scope = 2;
+  scopeCurator = 2;
 };
 
 class I_BD_Van_01_fuel_F: I_CX_Van_01_fuel_F {
@@ -278,6 +279,7 @@ class I_BD_Van_01_fuel_F: I_CX_Van_01_fuel_F {
   };
 
   scope = 2;
+  scopeCurator = 2;
 };
 
 class I_C_Van_02_vehicle_F;
